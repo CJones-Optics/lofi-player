@@ -6,6 +6,7 @@ import threading
 class MP3Player:
     def __init__(self):
         pygame.mixer.init()
+        self.volume = 1.0
         self.is_playing = False
         self.play_event = threading.Event()
         self.stop_event = threading.Event()
@@ -47,6 +48,7 @@ class MP3Player:
 
     def set_volume(self, volume):
         pygame.mixer.music.set_volume(volume)
+        self.volume = volume
 
     def __del__(self):
         pygame.mixer.quit()

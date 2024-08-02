@@ -15,6 +15,8 @@ def player_process(command_queue,messages_queue):
         player.play(appPlaylist)
 
     play_thread = None
+    mute = False
+    oldVolume = 1
 
     while True:
         cmd, *args = command_queue.get()
@@ -53,8 +55,20 @@ def player_process(command_queue,messages_queue):
         elif cmd == 'shuffle':
             appPlaylist.shuffle = not appPlaylist.shuffle
             messages_queue.put(f"Shuffle mode: {'On' if appPlaylist.shuffle else 'Off'}")
+
         elif cmd == 'volume':
             player.set_volume(float(args[0]))
+
+        elif cmd == 'mute':
+            mute = not mute
+            if mute:
+                oldVolume = player.volume
+                player.set_volume(0)
+                messages_queue.put("Muted")
+            else:
+                # if it is already muted, unmute it
+                player.set_volume(oldVolume)
+                messages_queue.put("Unmuted")
 
         elif cmd == 'exit':
             player.stop()
@@ -130,6 +144,10 @@ class PlayerShell(cmd.Cmd):
                 print("Volume must be between 0.0 and 1.0")
         except ValueError:
             print("Please provide a valid number")
+
+    def do_mute(self, arg):
+        'Mute the volume'
+        self.command_queue.put(('mute',))
 
     def do_exit(self, arg):
         'Exit the program'
