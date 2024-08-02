@@ -1,80 +1,10 @@
 from fileParser import *
-from musicPlayer import *
+from musicPlayer import MP3Player, player_process
 import multiprocessing as mp
 import cmd
 import time
+import threading
 
-def player_process(command_queue,messages_queue):
-    sourceDir = "tracks"
-    files = fileHandler(sourceDir)
-    tracks = files.getTracks()
-
-    appPlaylist = playlist(tracks,shuffle=True,messages_queue=messages_queue)
-    player = MP3Player()
-    def play_worker(appPlaylist):
-        player.play(appPlaylist)
-
-    play_thread = None
-    mute = False
-    oldVolume = 1
-
-    while True:
-        cmd, *args = command_queue.get()
-        if cmd == 'play':
-            if play_thread and play_thread.is_alive():
-                player.stop()
-                play_thread.join()
-            play_thread = threading.Thread(target=play_worker, args=(appPlaylist,))
-            play_thread.start()
-
-        elif cmd == 'chanel_list':
-            # print(appPlaylist.chanelList)
-            chanels = files.chanelList
-            str = "Available chanels: \n"
-            for i in range(len(chanels)):
-                str+=(f"{i+1}. {chanels[i]} \n")
-            messages_queue.put(str)
-
-        elif cmd == 'chanel':
-            chanels = files.chanelList
-            newChanel = chanels[int(args[0])-1]
-            files.changeChannel(newChanel)
-            appPlaylist = playlist(files.getTracks())
-
-        elif cmd == 'stop':
-            player.stop()
-            if play_thread:
-                play_thread.join()
-
-        elif cmd == 'pause':
-            player.pause()
-
-        elif cmd == 'resume':
-            player.resume()
-
-        elif cmd == 'shuffle':
-            appPlaylist.shuffle = not appPlaylist.shuffle
-            messages_queue.put(f"Shuffle mode: {'On' if appPlaylist.shuffle else 'Off'}")
-
-        elif cmd == 'volume':
-            player.set_volume(float(args[0]))
-
-        elif cmd == 'mute':
-            mute = not mute
-            if mute:
-                oldVolume = player.volume
-                player.set_volume(0)
-                messages_queue.put("Muted")
-            else:
-                # if it is already muted, unmute it
-                player.set_volume(oldVolume)
-                messages_queue.put("Unmuted")
-
-        elif cmd == 'exit':
-            player.stop()
-            if play_thread:
-                play_thread.join()
-            break
 
 class PlayerShell(cmd.Cmd):
     intro = 'Welcome to the MP3 player shell. Type help or ? to list commands.\n'
