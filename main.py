@@ -4,14 +4,18 @@ import multiprocessing as mp
 import cmd
 import time
 
-
-
 def player_process(command_queue):
-    player = MP3Player()
-    play_thread = None
+    sourceDir = "tracks"
+    files = fileHandler(sourceDir)
+    tracks = files.getTracks()
 
+    appPlaylist = playlist(tracks)
+    player = MP3Player()
     def play_worker(file_path):
         player.play(file_path)
+
+    play_thread = None
+
 
     while True:
         cmd, *args = command_queue.get()
@@ -19,7 +23,7 @@ def player_process(command_queue):
             if play_thread and play_thread.is_alive():
                 player.stop()
                 play_thread.join()
-            play_thread = threading.Thread(target=play_worker, args=(args[0],))
+            play_thread = threading.Thread(target=play_worker, args=(appPlaylist.nextTrack(),))
             play_thread.start()
         elif cmd == 'stop':
             player.stop()
@@ -47,10 +51,7 @@ class PlayerShell(cmd.Cmd):
 
     def do_play(self, arg):
         'Play an MP3 file: play <filepath>'
-        if arg:
-            self.command_queue.put(('play', arg))
-        else:
-            print("Please provide a file path")
+        self.command_queue.put(('play', arg))
 
     def do_stop(self, arg):
         'Stop playing'
@@ -81,8 +82,7 @@ class PlayerShell(cmd.Cmd):
         return True
 
 
-
-if __name__ == '__main__':
+def main():
     command_queue = mp.Queue()
     player_proc = mp.Process(target=player_process, args=(command_queue,))
     player_proc.start()
@@ -92,17 +92,5 @@ if __name__ == '__main__':
     player_proc.join()
     print("MP3 Player has been shut down.")
 
-# def main():
-#     sourceDir = "tracks"
-#     files = fileHandler(sourceDir)
-#     tracks = files.getTracks()
-
-#     player = playlist(tracks)
-#     track = player.nextTrack()
-
-#     # play_mp3(track)
-#     player = MP3Player()
-#     player.play(track)
-
-# if __name__ == "__main__":
-#     main()
+if __name__ == '__main__':
+    main()

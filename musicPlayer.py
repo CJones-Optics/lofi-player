@@ -21,7 +21,6 @@ class MP3Player:
         while self.is_playing and pygame.mixer.music.get_busy():
             if self.stop_event.wait(0.1):  # Check every 0.1 seconds if we should stop
                 break
-
         self.stop()
 
     def stop(self):
@@ -47,6 +46,9 @@ class MP3Player:
 
     def __del__(self):
         pygame.mixer.quit()
+
+
+
 # Example usage
 # player = MP3Player()
 # player.play("path/to/your/mp3file.mp3")
