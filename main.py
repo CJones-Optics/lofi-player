@@ -9,7 +9,7 @@ def player_process(command_queue):
     files = fileHandler(sourceDir)
     tracks = files.getTracks()
 
-    appPlaylist = playlist(tracks)
+    appPlaylist = playlist(tracks,shuffle=False)
     player = MP3Player()
     def play_worker(appPlaylist):
         player.play(appPlaylist)
@@ -27,6 +27,20 @@ def player_process(command_queue):
             play_thread = threading.Thread(target=play_worker, args=(appPlaylist,))
             play_thread.start()
 
+        elif cmd == 'chanel_list':
+            # print(appPlaylist.chanelList)
+            print(f"Placeholders for chanel list")
+            chanels = files.chanelList
+            for i in range(len(chanels)):
+                print(f"{i+1}. {chanels[i]}")
+
+        elif cmd == 'chanel':
+            chanels = files.chanelList
+            newChanel = chanels[int(args[0])-1]
+            files.changeChannel(newChanel)
+            appPlaylist = playlist(files.getTracks())
+
+
         elif cmd == 'stop':
             player.stop()
             if play_thread:
@@ -37,6 +51,10 @@ def player_process(command_queue):
 
         elif cmd == 'resume':
             player.resume()
+
+        elif cmd == 'shuffle':
+            appPlaylist.shuffle = not appPlaylist.shuffle
+
 
         elif cmd == 'volume':
             player.set_volume(float(args[0]))
@@ -70,6 +88,29 @@ class PlayerShell(cmd.Cmd):
     def do_resume(self, arg):
         'Resume playback'
         self.command_queue.put(('resume',))
+
+    def do_chanel_list(self, arg):
+        'List all the available chanel'
+        self.command_queue.put(('chanel_list',))
+
+    def do_shuffle(self,arg):
+        'Toggle shuffle mode'
+        self.command_queue.put(('shuffle',))
+        # print(f"Shuffle mode: {"On" if appPlaylist.shuffle else "Off"}")
+
+    def do_chanel(self, arg):
+        'Change the chanel: chanel <chanel_number>'
+        # Check if the chanel number is valid
+        try:
+            chanel = int(arg)
+            if 0 <= chanel <= 2:
+                self.do_stop('')
+                self.command_queue.put(('chanel', arg))
+                self.do_play('')
+            else:
+                print("Please provide a valid chanel number")
+        except ValueError:
+            print("Please provide a valid number")
 
     def do_volume(self, arg):
         'Set volume (0.0 to 1.0): volume <level>'

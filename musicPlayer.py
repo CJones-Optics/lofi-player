@@ -1,4 +1,3 @@
-
 import pygame
 import time
 import threading
@@ -20,7 +19,7 @@ class MP3Player:
         while self.is_playing:
             file_path = appPlaylist.nextTrack()
             pygame.mixer.music.load(file_path)
-            print(f"Now Playing: {file_path}")
+            # print(f"Now Playing: {file_path}")
             pygame.mixer.music.play()
             while pygame.mixer.music.get_busy():
                 # Check every 0.1 seconds if we should stop

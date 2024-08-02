@@ -7,16 +7,25 @@ class fileHandler(object):
         self.sourceDir = sourceDir
         self.chanelDir = chanelDir
 
+        self.getChanelList()
         self.getChanel()
         self.path = sourceDir + "/" + self.chanelDir
-        self.fileList = []
-        self.chanelList = []
         self.fileList = self.getTracks()
+
+    def changeChannel(self, chanel):
+        self.chanelDir = chanel
+        self.path = self.sourceDir + "/" + self.chanelDir
+        self.fileList = self.getTracks()
+        return self
 
     def getTracks(self):
         files = os.listdir(self.path)
         self.tracklist = self.path + "/" + np.array(files)
         return self.tracklist
+
+    def getChanelList(self):
+        self.chanelList = os.listdir(self.sourceDir)
+        return self.chanelList
 
     def getChanel(self):
         if self.chanelDir != None:
@@ -37,7 +46,9 @@ class playlist(object):
 
     def nextTrack(self):
         if self.shuffle:
-            self.currentTrack = np.random.randint(0,self.trackCount)
+            old_track = self.currentTrack
+            while self.currentTrack == old_track:
+                self.currentTrack = np.random.randint(0,self.trackCount)
         else:
             self.currentTrack += 1
             if self.currentTrack >= self.trackCount:
