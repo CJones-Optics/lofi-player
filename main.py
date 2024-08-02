@@ -11,30 +11,36 @@ def player_process(command_queue):
 
     appPlaylist = playlist(tracks)
     player = MP3Player()
-    def play_worker(file_path):
-        player.play(file_path)
+    def play_worker(appPlaylist):
+        player.play(appPlaylist)
 
     play_thread = None
 
-
+    # TO_DO: Pass the playlist into the player object. Then inside the play loop,
+    # call appPlaylist.nextTrack() to get the next track to play.
     while True:
         cmd, *args = command_queue.get()
         if cmd == 'play':
             if play_thread and play_thread.is_alive():
                 player.stop()
                 play_thread.join()
-            play_thread = threading.Thread(target=play_worker, args=(appPlaylist.nextTrack(),))
+            play_thread = threading.Thread(target=play_worker, args=(appPlaylist,))
             play_thread.start()
+
         elif cmd == 'stop':
             player.stop()
             if play_thread:
                 play_thread.join()
+
         elif cmd == 'pause':
             player.pause()
+
         elif cmd == 'resume':
             player.resume()
+
         elif cmd == 'volume':
             player.set_volume(float(args[0]))
+
         elif cmd == 'exit':
             player.stop()
             if play_thread:
