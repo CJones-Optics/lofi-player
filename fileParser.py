@@ -1,6 +1,7 @@
 
 import os
 import numpy as np
+import multiprocessing as mp
 
 class fileHandler(object):
     def __init__(self, sourceDir,chanelDir=None):
@@ -36,13 +37,22 @@ class fileHandler(object):
             return self.chanelDir
 
 class playlist(object):
-    def __init__(self, tracklist,shuffle=False):
+    def __init__(self, tracklist,shuffle=False,messages_queue=None):
         self.tracklist = tracklist
         self.currentTrack = 0
         self.trackCount = len(tracklist)
         self.shuffle = shuffle
         self.playing = False
         self.paused = False
+        self.messages_queue = messages_queue
+
+    def getTrackName(self):
+        self.trackName = self.tracklist[self.currentTrack]
+        # strip the path
+        self.trackName = self.trackName.split("/")[-1]
+        # strip the file extension
+        self.trackName = self.trackName.split(".")[0]
+        return self.trackName
 
     def nextTrack(self):
         if self.shuffle:
@@ -53,6 +63,10 @@ class playlist(object):
             self.currentTrack += 1
             if self.currentTrack >= self.trackCount:
                 self.currentTrack = 0
+
+        if self.messages_queue:
+            self.getTrackName()
+            self.messages_queue.put(f"Playing: {self.trackName}")
         return self.tracklist[self.currentTrack]
 
 

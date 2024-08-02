@@ -4,20 +4,18 @@ import multiprocessing as mp
 import cmd
 import time
 
-def player_process(command_queue):
+def player_process(command_queue,messages_queue):
     sourceDir = "tracks"
     files = fileHandler(sourceDir)
     tracks = files.getTracks()
 
-    appPlaylist = playlist(tracks,shuffle=False)
+    appPlaylist = playlist(tracks,shuffle=True,messages_queue=messages_queue)
     player = MP3Player()
     def play_worker(appPlaylist):
         player.play(appPlaylist)
 
     play_thread = None
 
-    # TO_DO: Pass the playlist into the player object. Then inside the play loop,
-    # call appPlaylist.nextTrack() to get the next track to play.
     while True:
         cmd, *args = command_queue.get()
         if cmd == 'play':
@@ -29,17 +27,17 @@ def player_process(command_queue):
 
         elif cmd == 'chanel_list':
             # print(appPlaylist.chanelList)
-            print(f"Placeholders for chanel list")
             chanels = files.chanelList
+            str = "Available chanels: \n"
             for i in range(len(chanels)):
-                print(f"{i+1}. {chanels[i]}")
+                str+=(f"{i+1}. {chanels[i]} \n")
+            messages_queue.put(str)
 
         elif cmd == 'chanel':
             chanels = files.chanelList
             newChanel = chanels[int(args[0])-1]
             files.changeChannel(newChanel)
             appPlaylist = playlist(files.getTracks())
-
 
         elif cmd == 'stop':
             player.stop()
@@ -54,8 +52,7 @@ def player_process(command_queue):
 
         elif cmd == 'shuffle':
             appPlaylist.shuffle = not appPlaylist.shuffle
-
-
+            messages_queue.put(f"Shuffle mode: {'On' if appPlaylist.shuffle else 'Off'}")
         elif cmd == 'volume':
             player.set_volume(float(args[0]))
 
@@ -69,9 +66,20 @@ class PlayerShell(cmd.Cmd):
     intro = 'Welcome to the MP3 player shell. Type help or ? to list commands.\n'
     prompt = '(player) '
 
-    def __init__(self, command_queue):
+    def __init__(self, command_queue,messages_queue):
         super().__init__()
         self.command_queue = command_queue
+        self.messages_queue = messages_queue
+        self.should_exit = False
+        threading.Thread(target=self.check_messages, daemon=True).start()
+
+    def check_messages(self):
+        while not self.should_exit:
+            if not self.messages_queue.empty():
+                message = self.messages_queue.get()
+                print(f"\n{message}")
+                print(self.prompt, end='', flush=True)
+            time.sleep(0.1)
 
     def do_play(self, arg):
         'Play an MP3 file: play <filepath>'
@@ -131,10 +139,11 @@ class PlayerShell(cmd.Cmd):
 
 def main():
     command_queue = mp.Queue()
-    player_proc = mp.Process(target=player_process, args=(command_queue,))
+    message_queue = mp.Queue()
+    player_proc = mp.Process(target=player_process, args=(command_queue,message_queue))
     player_proc.start()
 
-    PlayerShell(command_queue).cmdloop()
+    PlayerShell(command_queue,message_queue).cmdloop()
 
     player_proc.join()
     print("MP3 Player has been shut down.")
