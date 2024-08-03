@@ -1,0 +1,3 @@
+ButtonDock {
+    layout: horizontal;
+}

@@ -11,8 +11,6 @@ import threading
 import time
 
 
-
-
 class ChanelListView(ListView):
     BINDINGS = [("enter", "select_cursor", "Select"),
                 ("up", "cursor_up", "Cursor Up"),
@@ -31,30 +29,18 @@ class ChanelListView(ListView):
             yield ListItem(Label(str(item)),id=chanel_id)
             chanelNo += 1
 
+# class ButtonDock(ScrollableContainer):
+class ButtonDock(Container):
+    # CSS_PATH = "buttonDock.tcss"
+    def compose(self) -> ComposeResult:
+        yield Button("P", id="play")
+        yield Button("S", id="toggle_shuffle")
+        yield Button("M", id="mute")
+        yield Button("X", id="exit")
+
 
 class MP3PlayerApp(App):
-    CSS =  """
-    Screen {
-        align: center middle;
-    }
-
-    #player {
-        width: 60;
-        height: 20;
-        border: solid green;
-        padding: 1 2;
-    }
-
-    Button {
-        width: 100%;
-    }
-
-    #messages {
-        height: 5;
-        width: 100%;
-        content-align: left middle;
-    }
-    """
+    CSS_PATH = "style.tcss"
     # Keybindings
     BINDINGS = [("q", "do_exit", "quit"),
                 ("p", "do_play", "play"),
@@ -68,7 +54,6 @@ class MP3PlayerApp(App):
     def action_do_mute(self) -> None:
         self.do_mute()
     def action_do_play(self) -> None:
-        # self.do_play()
         self.do_toggle_play()
     def action_do_shuffle(self) -> None:
         self.do_toggle_shuffle()
@@ -117,6 +102,7 @@ class MP3PlayerApp(App):
         self.messages_queue = messages_queue
         self.should_exit = False
         self.do_chanel_list()
+        self.nChannels = len(self.channel_list)
 
     def on_mount(self) -> None:
         self.check_messages_thread = threading.Thread(target=self.check_messages, daemon=True)
@@ -131,7 +117,6 @@ class MP3PlayerApp(App):
             time.sleep(0.1)
 
     def update_message(self, message: str):
-        # self.query_one("#messages").update(f"Messages: {message}")
         catagoryDict = {
             "Play":      "#status",
             "Volume":    "#volume",
@@ -143,8 +128,6 @@ class MP3PlayerApp(App):
         }
         try:
             catagory, value = message.split(">")
-            # self.query_one("#catagory").update(f"Catagory: {catagory}")
-            # self.query_one("#value").update(f"Value: {value}")
         except:
             catagory = "err"
             value = "err"
@@ -177,19 +160,7 @@ class MP3PlayerApp(App):
             yield Static(f"Volume: {self.current_volume:.1f}", id="volume")
             yield Static(f"Channel: {self.current_channel}", id="channel")
             yield Static(f"Shuffle: {'On' if self.shuffle_mode else 'Off'}", id="shuffleStatus")
-
-            yield Button("Play", id="play")
-            # yield Button("Stop", id="stop")
-            yield Button("Shuffle", id="toggle_shuffle")
-
-            # yield Input(placeholder="Enter channel number (0-2)", id="channel_input")
-            # yield Button("Change Channel", id="change_channel")
-
-            # yield Input(placeholder="Enter volume (0.0-1.0)", id="volume_input")
-            # yield Button("Set Volume", id="set_volume")
-
-            yield Button("Mute", id="mute")
-            yield Button("Exit", id="exit")
+            yield ButtonDock()
 
     def do_exit(self):
         self.command_queue.put(('exit',))
@@ -199,14 +170,12 @@ class MP3PlayerApp(App):
         self.command_queue.put(('mute',))
     def do_toggle_shuffle(self):
         self.command_queue.put(('shuffle',))
-
     def do_toggle_play(self):
         self.status = not self.status
         if self.status:
             self.do_play()
         else:
             self.do_stop()
-
     def do_play(self):
         self.command_queue.put(('play',))
     def do_stop(self):
@@ -223,20 +192,17 @@ class MP3PlayerApp(App):
         button_id = event.button.id
         if button_id == "play":
             self.do_toggle_play()
-
         elif button_id == "toggle_shuffle":
             self.do_toggle_shuffle()
-
         elif button_id == "mute":
             self.do_mute()
-
         elif button_id == "exit":
             self.do_exit()
 
     def do_chanel(self,chanel):
         try:
             chanel = int(chanel)
-            if 0 <= chanel <= 2:
+            if 1 <= chanel <= self.nChannels:
                 self.command_queue.put(('stop',))
                 self.command_queue.put(('chanel', str(chanel)))
                 self.command_queue.put(('play',))
