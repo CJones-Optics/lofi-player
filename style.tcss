@@ -1,0 +1,22 @@
+    # CSS = """
+    # Screen {
+    #     align: center middle;
+    # }
+
+    # #player {
+    #     width: 60;
+    #     height: 20;
+    #     border: solid green;
+    #     padding: 1 2;
+    # }
+
+    # Button {
+    #     width: 100%;
+    # }
+
+    # #messages {
+    #     height: 5;
+    #     width: 100%;
+    #     content-align: left middle;
+    # }
+    # """

@@ -66,7 +66,7 @@ class playlist(object):
 
         if self.messages_queue:
             self.getTrackName()
-            self.messages_queue.put(f"Playing: {self.trackName}")
+            self.messages_queue.put(f"Playlist>{self.trackName}")
         return self.tracklist[self.currentTrack]
 
 

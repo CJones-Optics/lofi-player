@@ -3,6 +3,8 @@ import time
 import threading
 from fileParser import *
 
+# TO-DO: Standardise the messages
+
 class MP3Player:
     def __init__(self):
         pygame.mixer.init()
@@ -20,7 +22,6 @@ class MP3Player:
         while self.is_playing:
             file_path = appPlaylist.nextTrack()
             pygame.mixer.music.load(file_path)
-            # print(f"Now Playing: {file_path}")
             pygame.mixer.music.play()
             while pygame.mixer.music.get_busy():
                 # Check every 0.1 seconds if we should stop
@@ -75,13 +76,14 @@ def player_process(command_queue,messages_queue):
                 play_thread.join()
             play_thread = threading.Thread(target=play_worker, args=(appPlaylist,))
             play_thread.start()
+            messages_queue.put(f"Play>True")
 
         elif cmd == 'chanel_list':
             # print(appPlaylist.chanelList)
             chanels = files.chanelList
-            str = "Available chanels: \n"
+            str = "ChanelList>"
             for i in range(len(chanels)):
-                str+=(f"{i+1}. {chanels[i]} \n")
+                str+=(f"{i+1}. {chanels[i]},")
             messages_queue.put(str)
 
         elif cmd == 'chanel':
@@ -89,35 +91,37 @@ def player_process(command_queue,messages_queue):
             newChanel = chanels[int(args[0])-1]
             files.changeChannel(newChanel)
             appPlaylist = playlist(files.getTracks())
+            messages_queue.put(f"Chanel>{newChanel}")
 
         elif cmd == 'stop':
             player.stop()
             if play_thread:
                 play_thread.join()
-
+            messages_queue.put("Play>False")
         elif cmd == 'pause':
             player.pause()
-
+            messages_queue.put("Play>False")
         elif cmd == 'resume':
             player.resume()
-
+            messages_queue.put("Play>True")
         elif cmd == 'shuffle':
             appPlaylist.shuffle = not appPlaylist.shuffle
-            messages_queue.put(f"Shuffle mode: {'On' if appPlaylist.shuffle else 'Off'}")
+            messages_queue.put(f"Shuffle>{'True' if appPlaylist.shuffle else 'False'}")
 
         elif cmd == 'volume':
             player.set_volume(float(args[0]))
+            messages_queue.put(f"Volume>{args[0]}")
 
         elif cmd == 'mute':
             mute = not mute
             if mute:
                 oldVolume = player.volume
                 player.set_volume(0)
-                messages_queue.put("Muted")
+                messages_queue.put("Mute>True")
             else:
                 # if it is already muted, unmute it
                 player.set_volume(oldVolume)
-                messages_queue.put("Unmuted")
+                messages_queue.put("Mute>False")
 
         elif cmd == 'exit':
             player.stop()
