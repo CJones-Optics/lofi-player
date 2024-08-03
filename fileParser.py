@@ -2,6 +2,7 @@
 import os
 import numpy as np
 import multiprocessing as mp
+import logging
 
 class fileHandler(object):
     def __init__(self, sourceDir,chanelDir=None):
@@ -38,6 +39,11 @@ class fileHandler(object):
 
 class playlist(object):
     def __init__(self, tracklist,shuffle=False,messages_queue=None):
+        # Set up logging configuration to append to the existing log file
+        logging.basicConfig(filename='lofiRadio.log',     # Log file name
+                            level=logging.DEBUG,        # Log level
+                            filemode='a',               # 'a' mode to append to the file if it exists
+                            format='%(asctime)s - %(levelname)s - %(message)s')
         self.tracklist = tracklist
         self.currentTrack = 0
         self.trackCount = len(tracklist)
@@ -45,6 +51,8 @@ class playlist(object):
         self.playing = False
         self.paused = False
         self.messages_queue = messages_queue
+        logging.debug(f"playlist: {self.messages_queue}")
+        logging.info("Playlist has been created.")
 
     def getTrackName(self):
         self.trackName = self.tracklist[self.currentTrack]
@@ -55,6 +63,7 @@ class playlist(object):
         return self.trackName
 
     def nextTrack(self):
+        logging.info("playlist: Next track")
         if self.shuffle:
             old_track = self.currentTrack
             while self.currentTrack == old_track:
@@ -64,9 +73,17 @@ class playlist(object):
             if self.currentTrack >= self.trackCount:
                 self.currentTrack = 0
 
-        if self.messages_queue:
-            self.getTrackName()
-            self.messages_queue.put(f"Playlist>{self.trackName}")
+        logging.info(f"playlist: Current track: {self.currentTrack}")
+
+        # if self.messages_queue != None:
+        #     self.getTrackName()
+        #     logging.info(f"message_queue: Playlist>{self.trackName}")
+        #     self.messages_queue.put(f"Playlist>{self.trackName}")
+
+        self.getTrackName()
+        logging.info(f"message_queue: Playlist>{self.trackName}")
+        self.messages_queue.put(f"Playlist>{self.trackName}")
+
         return self.tracklist[self.currentTrack]
 
 

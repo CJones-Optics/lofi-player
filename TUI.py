@@ -5,11 +5,15 @@ from textual.containers import ScrollableContainer
 from textual.widgets import Button, Input, Static
 from textual.widgets import Label, ListItem, ListView
 from textual.widgets import  Footer, Header
+from textual.widgets import Log
+
 from textual.reactive import reactive
 from queue import Queue
 import threading
 import time
 
+DEBUG = False
+LOG = False
 
 class ChanelListView(ListView):
     BINDINGS = [("enter", "select_cursor", "Select"),
@@ -87,8 +91,9 @@ class MP3PlayerApp(App):
         self.current_channel = current_channel
         self.do_chanel(str(self.current_channel))
 
-    catagory        = reactive("")
-    value           = reactive("")
+    if DEBUG:
+        catagory        = reactive("")
+        value           = reactive("")
     track           = reactive("")
     mute            = reactive(False)
     muteStatus      = reactive(False)
@@ -99,6 +104,8 @@ class MP3PlayerApp(App):
     current_channel = reactive(1)
     current_status  = reactive(False)
     status          = reactive(False)
+    if LOG:
+        logData = reactive("")
 
     def __init__(self, command_queue: Queue, messages_queue: Queue):
         super().__init__()
@@ -113,8 +120,9 @@ class MP3PlayerApp(App):
         yield Header()
         yield Footer()
         with ScrollableContainer(id="player"):
-            yield Static(f"Catagory: {self.catagory}", id="catagory")
-            yield Static(f"Value: {self.value}", id="value")
+            if DEBUG:
+                yield Static(f"Catagory: {self.catagory}", id="catagory")
+                yield Static(f"Value: {self.value}", id="value")
             # yield ChanelListView(self.channel_list)
             yield Static(f"Track: {self.track}", id="track")
             yield Static(f"Channel: {self.current_channel}", id="channel")
@@ -122,6 +130,8 @@ class MP3PlayerApp(App):
             yield Static(f"Muted: {self.muteStatus}", id="muteStatus")
             yield Static(f"Volume: {self.current_volume:.1f}", id="volume")
             yield Static(f"Shuffle: {'On' if self.shuffle_mode else 'Off'}", id="shuffleStatus")
+            if LOG:
+                yield Log()
             # yield ButtonDock()
 
     def on_mount(self) -> None:
@@ -151,8 +161,13 @@ class MP3PlayerApp(App):
         except:
             catagory = "err"
             value = "err"
-        self.query_one('#catagory').update(f"Category: {catagory}")
-        self.query_one('#value').update(f"Value: {value}")
+        if DEBUG:
+            self.query_one('#catagory').update(f"Category: {catagory}")
+            self.query_one('#value').update(f"Value: {value}")
+        if LOG:
+            self.logData = f"{catagory}: {value}"
+            log = self.query_one(Log)
+            log.write_line(self.logData)
 
         floatVars = ["Volume"]
         boolVars = ["Shuffle", "Mute","Play"]

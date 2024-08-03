@@ -2,11 +2,19 @@ import pygame
 import time
 import threading
 from fileParser import *
+import logging
 
 # TO-DO: Standardise the messages
 
 class MP3Player:
     def __init__(self):
+
+        # Set up logging configuration to append to the existing log file
+        logging.basicConfig(filename='lofiRadio.log',     # Log file name
+                            level=logging.DEBUG,        # Log level
+                            filemode='a',               # 'a' mode to append to the file if it exists
+                            format='%(asctime)s - %(levelname)s - %(message)s')
+
         pygame.mixer.init()
         self.volume = 1.0
         self.is_playing = False
@@ -55,12 +63,22 @@ class MP3Player:
         pygame.mixer.quit()
 
 def player_process(command_queue,messages_queue):
+
+    logging.basicConfig(filename='lofiRadio.log',     # Log file name
+                        level=logging.DEBUG,        # Log level
+                        filemode='a',               # 'a' mode to append to the file if it exists
+                        format='%(asctime)s - %(levelname)s - %(message)s')
+
     sourceDir = "tracks"
     files = fileHandler(sourceDir)
     tracks = files.getTracks()
+    logging.info("Tracks have been loaded.")
 
     appPlaylist = playlist(tracks,shuffle=True,messages_queue=messages_queue)
+    logging.info("Playlist has been created.")
     player = MP3Player()
+    logging.info("Player has been created.")
+
     def play_worker(appPlaylist):
         player.play(appPlaylist)
 
@@ -68,9 +86,11 @@ def player_process(command_queue,messages_queue):
     mute = False
     oldVolume = 1
 
+    logging.info("Entering player process loop.")
     while True:
         cmd, *args = command_queue.get()
         if cmd == 'play':
+            logging.info("cmd: play")
             if play_thread and play_thread.is_alive():
                 player.stop()
                 play_thread.join()
@@ -79,6 +99,7 @@ def player_process(command_queue,messages_queue):
             messages_queue.put(f"Play>True")
 
         elif cmd == 'chanel_list':
+            logging.info("cmd: chanel_list")
             # print(appPlaylist.chanelList)
             chanels = files.chanelList
             str = "ChanelList>"
@@ -89,32 +110,41 @@ def player_process(command_queue,messages_queue):
             messages_queue.put(str)
 
         elif cmd == 'chanel':
+            logging.info("cmd: chanel")
             chanels = files.chanelList
             newChanel = chanels[int(args[0])-1]
             files.changeChannel(newChanel)
-            appPlaylist = playlist(files.getTracks())
+            shuffleState = appPlaylist.shuffle
+            appPlaylist = playlist(files.getTracks(),shuffle=shuffleState,messages_queue=messages_queue)
             messages_queue.put(f"Chanel>{newChanel}")
+            logging.info(f"msg: Chanel>{newChanel}")
 
         elif cmd == 'stop':
+            logging.info("cmd: stop")
             player.stop()
             if play_thread:
                 play_thread.join()
             messages_queue.put("Play>False")
         elif cmd == 'pause':
+            logging.info("cmd: pause")
             player.pause()
             messages_queue.put("Play>False")
         elif cmd == 'resume':
+            logging.info("cmd: resume")
             player.resume()
             messages_queue.put("Play>True")
         elif cmd == 'shuffle':
+            logging.info("cmd: shuffle")
             appPlaylist.shuffle = not appPlaylist.shuffle
             messages_queue.put(f"Shuffle>{'True' if appPlaylist.shuffle else 'False'}")
 
         elif cmd == 'volume':
+            logging.info(f"cmd: volume, args: {args}")
             player.set_volume(float(args[0]))
             messages_queue.put(f"Volume>{args[0]}")
 
         elif cmd == 'mute':
+            logging.info("cmd: mute")
             mute = not mute
             if mute:
                 oldVolume = player.volume
@@ -126,6 +156,7 @@ def player_process(command_queue,messages_queue):
                 messages_queue.put("Mute>False")
 
         elif cmd == 'exit':
+            logging.info("cmd: exit")
             player.stop()
             if play_thread:
                 play_thread.join()
