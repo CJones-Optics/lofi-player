@@ -84,6 +84,8 @@ def player_process(command_queue,messages_queue):
             str = "ChanelList>"
             for i in range(len(chanels)):
                 str+=(f"{i+1}. {chanels[i]},")
+            # Remove the last comma
+            str = str[:-1]
             messages_queue.put(str)
 
         elif cmd == 'chanel':
