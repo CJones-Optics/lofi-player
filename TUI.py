@@ -29,7 +29,6 @@ class ChanelListView(ListView):
             yield ListItem(Label(str(item)),id=chanel_id)
             chanelNo += 1
 
-# class ButtonDock(ScrollableContainer):
 class ButtonDock(Container):
     # CSS_PATH = "buttonDock.tcss"
     def compose(self) -> ComposeResult:
@@ -47,6 +46,8 @@ class MP3PlayerApp(App):
                 ("s", "do_shuffle", "shuffle"),
                 ("m", "do_mute", "mute"),
                 ("h", "do_volume_down", "volume down"),
+                ("j", "do_chanel_up", "chanel up" ),
+                ("k", "do_chanel_down", "chanel down"),
                 ("l", "do_volume_up", "volume up"),
     ]
     def action_do_exit(self) -> None:
@@ -71,30 +72,33 @@ class MP3PlayerApp(App):
             current_volume = 1
         self.current_volume = current_volume
         self.do_volume(self.current_volume)
+    def action_do_chanel_up(self) -> None:
+        current_channel = self.current_channel
+        current_channel += 1
+        if current_channel > self.nChannels:
+            current_channel = self.nChannels
+        self.current_channel = current_channel
+        self.do_chanel(str(self.current_channel))
+    def action_do_chanel_down(self) -> None:
+        current_channel = self.current_channel
+        current_channel -= 1
+        if current_channel < 1:
+            current_channel = 1
+        self.current_channel = current_channel
+        self.do_chanel(str(self.current_channel))
 
     catagory        = reactive("")
     value           = reactive("")
     track           = reactive("")
     mute            = reactive(False)
     muteStatus      = reactive(False)
-    shuffleStatus   = reactive(False)
-    shuffle_mode    = reactive(False)
-    current_volume  = reactive(0.5)
+    shuffleStatus   = reactive(True)
+    shuffle_mode    = reactive(True)
+    current_volume  = reactive(1.0)
     channel_list    = reactive([])
-    current_channel = reactive(0)
-    current_status  = reactive("Stopped")
+    current_channel = reactive(1)
+    current_status  = reactive(False)
     status          = reactive(False)
-
-    def do_chanel_list(self):
-        self.command_queue.put(('chanel_list',))
-        time.sleep(0.2)
-        if not self.messages_queue.empty():
-            message = self.messages_queue.get()
-            category, value = message.split(">")
-        if  category == "ChanelList":
-            self.channel_list = value.split(",")
-        else:
-            self.channel_list = ["Error"]
 
     def __init__(self, command_queue: Queue, messages_queue: Queue):
         super().__init__()
@@ -103,11 +107,27 @@ class MP3PlayerApp(App):
         self.should_exit = False
         self.do_chanel_list()
         self.nChannels = len(self.channel_list)
+        self.do_chanel(str(self.current_channel))
+
+    def compose(self) -> ComposeResult:
+        yield Header()
+        yield Footer()
+        with ScrollableContainer(id="player"):
+            yield Static(f"Catagory: {self.catagory}", id="catagory")
+            yield Static(f"Value: {self.value}", id="value")
+            # yield ChanelListView(self.channel_list)
+            yield Static(f"Track: {self.track}", id="track")
+            yield Static(f"Channel: {self.current_channel}", id="channel")
+            yield Static(f"Status: {self.current_status}", id="status")
+            yield Static(f"Muted: {self.muteStatus}", id="muteStatus")
+            yield Static(f"Volume: {self.current_volume:.1f}", id="volume")
+            yield Static(f"Shuffle: {'On' if self.shuffle_mode else 'Off'}", id="shuffleStatus")
+            # yield ButtonDock()
 
     def on_mount(self) -> None:
         self.check_messages_thread = threading.Thread(target=self.check_messages, daemon=True)
         self.check_messages_thread.start()
-        self.set_focus(self.query_one(ChanelListView))
+        # self.set_focus(self.query_one(ChanelListView))
 
     def check_messages(self):
         while not self.should_exit:
@@ -131,6 +151,8 @@ class MP3PlayerApp(App):
         except:
             catagory = "err"
             value = "err"
+        self.query_one('#catagory').update(f"Category: {catagory}")
+        self.query_one('#value').update(f"Value: {value}")
 
         floatVars = ["Volume"]
         boolVars = ["Shuffle", "Mute","Play"]
@@ -146,21 +168,6 @@ class MP3PlayerApp(App):
             box = catagoryDict[catagory]
             self.query_one(box).update(f"{catagory}: {float(value):.1f}")
         return
-
-    def compose(self) -> ComposeResult:
-        yield Header()
-        yield Footer()
-        with ScrollableContainer(id="player"):
-            # yield Static(f"Catagory: {self.catagory}", id="catagory")
-            # yield Static(f"Value: {self.value}", id="value")
-            yield Static(f"Track: {self.track}", id="track")
-            yield ChanelListView(self.channel_list)
-            yield Static(f"Status: {self.current_status}", id="status")
-            yield Static(f"Muted: {self.muteStatus}", id="muteStatus")
-            yield Static(f"Volume: {self.current_volume:.1f}", id="volume")
-            yield Static(f"Channel: {self.current_channel}", id="channel")
-            yield Static(f"Shuffle: {'On' if self.shuffle_mode else 'Off'}", id="shuffleStatus")
-            yield ButtonDock()
 
     def do_exit(self):
         self.command_queue.put(('exit',))
@@ -180,25 +187,6 @@ class MP3PlayerApp(App):
         self.command_queue.put(('play',))
     def do_stop(self):
         self.command_queue.put(('stop',))
-
-    def on_list_view_selected(self,event:ChanelListView.Selected):
-        self.current_channel = event.item.id
-        # self.messages_queue.put(f"ChanelView>{self.current_channel}")
-        chanel_index = int(self.current_channel[2:])
-        self.messages_queue.put(f"ChanelView>{chanel_index}")
-        self.do_chanel(chanel_index)
-
-    def on_button_pressed(self, event: Button.Pressed) -> None:
-        button_id = event.button.id
-        if button_id == "play":
-            self.do_toggle_play()
-        elif button_id == "toggle_shuffle":
-            self.do_toggle_shuffle()
-        elif button_id == "mute":
-            self.do_mute()
-        elif button_id == "exit":
-            self.do_exit()
-
     def do_chanel(self,chanel):
         try:
             chanel = int(chanel)
@@ -211,7 +199,16 @@ class MP3PlayerApp(App):
                 self.update_message("Please provide a valid channel number (0-2)")
         except ValueError:
             self.update_message("Please provide a valid number")
-
+    def do_chanel_list(self):
+        self.command_queue.put(('chanel_list',))
+        time.sleep(0.2)
+        if not self.messages_queue.empty():
+            message = self.messages_queue.get()
+            category, value = message.split(">")
+        if  category == "ChanelList":
+            self.channel_list = value.split(",")
+        else:
+            self.channel_list = ["Error"]
     def do_volume(self, volume: float):
         try:
             volume = float(volume)
@@ -223,8 +220,20 @@ class MP3PlayerApp(App):
         except ValueError:
             self.update_message("Please provide a valid number")
 
-    def on_input_submitted(self, event: Input.Submitted) -> None:
-        if event.input.id == "channel_input":
-            self.query_one("#change_channel").press()
-        elif event.input.id == "volume_input":
-            self.query_one("#set_volume").press()
+    # def on_button_pressed(self, event: Button.Pressed) -> None:
+    #     button_id = event.button.id
+    #     if button_id == "play":
+    #         self.do_toggle_play()
+    #     elif button_id == "toggle_shuffle":
+    #         self.do_toggle_shuffle()
+    #     elif button_id == "mute":
+    #         self.do_mute()
+    #     elif button_id == "exit":
+    #         self.do_exit()
+
+    # def on_list_view_selected(self,event:ChanelListView.Selected):
+    #     self.current_channel = event.item.id
+    #     # self.messages_queue.put(f"ChanelView>{self.current_channel}")
+    #     chanel_index = int(self.current_channel[2:])
+    #     self.messages_queue.put(f"ChanelView>{chanel_index}")
+    #     self.do_chanel(chanel_index)
