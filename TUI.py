@@ -11,9 +11,16 @@ from textual.reactive import reactive
 from queue import Queue
 import threading
 import time
+import logging
 
-DEBUG = False
+DEBUG = True
 LOG = False
+
+
+logging.basicConfig(filename='lofiRadio.log',     # Log file name
+                    level=logging.DEBUG,        # Log level
+                    filemode='a',               # 'a' mode to append to the file if it exists
+                    format='%(asctime)s - %(levelname)s - %(message)s')
 
 class ChanelListView(ListView):
     BINDINGS = [("enter", "select_cursor", "Select"),
@@ -22,7 +29,6 @@ class ChanelListView(ListView):
                 ("j", "cursor_up", "Cursor Up"),
                 ("k", "cursor_down", "Cursor Down"),
     ]
-
     def __init__(self, items: list, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.items = items
@@ -41,6 +47,24 @@ class ButtonDock(Container):
         yield Button("M", id="mute")
         yield Button("X", id="exit")
 
+class TextCheckbox(Static):
+    """A widget to represent a checkbox."""
+    value = reactive(False)
+    def compose(self) -> ComposeResult:
+        yield Static(self.render_checkbox(self.value), id="checkbox_inner")
+        logging.info("TextCheckbox: Checkbox composed")
+    def on_mount(self):
+        self.update_checkbox()
+        logging.info("TextCheckbox: Checkbox mounted")
+    def render_checkbox(self,checked) -> str:
+
+        logging.info(f"TextCheckbox: Checkbox rendered: {checked}")
+        entry = "☐" if not checked else "■"
+        logging.info(f"TextCheckbox: Checkbox rendered: {entry}")
+        return f"Checkbox: {entry}"
+    def update_checkbox(self):
+        logging.info("TextCheckbox: Checkbox updated")
+        self.query_one("#checkbox_inner").update(self.render_checkbox(self.value))
 
 class VolumeBar(Static):
     """A widget to represent a volume bar."""
@@ -146,7 +170,8 @@ class MP3PlayerApp(App):
             yield Static(f"Track: {self.track}", id="track")
             yield Static(f"Channel: {self.current_channel}", id="channel")
             yield Static(f"Status: {self.current_status}", id="status")
-            yield Static(f"Muted: {self.muteStatus}", id="muteStatus")
+            # yield Static(f"Muted: {self.muteStatus}", id="muteStatus")
+            yield TextCheckbox(id="muteStatus")
             # yield Static(f"Volume: {self.current_volume:.1f}", id="volume")
             yield Static(f"Shuffle: {'On' if self.shuffle_mode else 'Off'}", id="shuffleStatus")
             yield VolumeBar(id="VbarWidget")
@@ -194,12 +219,18 @@ class MP3PlayerApp(App):
             log.write_line(self.logData)
 
         floatVars = []
-        boolVars = ["Shuffle", "Mute","Play"]
+        # boolVars = ["Shuffle", "Mute","Play"]
+        boolVars = ["Shuffle","Play"]
         stringVars = ["Playlist","ChanelList","Chanel"]
+
         if catagory in boolVars:
             box = catagoryDict[catagory]
             status = (str(True)==value)#'On' if (str(True)==value) else 'Off'
             self.query_one(box).update(f"{catagory}: {status}")
+        elif catagory == "Mute":
+            checkbox = self.query_one('#muteStatus')
+            checkbox.value = (str(True)==value)
+            checkbox.render_checkbox(checkbox.value)
         elif catagory in stringVars:
             box = catagoryDict[catagory]
             if catagory == "Playlist":
@@ -216,6 +247,10 @@ class MP3PlayerApp(App):
         self.exit()
     def do_mute(self):
         self.command_queue.put(('mute',))
+        self.muteStatus = not self.muteStatus
+        muteBox = self.query_one('#muteStatus')
+        muteBox.value = self.muteStatus
+        muteBox.update()
     def do_toggle_shuffle(self):
         self.command_queue.put(('shuffle',))
     def do_toggle_play(self):

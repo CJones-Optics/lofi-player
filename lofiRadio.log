@@ -1,36 +1,627 @@
-2024-08-04 11:19:46,336 - INFO - Command and message queues have been created.
-2024-08-04 11:19:46,339 - INFO - Player process has been created.
-2024-08-04 11:19:46,339 - INFO - Starting TUI.
-2024-08-04 11:19:46,339 - INFO - Tracks have been loaded.
-2024-08-04 11:19:46,340 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f19f53c2e40>
-2024-08-04 11:19:46,340 - INFO - Playlist has been created.
-2024-08-04 11:19:46,340 - INFO - Playlist has been created.
-2024-08-04 11:19:46,355 - INFO - Player has been created.
-2024-08-04 11:19:46,355 - INFO - Entering player process loop.
-2024-08-04 11:19:46,355 - INFO - cmd: chanel_list
-2024-08-04 11:19:46,547 - INFO - cmd: stop
-2024-08-04 11:19:46,547 - INFO - cmd: chanel
-2024-08-04 11:19:46,547 - DEBUG - Using selector: EpollSelector
-2024-08-04 11:19:46,547 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f19f53c2e40>
-2024-08-04 11:19:46,547 - INFO - Playlist has been created.
-2024-08-04 11:19:46,547 - INFO - msg: Chanel>LofiHipHop
-2024-08-04 11:19:46,547 - INFO - cmd: play
-2024-08-04 11:19:46,547 - INFO - playlist: Next track
-2024-08-04 11:19:46,548 - INFO - cmd: shuffle
-2024-08-04 11:19:46,548 - INFO - playlist: Current track: 3
-2024-08-04 11:19:46,548 - INFO - cmd: shuffle
-2024-08-04 11:19:46,548 - INFO - message_queue: Playlist>deep-lofi-vibes-205062
-2024-08-04 11:19:50,503 - INFO - cmd: volume, args: ['0.9']
-2024-08-04 11:19:50,714 - INFO - cmd: volume, args: ['0.8']
-2024-08-04 11:19:50,888 - INFO - cmd: volume, args: ['0.7000000000000001']
-2024-08-04 11:19:51,030 - INFO - cmd: volume, args: ['0.6000000000000001']
-2024-08-04 11:19:51,323 - INFO - cmd: volume, args: ['0.7000000000000001']
-2024-08-04 11:19:51,499 - INFO - cmd: volume, args: ['0.8']
-2024-08-04 11:19:51,638 - INFO - cmd: volume, args: ['0.9']
-2024-08-04 11:19:51,988 - INFO - cmd: volume, args: ['0.8']
-2024-08-04 11:19:52,133 - INFO - cmd: volume, args: ['0.7000000000000001']
-2024-08-04 11:19:52,283 - INFO - cmd: volume, args: ['0.6000000000000001']
-2024-08-04 11:19:52,410 - INFO - cmd: volume, args: ['0.5000000000000001']
-2024-08-04 11:19:53,060 - INFO - cmd: exit
-2024-08-04 11:19:53,264 - INFO - Shutting down MP3 Player.
-2024-08-04 11:19:53,264 - INFO - MP3 Player has been shut down.
+2024-08-04 13:00:49,409 - INFO - Command and message queues have been created.
+2024-08-04 13:00:49,411 - INFO - Player process has been created.
+2024-08-04 13:00:49,411 - INFO - Starting TUI.
+2024-08-04 13:00:49,412 - INFO - Tracks have been loaded.
+2024-08-04 13:00:49,412 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f65ac1fa9f0>
+2024-08-04 13:00:49,412 - INFO - Playlist has been created.
+2024-08-04 13:00:49,412 - INFO - Playlist has been created.
+2024-08-04 13:00:49,428 - INFO - Player has been created.
+2024-08-04 13:00:49,428 - INFO - Entering player process loop.
+2024-08-04 13:00:49,428 - INFO - cmd: chanel_list
+2024-08-04 13:00:49,619 - DEBUG - Using selector: EpollSelector
+2024-08-04 13:00:49,619 - INFO - cmd: stop
+2024-08-04 13:00:49,619 - INFO - cmd: chanel
+2024-08-04 13:00:49,620 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f65ac1fa9f0>
+2024-08-04 13:00:49,620 - INFO - Playlist has been created.
+2024-08-04 13:00:49,620 - INFO - msg: Chanel>LofiHipHop
+2024-08-04 13:00:49,620 - INFO - cmd: play
+2024-08-04 13:00:49,620 - INFO - playlist: Next track
+2024-08-04 13:00:49,620 - INFO - playlist: Current track: 23
+2024-08-04 13:00:49,620 - INFO - cmd: shuffle
+2024-08-04 13:00:49,620 - INFO - message_queue: Playlist>lofi-study-112191
+2024-08-04 13:00:49,620 - INFO - cmd: shuffle
+2024-08-04 13:00:51,799 - INFO - cmd: mute
+2024-08-04 13:00:52,690 - INFO - cmd: mute
+2024-08-04 13:00:53,351 - INFO - cmd: mute
+2024-08-04 13:00:53,914 - INFO - cmd: mute
+2024-08-04 13:00:56,096 - INFO - cmd: exit
+2024-08-04 13:00:56,301 - INFO - Shutting down MP3 Player.
+2024-08-04 13:00:56,301 - INFO - MP3 Player has been shut down.
+2024-08-04 13:04:23,158 - INFO - Command and message queues have been created.
+2024-08-04 13:04:23,161 - INFO - Player process has been created.
+2024-08-04 13:04:23,161 - INFO - Starting TUI.
+2024-08-04 13:04:23,162 - INFO - Tracks have been loaded.
+2024-08-04 13:04:23,162 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f45628b6750>
+2024-08-04 13:04:23,162 - INFO - Playlist has been created.
+2024-08-04 13:04:23,162 - INFO - Playlist has been created.
+2024-08-04 13:04:23,177 - INFO - Player has been created.
+2024-08-04 13:04:23,177 - INFO - Entering player process loop.
+2024-08-04 13:04:23,177 - INFO - cmd: chanel_list
+2024-08-04 13:04:23,369 - DEBUG - Using selector: EpollSelector
+2024-08-04 13:04:23,369 - INFO - cmd: stop
+2024-08-04 13:04:23,369 - INFO - cmd: chanel
+2024-08-04 13:04:23,370 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f45628b6750>
+2024-08-04 13:04:23,370 - INFO - Playlist has been created.
+2024-08-04 13:04:23,370 - INFO - msg: Chanel>LofiHipHop
+2024-08-04 13:04:23,370 - INFO - cmd: play
+2024-08-04 13:04:23,370 - INFO - playlist: Next track
+2024-08-04 13:04:23,370 - INFO - cmd: shuffle
+2024-08-04 13:04:23,370 - INFO - playlist: Current track: 20
+2024-08-04 13:04:23,370 - INFO - cmd: shuffle
+2024-08-04 13:04:23,370 - INFO - message_queue: Playlist>chill-lofi-160893
+2024-08-04 13:04:23,382 - INFO - TextCheckbox: Checkbox rendered
+2024-08-04 13:04:23,383 - INFO - TextCheckbox: Checkbox composed
+2024-08-04 13:04:23,385 - INFO - TextCheckbox: Checkbox updated
+2024-08-04 13:04:23,385 - INFO - TextCheckbox: Checkbox rendered
+2024-08-04 13:04:23,385 - INFO - TextCheckbox: Checkbox mounted
+2024-08-04 13:04:26,060 - INFO - cmd: mute
+2024-08-04 13:04:27,177 - INFO - cmd: mute
+2024-08-04 13:04:28,186 - INFO - cmd: mute
+2024-08-04 13:04:28,865 - INFO - cmd: mute
+2024-08-04 13:04:29,247 - INFO - cmd: exit
+2024-08-04 13:04:29,452 - INFO - Shutting down MP3 Player.
+2024-08-04 13:04:29,452 - INFO - MP3 Player has been shut down.
+2024-08-04 13:05:36,178 - INFO - Command and message queues have been created.
+2024-08-04 13:05:36,181 - INFO - Player process has been created.
+2024-08-04 13:05:36,181 - INFO - Starting TUI.
+2024-08-04 13:05:36,182 - INFO - Tracks have been loaded.
+2024-08-04 13:05:36,182 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fdcfc83f410>
+2024-08-04 13:05:36,182 - INFO - Playlist has been created.
+2024-08-04 13:05:36,182 - INFO - Playlist has been created.
+2024-08-04 13:05:36,198 - INFO - Player has been created.
+2024-08-04 13:05:36,198 - INFO - Entering player process loop.
+2024-08-04 13:05:36,198 - INFO - cmd: chanel_list
+2024-08-04 13:05:36,388 - DEBUG - Using selector: EpollSelector
+2024-08-04 13:05:36,389 - INFO - cmd: stop
+2024-08-04 13:05:36,389 - INFO - cmd: chanel
+2024-08-04 13:05:36,389 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fdcfc83f410>
+2024-08-04 13:05:36,389 - INFO - Playlist has been created.
+2024-08-04 13:05:36,389 - INFO - msg: Chanel>LofiHipHop
+2024-08-04 13:05:36,389 - INFO - cmd: play
+2024-08-04 13:05:36,389 - INFO - playlist: Next track
+2024-08-04 13:05:36,389 - INFO - cmd: shuffle
+2024-08-04 13:05:36,390 - INFO - playlist: Current track: 24
+2024-08-04 13:05:36,390 - INFO - cmd: shuffle
+2024-08-04 13:05:36,390 - INFO - message_queue: Playlist>lofi-relax-travel-by-lofium-123560
+2024-08-04 13:05:36,402 - INFO - TextCheckbox: Checkbox rendered
+2024-08-04 13:05:36,402 - INFO - TextCheckbox: Checkbox composed
+2024-08-04 13:05:36,404 - INFO - TextCheckbox: Checkbox updated
+2024-08-04 13:05:36,404 - INFO - TextCheckbox: Checkbox rendered
+2024-08-04 13:05:36,404 - INFO - TextCheckbox: Checkbox mounted
+2024-08-04 13:05:38,647 - INFO - cmd: mute
+2024-08-04 13:05:39,870 - INFO - cmd: mute
+2024-08-04 13:05:40,861 - INFO - cmd: mute
+2024-08-04 13:05:41,505 - INFO - cmd: mute
+2024-08-04 13:05:42,046 - INFO - cmd: mute
+2024-08-04 13:05:42,984 - INFO - cmd: exit
+2024-08-04 13:05:43,188 - INFO - Shutting down MP3 Player.
+2024-08-04 13:05:43,189 - INFO - MP3 Player has been shut down.
+2024-08-04 13:06:27,921 - INFO - Command and message queues have been created.
+2024-08-04 13:06:27,924 - INFO - Player process has been created.
+2024-08-04 13:06:27,924 - INFO - Starting TUI.
+2024-08-04 13:06:27,925 - INFO - Tracks have been loaded.
+2024-08-04 13:06:27,925 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7ff782ff9e50>
+2024-08-04 13:06:27,925 - INFO - Playlist has been created.
+2024-08-04 13:06:27,925 - INFO - Playlist has been created.
+2024-08-04 13:06:27,940 - INFO - Player has been created.
+2024-08-04 13:06:27,940 - INFO - Entering player process loop.
+2024-08-04 13:06:27,940 - INFO - cmd: chanel_list
+2024-08-04 13:06:28,131 - DEBUG - Using selector: EpollSelector
+2024-08-04 13:06:28,131 - INFO - cmd: stop
+2024-08-04 13:06:28,132 - INFO - cmd: chanel
+2024-08-04 13:06:28,132 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7ff782ff9e50>
+2024-08-04 13:06:28,132 - INFO - Playlist has been created.
+2024-08-04 13:06:28,132 - INFO - msg: Chanel>LofiHipHop
+2024-08-04 13:06:28,132 - INFO - cmd: play
+2024-08-04 13:06:28,132 - INFO - playlist: Next track
+2024-08-04 13:06:28,132 - INFO - cmd: shuffle
+2024-08-04 13:06:28,132 - INFO - playlist: Current track: 13
+2024-08-04 13:06:28,133 - INFO - cmd: shuffle
+2024-08-04 13:06:28,133 - INFO - message_queue: Playlist>free-lofi-type-beat-cozy-night-210690
+2024-08-04 13:06:28,145 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:06:28,145 - INFO - TextCheckbox: Checkbox composed
+2024-08-04 13:06:28,147 - INFO - TextCheckbox: Checkbox updated
+2024-08-04 13:06:28,147 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:06:28,147 - INFO - TextCheckbox: Checkbox mounted
+2024-08-04 13:06:29,793 - INFO - cmd: mute
+2024-08-04 13:06:30,707 - INFO - cmd: mute
+2024-08-04 13:06:31,220 - INFO - cmd: mute
+2024-08-04 13:06:31,660 - INFO - cmd: mute
+2024-08-04 13:06:32,095 - INFO - cmd: mute
+2024-08-04 13:06:32,497 - INFO - cmd: mute
+2024-08-04 13:06:33,130 - INFO - cmd: exit
+2024-08-04 13:06:33,335 - INFO - Shutting down MP3 Player.
+2024-08-04 13:06:33,335 - INFO - MP3 Player has been shut down.
+2024-08-04 13:08:56,271 - INFO - Command and message queues have been created.
+2024-08-04 13:08:56,273 - INFO - Player process has been created.
+2024-08-04 13:08:56,273 - INFO - Starting TUI.
+2024-08-04 13:08:56,274 - INFO - Tracks have been loaded.
+2024-08-04 13:08:56,274 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f54bdbf67b0>
+2024-08-04 13:08:56,274 - INFO - Playlist has been created.
+2024-08-04 13:08:56,274 - INFO - Playlist has been created.
+2024-08-04 13:08:56,292 - INFO - Player has been created.
+2024-08-04 13:08:56,292 - INFO - Entering player process loop.
+2024-08-04 13:08:56,292 - INFO - cmd: chanel_list
+2024-08-04 13:08:56,481 - DEBUG - Using selector: EpollSelector
+2024-08-04 13:08:56,481 - INFO - cmd: stop
+2024-08-04 13:08:56,481 - INFO - cmd: chanel
+2024-08-04 13:08:56,482 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f54bdbf67b0>
+2024-08-04 13:08:56,482 - INFO - Playlist has been created.
+2024-08-04 13:08:56,482 - INFO - msg: Chanel>LofiHipHop
+2024-08-04 13:08:56,482 - INFO - cmd: play
+2024-08-04 13:08:56,482 - INFO - playlist: Next track
+2024-08-04 13:08:56,482 - INFO - cmd: shuffle
+2024-08-04 13:08:56,482 - INFO - playlist: Current track: 12
+2024-08-04 13:08:56,482 - INFO - cmd: shuffle
+2024-08-04 13:08:56,483 - INFO - message_queue: Playlist>empty-mind-118973
+2024-08-04 13:08:56,495 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:08:56,495 - INFO - TextCheckbox: Checkbox composed
+2024-08-04 13:08:56,497 - INFO - TextCheckbox: Checkbox updated
+2024-08-04 13:08:56,497 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:08:56,497 - INFO - TextCheckbox: Checkbox mounted
+2024-08-04 13:08:58,531 - INFO - cmd: mute
+2024-08-04 13:08:59,615 - INFO - cmd: mute
+2024-08-04 13:09:00,882 - INFO - cmd: mute
+2024-08-04 13:09:01,782 - INFO - cmd: mute
+2024-08-04 13:09:02,853 - INFO - cmd: exit
+2024-08-04 13:09:03,058 - INFO - Shutting down MP3 Player.
+2024-08-04 13:09:03,058 - INFO - MP3 Player has been shut down.
+2024-08-04 13:09:10,085 - INFO - Command and message queues have been created.
+2024-08-04 13:09:10,088 - INFO - Player process has been created.
+2024-08-04 13:09:10,088 - INFO - Starting TUI.
+2024-08-04 13:09:10,089 - INFO - Tracks have been loaded.
+2024-08-04 13:09:10,089 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f1157a3b530>
+2024-08-04 13:09:10,089 - INFO - Playlist has been created.
+2024-08-04 13:09:10,089 - INFO - Playlist has been created.
+2024-08-04 13:09:10,105 - INFO - Player has been created.
+2024-08-04 13:09:10,105 - INFO - Entering player process loop.
+2024-08-04 13:09:10,105 - INFO - cmd: chanel_list
+2024-08-04 13:09:10,297 - DEBUG - Using selector: EpollSelector
+2024-08-04 13:09:10,297 - INFO - cmd: stop
+2024-08-04 13:09:10,297 - INFO - cmd: chanel
+2024-08-04 13:09:10,297 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f1157a3b530>
+2024-08-04 13:09:10,297 - INFO - Playlist has been created.
+2024-08-04 13:09:10,297 - INFO - msg: Chanel>LofiHipHop
+2024-08-04 13:09:10,298 - INFO - cmd: play
+2024-08-04 13:09:10,298 - INFO - playlist: Next track
+2024-08-04 13:09:10,298 - INFO - playlist: Current track: 29
+2024-08-04 13:09:10,298 - INFO - cmd: shuffle
+2024-08-04 13:09:10,298 - INFO - message_queue: Playlist>lofi-music-5-136397
+2024-08-04 13:09:10,298 - INFO - cmd: shuffle
+2024-08-04 13:09:10,316 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:09:10,316 - INFO - TextCheckbox: Checkbox composed
+2024-08-04 13:09:10,318 - INFO - TextCheckbox: Checkbox updated
+2024-08-04 13:09:10,319 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:09:10,319 - INFO - TextCheckbox: Checkbox mounted
+2024-08-04 13:09:12,080 - INFO - cmd: mute
+2024-08-04 13:09:13,351 - INFO - cmd: mute
+2024-08-04 13:09:13,932 - INFO - cmd: mute
+2024-08-04 13:09:14,450 - INFO - cmd: mute
+2024-08-04 13:09:16,289 - INFO - cmd: mute
+2024-08-04 13:09:18,403 - INFO - cmd: mute
+2024-08-04 13:09:18,840 - INFO - cmd: mute
+2024-08-04 13:09:19,258 - INFO - cmd: mute
+2024-08-04 13:09:21,231 - INFO - cmd: mute
+2024-08-04 13:09:21,620 - INFO - cmd: mute
+2024-08-04 13:09:22,420 - INFO - cmd: exit
+2024-08-04 13:09:22,625 - INFO - Shutting down MP3 Player.
+2024-08-04 13:09:22,625 - INFO - MP3 Player has been shut down.
+2024-08-04 13:10:31,495 - INFO - Command and message queues have been created.
+2024-08-04 13:10:31,497 - INFO - Player process has been created.
+2024-08-04 13:10:31,498 - INFO - Starting TUI.
+2024-08-04 13:10:31,498 - INFO - Tracks have been loaded.
+2024-08-04 13:10:31,498 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f80f3de8290>
+2024-08-04 13:10:31,499 - INFO - Playlist has been created.
+2024-08-04 13:10:31,499 - INFO - Playlist has been created.
+2024-08-04 13:10:31,514 - INFO - Player has been created.
+2024-08-04 13:10:31,514 - INFO - Entering player process loop.
+2024-08-04 13:10:31,514 - INFO - cmd: chanel_list
+2024-08-04 13:10:31,705 - DEBUG - Using selector: EpollSelector
+2024-08-04 13:10:31,706 - INFO - cmd: stop
+2024-08-04 13:10:31,706 - INFO - cmd: chanel
+2024-08-04 13:10:31,706 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f80f3de8290>
+2024-08-04 13:10:31,706 - INFO - Playlist has been created.
+2024-08-04 13:10:31,706 - INFO - msg: Chanel>LofiHipHop
+2024-08-04 13:10:31,706 - INFO - cmd: play
+2024-08-04 13:10:31,707 - INFO - playlist: Next track
+2024-08-04 13:10:31,707 - INFO - cmd: shuffle
+2024-08-04 13:10:31,707 - INFO - playlist: Current track: 7
+2024-08-04 13:10:31,707 - INFO - cmd: shuffle
+2024-08-04 13:10:31,707 - INFO - message_queue: Playlist>instrumental-lofi-tranquilas-151240
+2024-08-04 13:10:31,719 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:10:31,720 - INFO - TextCheckbox: Checkbox composed
+2024-08-04 13:10:31,721 - INFO - TextCheckbox: Checkbox updated
+2024-08-04 13:10:31,721 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:10:31,721 - INFO - TextCheckbox: Checkbox mounted
+2024-08-04 13:10:33,722 - INFO - cmd: mute
+2024-08-04 13:10:35,273 - INFO - cmd: mute
+2024-08-04 13:10:36,006 - INFO - cmd: mute
+2024-08-04 13:10:36,646 - INFO - cmd: mute
+2024-08-04 13:10:41,075 - INFO - cmd: exit
+2024-08-04 13:10:41,185 - INFO - Shutting down MP3 Player.
+2024-08-04 13:10:41,186 - INFO - MP3 Player has been shut down.
+2024-08-04 13:10:56,202 - INFO - Command and message queues have been created.
+2024-08-04 13:10:56,204 - INFO - Player process has been created.
+2024-08-04 13:10:56,205 - INFO - Starting TUI.
+2024-08-04 13:10:56,205 - INFO - Tracks have been loaded.
+2024-08-04 13:10:56,205 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fdbfddfe300>
+2024-08-04 13:10:56,205 - INFO - Playlist has been created.
+2024-08-04 13:10:56,205 - INFO - Playlist has been created.
+2024-08-04 13:10:56,222 - INFO - Player has been created.
+2024-08-04 13:10:56,222 - INFO - Entering player process loop.
+2024-08-04 13:10:56,222 - INFO - cmd: chanel_list
+2024-08-04 13:10:56,412 - DEBUG - Using selector: EpollSelector
+2024-08-04 13:10:56,412 - INFO - cmd: stop
+2024-08-04 13:10:56,412 - INFO - cmd: chanel
+2024-08-04 13:10:56,413 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fdbfddfe300>
+2024-08-04 13:10:56,413 - INFO - Playlist has been created.
+2024-08-04 13:10:56,413 - INFO - msg: Chanel>LofiHipHop
+2024-08-04 13:10:56,413 - INFO - cmd: play
+2024-08-04 13:10:56,413 - INFO - playlist: Next track
+2024-08-04 13:10:56,413 - INFO - cmd: shuffle
+2024-08-04 13:10:56,413 - INFO - playlist: Current track: 10
+2024-08-04 13:10:56,413 - INFO - cmd: shuffle
+2024-08-04 13:10:56,413 - INFO - message_queue: Playlist>sloth-tier-lofi-jazz-223593
+2024-08-04 13:10:56,426 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:10:56,426 - INFO - TextCheckbox: Checkbox composed
+2024-08-04 13:10:56,428 - INFO - TextCheckbox: Checkbox updated
+2024-08-04 13:10:56,428 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:10:56,428 - INFO - TextCheckbox: Checkbox mounted
+2024-08-04 13:10:57,894 - INFO - cmd: mute
+2024-08-04 13:10:58,330 - INFO - cmd: mute
+2024-08-04 13:10:58,704 - INFO - cmd: mute
+2024-08-04 13:10:59,083 - INFO - cmd: mute
+2024-08-04 13:11:01,542 - INFO - cmd: exit
+2024-08-04 13:11:01,554 - INFO - Shutting down MP3 Player.
+2024-08-04 13:11:01,572 - INFO - MP3 Player has been shut down.
+2024-08-04 13:11:02,177 - INFO - Command and message queues have been created.
+2024-08-04 13:11:02,180 - INFO - Player process has been created.
+2024-08-04 13:11:02,180 - INFO - Starting TUI.
+2024-08-04 13:11:02,181 - INFO - Tracks have been loaded.
+2024-08-04 13:11:02,181 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f49957f5ee0>
+2024-08-04 13:11:02,181 - INFO - Playlist has been created.
+2024-08-04 13:11:02,181 - INFO - Playlist has been created.
+2024-08-04 13:11:02,198 - INFO - Player has been created.
+2024-08-04 13:11:02,198 - INFO - Entering player process loop.
+2024-08-04 13:11:02,198 - INFO - cmd: chanel_list
+2024-08-04 13:11:02,388 - DEBUG - Using selector: EpollSelector
+2024-08-04 13:11:02,388 - INFO - cmd: stop
+2024-08-04 13:11:02,388 - INFO - cmd: chanel
+2024-08-04 13:11:02,388 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f49957f5ee0>
+2024-08-04 13:11:02,388 - INFO - Playlist has been created.
+2024-08-04 13:11:02,388 - INFO - msg: Chanel>LofiHipHop
+2024-08-04 13:11:02,389 - INFO - cmd: play
+2024-08-04 13:11:02,389 - INFO - playlist: Next track
+2024-08-04 13:11:02,389 - INFO - cmd: shuffle
+2024-08-04 13:11:02,389 - INFO - playlist: Current track: 4
+2024-08-04 13:11:02,389 - INFO - cmd: shuffle
+2024-08-04 13:11:02,389 - INFO - message_queue: Playlist>lofi-hiphop-type-beat-170305
+2024-08-04 13:11:02,401 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:11:02,402 - INFO - TextCheckbox: Checkbox composed
+2024-08-04 13:11:02,404 - INFO - TextCheckbox: Checkbox updated
+2024-08-04 13:11:02,404 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:11:02,404 - INFO - TextCheckbox: Checkbox mounted
+2024-08-04 13:11:03,563 - INFO - cmd: exit
+2024-08-04 13:11:03,767 - INFO - Shutting down MP3 Player.
+2024-08-04 13:11:03,767 - INFO - MP3 Player has been shut down.
+2024-08-04 13:11:12,821 - INFO - Command and message queues have been created.
+2024-08-04 13:11:12,823 - INFO - Player process has been created.
+2024-08-04 13:11:12,823 - INFO - Starting TUI.
+2024-08-04 13:11:12,824 - INFO - Tracks have been loaded.
+2024-08-04 13:11:12,824 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f21d85f5df0>
+2024-08-04 13:11:12,824 - INFO - Playlist has been created.
+2024-08-04 13:11:12,824 - INFO - Playlist has been created.
+2024-08-04 13:11:12,839 - INFO - Player has been created.
+2024-08-04 13:11:12,839 - INFO - Entering player process loop.
+2024-08-04 13:11:12,840 - INFO - cmd: chanel_list
+2024-08-04 13:11:13,031 - DEBUG - Using selector: EpollSelector
+2024-08-04 13:11:13,031 - INFO - cmd: stop
+2024-08-04 13:11:13,031 - INFO - cmd: chanel
+2024-08-04 13:11:13,031 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f21d85f5df0>
+2024-08-04 13:11:13,031 - INFO - Playlist has been created.
+2024-08-04 13:11:13,032 - INFO - msg: Chanel>LofiHipHop
+2024-08-04 13:11:13,032 - INFO - cmd: play
+2024-08-04 13:11:13,032 - INFO - playlist: Next track
+2024-08-04 13:11:13,032 - INFO - cmd: shuffle
+2024-08-04 13:11:13,032 - INFO - playlist: Current track: 14
+2024-08-04 13:11:13,032 - INFO - cmd: shuffle
+2024-08-04 13:11:13,032 - INFO - message_queue: Playlist>the-weekend-117427
+2024-08-04 13:11:13,044 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:11:13,044 - INFO - TextCheckbox: Checkbox composed
+2024-08-04 13:11:13,046 - INFO - TextCheckbox: Checkbox updated
+2024-08-04 13:11:13,046 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:11:13,046 - INFO - TextCheckbox: Checkbox mounted
+2024-08-04 13:11:14,028 - INFO - cmd: mute
+2024-08-04 13:11:14,622 - INFO - cmd: mute
+2024-08-04 13:11:15,063 - INFO - cmd: mute
+2024-08-04 13:11:15,506 - INFO - cmd: mute
+2024-08-04 13:11:15,896 - INFO - cmd: mute
+2024-08-04 13:11:16,286 - INFO - cmd: mute
+2024-08-04 13:11:16,645 - INFO - cmd: mute
+2024-08-04 13:11:16,997 - INFO - cmd: mute
+2024-08-04 13:11:17,381 - INFO - cmd: mute
+2024-08-04 13:11:17,702 - INFO - cmd: mute
+2024-08-04 13:11:18,879 - INFO - cmd: exit
+2024-08-04 13:11:19,084 - INFO - Shutting down MP3 Player.
+2024-08-04 13:11:19,084 - INFO - MP3 Player has been shut down.
+2024-08-04 13:11:55,033 - INFO - Command and message queues have been created.
+2024-08-04 13:11:55,035 - INFO - Player process has been created.
+2024-08-04 13:11:55,035 - INFO - Starting TUI.
+2024-08-04 13:11:55,036 - INFO - Tracks have been loaded.
+2024-08-04 13:11:55,036 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f4a77df9f10>
+2024-08-04 13:11:55,036 - INFO - Playlist has been created.
+2024-08-04 13:11:55,036 - INFO - Playlist has been created.
+2024-08-04 13:11:55,052 - INFO - Player has been created.
+2024-08-04 13:11:55,052 - INFO - Entering player process loop.
+2024-08-04 13:11:55,052 - INFO - cmd: chanel_list
+2024-08-04 13:11:55,243 - DEBUG - Using selector: EpollSelector
+2024-08-04 13:11:55,244 - INFO - cmd: stop
+2024-08-04 13:11:55,244 - INFO - cmd: chanel
+2024-08-04 13:11:55,244 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f4a77df9f10>
+2024-08-04 13:11:55,244 - INFO - Playlist has been created.
+2024-08-04 13:11:55,244 - INFO - msg: Chanel>LofiHipHop
+2024-08-04 13:11:55,244 - INFO - cmd: play
+2024-08-04 13:11:55,245 - INFO - playlist: Next track
+2024-08-04 13:11:55,245 - INFO - playlist: Current track: 18
+2024-08-04 13:11:55,245 - INFO - message_queue: Playlist>lofi-chillzone-162827
+2024-08-04 13:11:55,245 - INFO - cmd: shuffle
+2024-08-04 13:11:55,245 - INFO - cmd: shuffle
+2024-08-04 13:11:55,257 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:11:55,257 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:11:55,257 - INFO - TextCheckbox: Checkbox composed
+2024-08-04 13:11:55,259 - INFO - TextCheckbox: Checkbox updated
+2024-08-04 13:11:55,259 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:11:55,259 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:11:55,259 - INFO - TextCheckbox: Checkbox mounted
+2024-08-04 13:11:56,337 - INFO - cmd: mute
+2024-08-04 13:11:56,714 - INFO - cmd: mute
+2024-08-04 13:11:57,409 - INFO - cmd: mute
+2024-08-04 13:11:57,780 - INFO - cmd: mute
+2024-08-04 13:11:58,047 - INFO - cmd: mute
+2024-08-04 13:11:58,383 - INFO - cmd: mute
+2024-08-04 13:11:58,634 - INFO - cmd: mute
+2024-08-04 13:11:58,879 - INFO - cmd: mute
+2024-08-04 13:11:59,112 - INFO - cmd: mute
+2024-08-04 13:11:59,336 - INFO - cmd: mute
+2024-08-04 13:11:59,563 - INFO - cmd: mute
+2024-08-04 13:11:59,786 - INFO - cmd: mute
+2024-08-04 13:12:00,027 - INFO - cmd: mute
+2024-08-04 13:12:00,251 - INFO - cmd: mute
+2024-08-04 13:12:00,485 - INFO - cmd: mute
+2024-08-04 13:12:00,695 - INFO - cmd: mute
+2024-08-04 13:12:00,926 - INFO - cmd: mute
+2024-08-04 13:12:01,144 - INFO - cmd: mute
+2024-08-04 13:12:01,376 - INFO - cmd: mute
+2024-08-04 13:12:01,602 - INFO - cmd: mute
+2024-08-04 13:12:01,820 - INFO - cmd: mute
+2024-08-04 13:12:02,088 - INFO - cmd: exit
+2024-08-04 13:12:02,292 - INFO - Shutting down MP3 Player.
+2024-08-04 13:12:02,292 - INFO - MP3 Player has been shut down.
+2024-08-04 13:12:18,717 - INFO - Command and message queues have been created.
+2024-08-04 13:12:18,720 - INFO - Player process has been created.
+2024-08-04 13:12:18,720 - INFO - Starting TUI.
+2024-08-04 13:12:18,721 - INFO - Tracks have been loaded.
+2024-08-04 13:12:18,721 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f6e8016b530>
+2024-08-04 13:12:18,721 - INFO - Playlist has been created.
+2024-08-04 13:12:18,721 - INFO - Playlist has been created.
+2024-08-04 13:12:18,738 - INFO - Player has been created.
+2024-08-04 13:12:18,738 - INFO - Entering player process loop.
+2024-08-04 13:12:18,738 - INFO - cmd: chanel_list
+2024-08-04 13:12:18,928 - DEBUG - Using selector: EpollSelector
+2024-08-04 13:12:18,928 - INFO - cmd: stop
+2024-08-04 13:12:18,928 - INFO - cmd: chanel
+2024-08-04 13:12:18,929 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f6e8016b530>
+2024-08-04 13:12:18,929 - INFO - Playlist has been created.
+2024-08-04 13:12:18,929 - INFO - msg: Chanel>LofiHipHop
+2024-08-04 13:12:18,929 - INFO - cmd: play
+2024-08-04 13:12:18,929 - INFO - playlist: Next track
+2024-08-04 13:12:18,929 - INFO - playlist: Current track: 26
+2024-08-04 13:12:18,929 - INFO - cmd: shuffle
+2024-08-04 13:12:18,929 - INFO - message_queue: Playlist>lo-fi-podcast-cozy-relaxing-chillout-lounge-music-214440
+2024-08-04 13:12:18,930 - INFO - cmd: shuffle
+2024-08-04 13:12:18,941 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:12:18,942 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:12:18,942 - INFO - TextCheckbox: Checkbox composed
+2024-08-04 13:12:18,944 - INFO - TextCheckbox: Checkbox updated
+2024-08-04 13:12:18,944 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:12:18,944 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:12:18,944 - INFO - TextCheckbox: Checkbox mounted
+2024-08-04 13:12:23,241 - INFO - cmd: mute
+2024-08-04 13:12:26,691 - INFO - cmd: mute
+2024-08-04 13:12:29,121 - INFO - cmd: mute
+2024-08-04 13:12:33,381 - INFO - cmd: mute
+2024-08-04 13:12:37,288 - INFO - cmd: mute
+2024-08-04 13:12:40,056 - INFO - cmd: mute
+2024-08-04 13:12:41,936 - INFO - cmd: mute
+2024-08-04 13:12:43,116 - INFO - cmd: mute
+2024-08-04 13:12:43,692 - INFO - cmd: exit
+2024-08-04 13:12:43,897 - INFO - Shutting down MP3 Player.
+2024-08-04 13:12:43,897 - INFO - MP3 Player has been shut down.
+2024-08-04 13:13:40,950 - INFO - Command and message queues have been created.
+2024-08-04 13:13:40,953 - INFO - Player process has been created.
+2024-08-04 13:13:40,953 - INFO - Starting TUI.
+2024-08-04 13:13:40,954 - INFO - Tracks have been loaded.
+2024-08-04 13:13:40,954 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f5ba4d02060>
+2024-08-04 13:13:40,954 - INFO - Playlist has been created.
+2024-08-04 13:13:40,954 - INFO - Playlist has been created.
+2024-08-04 13:13:40,969 - INFO - Player has been created.
+2024-08-04 13:13:40,969 - INFO - Entering player process loop.
+2024-08-04 13:13:40,970 - INFO - cmd: chanel_list
+2024-08-04 13:13:41,161 - DEBUG - Using selector: EpollSelector
+2024-08-04 13:13:41,162 - INFO - cmd: stop
+2024-08-04 13:13:41,162 - INFO - cmd: chanel
+2024-08-04 13:13:41,162 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f5ba4d02060>
+2024-08-04 13:13:41,162 - INFO - Playlist has been created.
+2024-08-04 13:13:41,162 - INFO - msg: Chanel>LofiHipHop
+2024-08-04 13:13:41,162 - INFO - cmd: play
+2024-08-04 13:13:41,163 - INFO - playlist: Next track
+2024-08-04 13:13:41,163 - INFO - cmd: shuffle
+2024-08-04 13:13:41,163 - INFO - playlist: Current track: 23
+2024-08-04 13:13:41,163 - INFO - cmd: shuffle
+2024-08-04 13:13:41,163 - INFO - message_queue: Playlist>lofi-study-112191
+2024-08-04 13:13:41,175 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:13:41,175 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:13:41,175 - INFO - TextCheckbox: Checkbox composed
+2024-08-04 13:13:41,177 - INFO - TextCheckbox: Checkbox updated
+2024-08-04 13:13:41,177 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:13:41,177 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:13:41,177 - INFO - TextCheckbox: Checkbox mounted
+2024-08-04 13:13:43,109 - INFO - cmd: mute
+2024-08-04 13:13:44,203 - INFO - cmd: mute
+2024-08-04 13:13:45,306 - INFO - cmd: mute
+2024-08-04 13:13:46,438 - INFO - cmd: mute
+2024-08-04 13:13:47,759 - INFO - cmd: mute
+2024-08-04 13:13:48,868 - INFO - cmd: mute
+2024-08-04 13:13:49,618 - INFO - cmd: exit
+2024-08-04 13:13:49,823 - INFO - Shutting down MP3 Player.
+2024-08-04 13:13:49,823 - INFO - MP3 Player has been shut down.
+2024-08-04 13:14:57,131 - INFO - Command and message queues have been created.
+2024-08-04 13:14:57,134 - INFO - Player process has been created.
+2024-08-04 13:14:57,134 - INFO - Starting TUI.
+2024-08-04 13:14:57,135 - INFO - Tracks have been loaded.
+2024-08-04 13:14:57,135 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f035949c8c0>
+2024-08-04 13:14:57,135 - INFO - Playlist has been created.
+2024-08-04 13:14:57,135 - INFO - Playlist has been created.
+2024-08-04 13:14:57,150 - INFO - Player has been created.
+2024-08-04 13:14:57,150 - INFO - Entering player process loop.
+2024-08-04 13:14:57,150 - INFO - cmd: chanel_list
+2024-08-04 13:14:57,341 - DEBUG - Using selector: EpollSelector
+2024-08-04 13:14:57,342 - INFO - cmd: stop
+2024-08-04 13:14:57,342 - INFO - cmd: chanel
+2024-08-04 13:14:57,342 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f035949c8c0>
+2024-08-04 13:14:57,342 - INFO - Playlist has been created.
+2024-08-04 13:14:57,342 - INFO - msg: Chanel>LofiHipHop
+2024-08-04 13:14:57,342 - INFO - cmd: play
+2024-08-04 13:14:57,342 - INFO - playlist: Next track
+2024-08-04 13:14:57,343 - INFO - cmd: shuffle
+2024-08-04 13:14:57,343 - INFO - playlist: Current track: 14
+2024-08-04 13:14:57,343 - INFO - cmd: shuffle
+2024-08-04 13:14:57,343 - INFO - message_queue: Playlist>the-weekend-117427
+2024-08-04 13:14:57,355 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:14:57,355 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:14:57,355 - INFO - TextCheckbox: Checkbox composed
+2024-08-04 13:14:57,357 - INFO - TextCheckbox: Checkbox updated
+2024-08-04 13:14:57,357 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:14:57,357 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:14:57,357 - INFO - TextCheckbox: Checkbox mounted
+2024-08-04 13:15:03,021 - INFO - cmd: mute
+2024-08-04 13:15:03,778 - INFO - cmd: mute
+2024-08-04 13:15:04,531 - INFO - cmd: mute
+2024-08-04 13:15:05,136 - INFO - cmd: mute
+2024-08-04 13:15:05,863 - INFO - cmd: mute
+2024-08-04 13:15:06,432 - INFO - cmd: mute
+2024-08-04 13:15:07,167 - INFO - cmd: mute
+2024-08-04 13:15:07,721 - INFO - cmd: mute
+2024-08-04 13:15:08,317 - INFO - cmd: mute
+2024-08-04 13:15:08,922 - INFO - cmd: mute
+2024-08-04 13:15:09,434 - INFO - cmd: mute
+2024-08-04 13:15:09,868 - INFO - cmd: mute
+2024-08-04 13:15:10,277 - INFO - cmd: exit
+2024-08-04 13:15:10,482 - INFO - Shutting down MP3 Player.
+2024-08-04 13:15:10,482 - INFO - MP3 Player has been shut down.
+2024-08-04 13:17:23,286 - INFO - Command and message queues have been created.
+2024-08-04 13:17:23,289 - INFO - Player process has been created.
+2024-08-04 13:17:23,289 - INFO - Starting TUI.
+2024-08-04 13:17:23,289 - INFO - Tracks have been loaded.
+2024-08-04 13:17:23,290 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f567b98c920>
+2024-08-04 13:17:23,290 - INFO - Playlist has been created.
+2024-08-04 13:17:23,290 - INFO - Playlist has been created.
+2024-08-04 13:17:23,305 - INFO - Player has been created.
+2024-08-04 13:17:23,305 - INFO - Entering player process loop.
+2024-08-04 13:17:23,305 - INFO - cmd: chanel_list
+2024-08-04 13:17:23,496 - DEBUG - Using selector: EpollSelector
+2024-08-04 13:17:23,497 - INFO - cmd: stop
+2024-08-04 13:17:23,497 - INFO - cmd: chanel
+2024-08-04 13:17:23,497 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f567b98c920>
+2024-08-04 13:17:23,497 - INFO - Playlist has been created.
+2024-08-04 13:17:23,497 - INFO - msg: Chanel>LofiHipHop
+2024-08-04 13:17:23,497 - INFO - cmd: play
+2024-08-04 13:17:23,498 - INFO - playlist: Next track
+2024-08-04 13:17:23,498 - INFO - cmd: shuffle
+2024-08-04 13:17:23,498 - INFO - playlist: Current track: 12
+2024-08-04 13:17:23,498 - INFO - cmd: shuffle
+2024-08-04 13:17:23,498 - INFO - message_queue: Playlist>empty-mind-118973
+2024-08-04 13:17:23,509 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:17:23,509 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:17:23,509 - INFO - TextCheckbox: Checkbox composed
+2024-08-04 13:17:23,511 - INFO - TextCheckbox: Checkbox updated
+2024-08-04 13:17:23,511 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:17:23,511 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:17:23,511 - INFO - TextCheckbox: Checkbox mounted
+2024-08-04 13:17:27,072 - INFO - cmd: mute
+2024-08-04 13:17:27,129 - INFO - TextCheckbox: Checkbox rendered: True
+2024-08-04 13:17:27,132 - INFO - TextCheckbox: Checkbox rendered: ☑
+2024-08-04 13:17:27,935 - INFO - cmd: mute
+2024-08-04 13:17:28,036 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:17:28,038 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:17:28,467 - INFO - cmd: mute
+2024-08-04 13:17:28,540 - INFO - TextCheckbox: Checkbox rendered: True
+2024-08-04 13:17:28,542 - INFO - TextCheckbox: Checkbox rendered: ☑
+2024-08-04 13:17:28,902 - INFO - cmd: mute
+2024-08-04 13:17:28,943 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:17:28,945 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:17:29,383 - INFO - cmd: mute
+2024-08-04 13:17:29,447 - INFO - TextCheckbox: Checkbox rendered: True
+2024-08-04 13:17:29,450 - INFO - TextCheckbox: Checkbox rendered: ☑
+2024-08-04 13:17:29,832 - INFO - cmd: mute
+2024-08-04 13:17:29,851 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:17:29,851 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:17:30,243 - INFO - cmd: mute
+2024-08-04 13:17:30,252 - INFO - TextCheckbox: Checkbox rendered: True
+2024-08-04 13:17:30,253 - INFO - TextCheckbox: Checkbox rendered: ☑
+2024-08-04 13:17:30,611 - INFO - cmd: mute
+2024-08-04 13:17:30,654 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:17:30,656 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:17:30,845 - INFO - cmd: exit
+2024-08-04 13:17:31,049 - INFO - Shutting down MP3 Player.
+2024-08-04 13:17:31,049 - INFO - MP3 Player has been shut down.
+2024-08-04 13:52:16,560 - INFO - Command and message queues have been created.
+2024-08-04 13:52:16,562 - INFO - Player process has been created.
+2024-08-04 13:52:16,562 - INFO - Starting TUI.
+2024-08-04 13:52:16,563 - INFO - Tracks have been loaded.
+2024-08-04 13:52:16,563 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f3e41612780>
+2024-08-04 13:52:16,563 - INFO - Playlist has been created.
+2024-08-04 13:52:16,563 - INFO - Playlist has been created.
+2024-08-04 13:52:16,579 - INFO - Player has been created.
+2024-08-04 13:52:16,579 - INFO - Entering player process loop.
+2024-08-04 13:52:16,579 - INFO - cmd: chanel_list
+2024-08-04 13:52:16,769 - DEBUG - Using selector: EpollSelector
+2024-08-04 13:52:16,770 - INFO - cmd: stop
+2024-08-04 13:52:16,770 - INFO - cmd: chanel
+2024-08-04 13:52:16,770 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f3e41612780>
+2024-08-04 13:52:16,770 - INFO - Playlist has been created.
+2024-08-04 13:52:16,770 - INFO - msg: Chanel>LofiHipHop
+2024-08-04 13:52:16,770 - INFO - cmd: play
+2024-08-04 13:52:16,771 - INFO - playlist: Next track
+2024-08-04 13:52:16,771 - INFO - playlist: Current track: 20
+2024-08-04 13:52:16,771 - INFO - cmd: shuffle
+2024-08-04 13:52:16,771 - INFO - message_queue: Playlist>chill-lofi-160893
+2024-08-04 13:52:16,771 - INFO - cmd: shuffle
+2024-08-04 13:52:16,782 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:52:16,783 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:52:16,783 - INFO - TextCheckbox: Checkbox composed
+2024-08-04 13:52:16,784 - INFO - TextCheckbox: Checkbox updated
+2024-08-04 13:52:16,784 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:52:16,784 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:52:16,785 - INFO - TextCheckbox: Checkbox mounted
+2024-08-04 13:52:20,256 - INFO - cmd: mute
+2024-08-04 13:52:20,297 - INFO - TextCheckbox: Checkbox rendered: True
+2024-08-04 13:52:20,299 - INFO - TextCheckbox: Checkbox rendered: ■
+2024-08-04 13:52:21,185 - INFO - cmd: mute
+2024-08-04 13:52:21,201 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:52:21,201 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:52:21,798 - INFO - cmd: mute
+2024-08-04 13:52:21,803 - INFO - TextCheckbox: Checkbox rendered: True
+2024-08-04 13:52:21,805 - INFO - TextCheckbox: Checkbox rendered: ■
+2024-08-04 13:52:22,266 - INFO - cmd: mute
+2024-08-04 13:52:22,306 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:52:22,309 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:52:22,670 - INFO - cmd: mute
+2024-08-04 13:52:22,710 - INFO - TextCheckbox: Checkbox rendered: True
+2024-08-04 13:52:22,713 - INFO - TextCheckbox: Checkbox rendered: ■
+2024-08-04 13:52:23,100 - INFO - cmd: mute
+2024-08-04 13:52:23,114 - INFO - TextCheckbox: Checkbox rendered: False
+2024-08-04 13:52:23,114 - INFO - TextCheckbox: Checkbox rendered: ☐
+2024-08-04 13:52:23,636 - INFO - cmd: exit
+2024-08-04 13:52:23,841 - INFO - Shutting down MP3 Player.
+2024-08-04 13:52:23,841 - INFO - MP3 Player has been shut down.
