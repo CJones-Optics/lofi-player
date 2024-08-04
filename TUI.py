@@ -42,19 +42,19 @@ class ButtonDock(Container):
         yield Button("X", id="exit")
 
 
-# class VolumeBar(Static):
-#     """A widget to represent a volume bar."""
-#     value = reactive(50)
-#     def compose(self) -> ComposeResult:
-#         yield Static(self.render_bar(), id="bar")
-#     def on_mount(self):
-#         self.update_bar()
-#     def render_Vbar(self) -> str:
-#         filled = int(self.current_volume*10)
-#         empty = 10 - filled
-#         return f"Volume: [{filled * '■'}{empty * '□'}] {round(self.current_volume*100)}%"
-#     def update_Vbar(self):
-#         self.query_one("#Vbar").update(self.render_Vbar())
+class VolumeBar(Static):
+    """A widget to represent a volume bar."""
+    value = reactive(1)
+    def compose(self) -> ComposeResult:
+        yield Static(self.render_Vbar(self.value), id="VbarInner")
+    def on_mount(self):
+        self.update_Vbar()
+    def render_Vbar(self,V) -> str:
+        filled = int(V*10)
+        empty = 10 - filled
+        return f"Volume: [{filled * '■'}{empty * '□'}] {round(self.value*100)}%"
+    def update_Vbar(self):
+        self.query_one("#VbarInner").update(self.render_Vbar(self.value))
 
 class MP3PlayerApp(App):
     CSS_PATH = "style.tcss"
@@ -149,8 +149,7 @@ class MP3PlayerApp(App):
             yield Static(f"Muted: {self.muteStatus}", id="muteStatus")
             # yield Static(f"Volume: {self.current_volume:.1f}", id="volume")
             yield Static(f"Shuffle: {'On' if self.shuffle_mode else 'Off'}", id="shuffleStatus")
-            # yield VolumeBar()
-            yield Static(self.render_Vbar(), id="Vbar")
+            yield VolumeBar(id="VbarWidget")
 
             if LOG:
                 yield Log()
@@ -161,16 +160,8 @@ class MP3PlayerApp(App):
     def on_mount(self) -> None:
         self.check_messages_thread = threading.Thread(target=self.check_messages, daemon=True)
         self.check_messages_thread.start()
-        self.render_Vbar()
         # self.set_focus(self.query_one(ChanelListView))
 
-    def render_Vbar(self) -> str:
-        filled = int(self.current_volume*10)
-        empty = 10 - filled
-        return f"Volume: [{filled * '■'}{empty * '□'}] {round(self.current_volume*100)}%"
-
-    def update_Vbar(self):
-        self.query_one("#Vbar").update(self.render_Vbar())
 
     def check_messages(self):
         while not self.should_exit:
@@ -202,7 +193,6 @@ class MP3PlayerApp(App):
             log = self.query_one(Log)
             log.write_line(self.logData)
 
-        # floatVars = ["Volume"]
         floatVars = []
         boolVars = ["Shuffle", "Mute","Play"]
         stringVars = ["Playlist","ChanelList","Chanel"]
@@ -266,7 +256,9 @@ class MP3PlayerApp(App):
             if 0 <= volume <= 1:
                 self.command_queue.put(('volume', str(volume)))
                 self.current_volume = volume
-                self.update_Vbar()
+                vbar = self.query_one("#VbarWidget")
+                vbar.value = volume
+                vbar.update_Vbar()
             else:
                 self.update_message("Volume must be between 0.0 and 1.0")
         except ValueError:
@@ -286,6 +278,6 @@ class MP3PlayerApp(App):
     # def on_list_view_selected(self,event:ChanelListView.Selected):
     #     self.current_channel = event.item.id
     #     # self.messages_queue.put(f"ChanelView>{self.current_channel}")
-    #     chanel_index = int(self.current_channel[2:])
+    #     chanel_index = int(self.current_channel[2:A])
     #     self.messages_queue.put(f"ChanelView>{chanel_index}")
     #     self.do_chanel(chanel_index)
