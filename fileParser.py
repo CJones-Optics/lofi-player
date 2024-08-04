@@ -82,7 +82,12 @@ class playlist(object):
 
         self.getTrackName()
         logging.info(f"message_queue: Playlist>{self.trackName}")
-        self.messages_queue.put(f"Playlist>{self.trackName}")
+        # Chop of the end of the track name if larger than 20 characters
+        if len(self.trackName) > 40:
+            track_name = self.trackName[:40] + "..."
+        else:
+            track_name = self.trackName
+        self.messages_queue.put(f"Playlist>{track_name}")
 
         return self.tracklist[self.currentTrack]
 

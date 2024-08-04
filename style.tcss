@@ -1,34 +1,35 @@
 Screen {
     align: center middle;
+    color: #f2cdcd; /* Optional: Specific text color for #player container */
+    background: #181825
 }
 
 #player {
-    width: 80;
-    height: 20;
-    border: solid green;
+    width: 60;
+    height: 10;
+    border: #f5c2e7;
     padding: 1 2;
 }
 
-Button {
-    width: 5%;
-}
 
+    Footer {
+        height: 1;
+        dock: bottom;
+        background: #1e1e2e;
+    }
+    FooterKey {
+        color: #f2cdcd; /* Optional: Specific text color for the footer */
+        background: #1e1e2e
+    }
 
-.true #play {
-   background: red;
-}
-
-ButtonDock {
-    layout: horizontal;
-    height: 5;
-    margin: 1;
-    min-width: 50;
-    padding: 1;
-}
-
-
-#messages {
-    height: 5;
-    width: 100%;
-    content-align: left middle;
-}
+    FooterKey {
+        width: auto;
+        height: 1;
+        background: #1e1e2e;
+        color: #f2cdcd;
+        .footer-key--key {
+            color: #f38ba8;
+            background: #1e1e2e;
+            text-style: bold;
+            padding: 0 1;
+        }}

@@ -6,14 +6,13 @@ from textual.widgets import Button, Input, Static
 from textual.widgets import Label, ListItem, ListView
 from textual.widgets import  Footer, Header
 from textual.widgets import Log
-
 from textual.reactive import reactive
 from queue import Queue
 import threading
 import time
 import logging
 
-DEBUG = True
+DEBUG = False
 LOG = False
 
 
@@ -22,49 +21,12 @@ logging.basicConfig(filename='lofiRadio.log',     # Log file name
                     filemode='a',               # 'a' mode to append to the file if it exists
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-class ChanelListView(ListView):
-    BINDINGS = [("enter", "select_cursor", "Select"),
-                ("up", "cursor_up", "Cursor Up"),
-                ("down", "cursor_down", "Cursor Down"),
-                ("j", "cursor_up", "Cursor Up"),
-                ("k", "cursor_down", "Cursor Down"),
-    ]
-    def __init__(self, items: list, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.items = items
-    def compose(self) -> ComposeResult:
-        chanelNo = 1
-        for item in self.items:
-            chanel_id = f"ch{str(chanelNo)}"
-            yield ListItem(Label(str(item)),id=chanel_id)
-            chanelNo += 1
 
-class ButtonDock(Container):
-    # CSS_PATH = "buttonDock.tcss"
-    def compose(self) -> ComposeResult:
-        yield Button("P", id="play")
-        yield Button("S", id="toggle_shuffle")
-        yield Button("M", id="mute")
-        yield Button("X", id="exit")
 
-class TextCheckbox(Static):
-    """A widget to represent a checkbox."""
-    value = reactive(False)
-    def compose(self) -> ComposeResult:
-        yield Static(self.render_checkbox(self.value), id="checkbox_inner")
-        logging.info("TextCheckbox: Checkbox composed")
-    def on_mount(self):
-        self.update_checkbox()
-        logging.info("TextCheckbox: Checkbox mounted")
-    def render_checkbox(self,checked) -> str:
-
-        logging.info(f"TextCheckbox: Checkbox rendered: {checked}")
-        entry = "☐" if not checked else "■"
-        logging.info(f"TextCheckbox: Checkbox rendered: {entry}")
-        return f"Checkbox: {entry}"
-    def update_checkbox(self):
-        logging.info("TextCheckbox: Checkbox updated")
-        self.query_one("#checkbox_inner").update(self.render_checkbox(self.value))
+def render_bool(label: str, value: bool) -> str:
+    true_icon = "■"
+    false_icon = "□"
+    return f"{true_icon if value else false_icon} - {label}"
 
 class VolumeBar(Static):
     """A widget to represent a volume bar."""
@@ -76,21 +38,21 @@ class VolumeBar(Static):
     def render_Vbar(self,V) -> str:
         filled = int(V*10)
         empty = 10 - filled
-        return f"Volume: [{filled * '■'}{empty * '□'}] {round(self.value*100)}%"
+        return f"Volume: [ {filled * '■'}{empty * '□'} ] {round(self.value*100)}%"
     def update_Vbar(self):
         self.query_one("#VbarInner").update(self.render_Vbar(self.value))
 
 class MP3PlayerApp(App):
     CSS_PATH = "style.tcss"
     # Keybindings
-    BINDINGS = [("q", "do_exit", "quit"),
-                ("p", "do_play", "play"),
-                ("s", "do_shuffle", "shuffle"),
-                ("m", "do_mute", "mute"),
-                ("h", "do_volume_down", "volume down"),
-                ("j", "do_chanel_up", "chanel up" ),
-                ("k", "do_chanel_down", "chanel down"),
-                ("l", "do_volume_up", "volume up"),
+    BINDINGS = [("q", "do_exit",        "quit"),
+                ("p", "do_play",        "play"),
+                ("s", "do_shuffle",     "shuffle"),
+                ("m", "do_mute",        "mute"),
+                ("h", "do_volume_down", "volume ↓"),
+                ("j", "do_chanel_up",   "chanel ↑" ),
+                ("k", "do_chanel_down", "chanel ↓"),
+                ("l", "do_volume_up",   "volume ↑"),
     ]
     def action_do_exit(self) -> None:
         self.do_exit()
@@ -155,9 +117,11 @@ class MP3PlayerApp(App):
         self.nChannels = len(self.channel_list)
         # Set the chanel to Chanel 1.
         self.do_chanel(str(self.current_channel))
-        # toggle the shuffle twice to update the ui
+        # # toggle the shuffle twice to update the ui
         self.do_toggle_shuffle()
         self.do_toggle_shuffle()
+        self.do_mute()
+        self.do_mute()
 
     def compose(self) -> ComposeResult:
         yield Header()
@@ -169,24 +133,21 @@ class MP3PlayerApp(App):
             # yield ChanelListView(self.channel_list)
             yield Static(f"Track: {self.track}", id="track")
             yield Static(f"Channel: {self.current_channel}", id="channel")
-            yield Static(f"Status: {self.current_status}", id="status")
-            # yield Static(f"Muted: {self.muteStatus}", id="muteStatus")
-            yield TextCheckbox(id="muteStatus")
+            yield Static(render_bool("Status",False), id="status")
+            yield Static(render_bool("Mute",False), id="muteStatus")
+            # yield TextCheckbox(id="Mute")
             # yield Static(f"Volume: {self.current_volume:.1f}", id="volume")
-            yield Static(f"Shuffle: {'On' if self.shuffle_mode else 'Off'}", id="shuffleStatus")
+            yield Static(render_bool("Shuffle",True), id="shuffleStatus")
+            # yield TextCheckbox(id="Shuffle")
             yield VolumeBar(id="VbarWidget")
 
             if LOG:
                 yield Log()
             # yield ButtonDock()
 
-
-
     def on_mount(self) -> None:
         self.check_messages_thread = threading.Thread(target=self.check_messages, daemon=True)
         self.check_messages_thread.start()
-        # self.set_focus(self.query_one(ChanelListView))
-
 
     def check_messages(self):
         while not self.should_exit:
@@ -219,18 +180,14 @@ class MP3PlayerApp(App):
             log.write_line(self.logData)
 
         floatVars = []
-        # boolVars = ["Shuffle", "Mute","Play"]
-        boolVars = ["Shuffle","Play"]
+        boolVars = ["Shuffle", "Mute","Play"]
+        # boolVars = ["Shuffle","Play"]
         stringVars = ["Playlist","ChanelList","Chanel"]
 
         if catagory in boolVars:
             box = catagoryDict[catagory]
             status = (str(True)==value)#'On' if (str(True)==value) else 'Off'
-            self.query_one(box).update(f"{catagory}: {status}")
-        elif catagory == "Mute":
-            checkbox = self.query_one('#muteStatus')
-            checkbox.value = (str(True)==value)
-            checkbox.render_checkbox(checkbox.value)
+            self.query_one(box).update(render_bool(catagory,status))
         elif catagory in stringVars:
             box = catagoryDict[catagory]
             if catagory == "Playlist":
@@ -247,12 +204,17 @@ class MP3PlayerApp(App):
         self.exit()
     def do_mute(self):
         self.command_queue.put(('mute',))
-        self.muteStatus = not self.muteStatus
-        muteBox = self.query_one('#muteStatus')
-        muteBox.value = self.muteStatus
-        muteBox.update()
+        # self.muteStatus = not self.muteStatus
+        # muteBox = self.query_one('#Mute')
+        # muteBox.value = self.muteStatus
+        # muteBox.update_Cbox()
+
     def do_toggle_shuffle(self):
         self.command_queue.put(('shuffle',))
+        # shuffleStatus = not self.shuffleStatus
+        # shuffleBox = self.query_one('#Shuffle')
+        # shuffleBox.value = self.shuffleStatus
+        # shuffleBox.update_Cbox()
     def do_toggle_play(self):
         self.status = not self.status
         if self.status:
