@@ -42,6 +42,20 @@ class ButtonDock(Container):
         yield Button("X", id="exit")
 
 
+# class VolumeBar(Static):
+#     """A widget to represent a volume bar."""
+#     value = reactive(50)
+#     def compose(self) -> ComposeResult:
+#         yield Static(self.render_bar(), id="bar")
+#     def on_mount(self):
+#         self.update_bar()
+#     def render_Vbar(self) -> str:
+#         filled = int(self.current_volume*10)
+#         empty = 10 - filled
+#         return f"Volume: [{filled * '■'}{empty * '□'}] {round(self.current_volume*100)}%"
+#     def update_Vbar(self):
+#         self.query_one("#Vbar").update(self.render_Vbar())
+
 class MP3PlayerApp(App):
     CSS_PATH = "style.tcss"
     # Keybindings
@@ -112,9 +126,14 @@ class MP3PlayerApp(App):
         self.command_queue = command_queue
         self.messages_queue = messages_queue
         self.should_exit = False
+        # Saves the chanel list to the class
         self.do_chanel_list()
         self.nChannels = len(self.channel_list)
+        # Set the chanel to Chanel 1.
         self.do_chanel(str(self.current_channel))
+        # toggle the shuffle twice to update the ui
+        self.do_toggle_shuffle()
+        self.do_toggle_shuffle()
 
     def compose(self) -> ComposeResult:
         yield Header()
@@ -128,16 +147,30 @@ class MP3PlayerApp(App):
             yield Static(f"Channel: {self.current_channel}", id="channel")
             yield Static(f"Status: {self.current_status}", id="status")
             yield Static(f"Muted: {self.muteStatus}", id="muteStatus")
-            yield Static(f"Volume: {self.current_volume:.1f}", id="volume")
+            # yield Static(f"Volume: {self.current_volume:.1f}", id="volume")
             yield Static(f"Shuffle: {'On' if self.shuffle_mode else 'Off'}", id="shuffleStatus")
+            # yield VolumeBar()
+            yield Static(self.render_Vbar(), id="Vbar")
+
             if LOG:
                 yield Log()
             # yield ButtonDock()
 
+
+
     def on_mount(self) -> None:
         self.check_messages_thread = threading.Thread(target=self.check_messages, daemon=True)
         self.check_messages_thread.start()
+        self.render_Vbar()
         # self.set_focus(self.query_one(ChanelListView))
+
+    def render_Vbar(self) -> str:
+        filled = int(self.current_volume*10)
+        empty = 10 - filled
+        return f"Volume: [{filled * '■'}{empty * '□'}] {round(self.current_volume*100)}%"
+
+    def update_Vbar(self):
+        self.query_one("#Vbar").update(self.render_Vbar())
 
     def check_messages(self):
         while not self.should_exit:
@@ -148,13 +181,13 @@ class MP3PlayerApp(App):
 
     def update_message(self, message: str):
         catagoryDict = {
-            "Play":      "#status",
-            "Volume":    "#volume",
-            "Chanel":    "#channel",
-            "Shuffle":   "#shuffleStatus",
-            "Mute":      "#muteStatus",
-            "Playlist":  "#track",
-            "ChanelList":"#channel_list"
+            "Play":       "#status",
+            "Volume":     "#volume",
+            "Chanel":     "#channel",
+            "Shuffle":    "#shuffleStatus",
+            "Mute":       "#muteStatus",
+            "Playlist":   "#track",
+            "ChanelList": "#channel_list"
         }
         try:
             catagory, value = message.split(">")
@@ -169,7 +202,8 @@ class MP3PlayerApp(App):
             log = self.query_one(Log)
             log.write_line(self.logData)
 
-        floatVars = ["Volume"]
+        # floatVars = ["Volume"]
+        floatVars = []
         boolVars = ["Shuffle", "Mute","Play"]
         stringVars = ["Playlist","ChanelList","Chanel"]
         if catagory in boolVars:
@@ -178,6 +212,8 @@ class MP3PlayerApp(App):
             self.query_one(box).update(f"{catagory}: {status}")
         elif catagory in stringVars:
             box = catagoryDict[catagory]
+            if catagory == "Playlist":
+                catagory = "Track"
             self.query_one(box).update(f"{catagory}: {value}")
         elif catagory in floatVars:
             box = catagoryDict[catagory]
@@ -230,6 +266,7 @@ class MP3PlayerApp(App):
             if 0 <= volume <= 1:
                 self.command_queue.put(('volume', str(volume)))
                 self.current_volume = volume
+                self.update_Vbar()
             else:
                 self.update_message("Volume must be between 0.0 and 1.0")
         except ValueError:

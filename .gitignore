@@ -2,3 +2,4 @@
 .venv/*
 .zed/*
 __pycache__/*
+.venv/*
