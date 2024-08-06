@@ -2004,3 +2004,279 @@
 2024-08-06 20:13:36,046 - INFO - playlist: Next track
 2024-08-06 20:13:36,047 - INFO - playlist: Current track: 10
 2024-08-06 20:13:36,047 - INFO - message_queue: Playlist>tech-ambient-110767
+2024-08-06 20:17:03,388 - INFO - playlist: Next track
+2024-08-06 20:17:03,388 - INFO - playlist: Current track: 2
+2024-08-06 20:17:03,388 - INFO - message_queue: Playlist>in-slow-motion-inspiring-ambient-lounge-219592
+2024-08-06 20:19:02,435 - INFO - playlist: Next track
+2024-08-06 20:19:02,435 - INFO - playlist: Current track: 3
+2024-08-06 20:19:02,435 - INFO - message_queue: Playlist>solitude-dark-ambient-electronic-197737
+2024-08-06 20:21:40,517 - INFO - playlist: Next track
+2024-08-06 20:21:40,517 - INFO - playlist: Current track: 0
+2024-08-06 20:21:40,517 - INFO - message_queue: Playlist>reflected-light-147979
+2024-08-06 20:25:25,283 - INFO - playlist: Next track
+2024-08-06 20:25:25,283 - INFO - playlist: Current track: 9
+2024-08-06 20:25:25,283 - INFO - message_queue: Playlist>livail-oasis-114751
+2024-08-06 20:27:04,937 - INFO - cmd: stop
+2024-08-06 20:27:04,937 - INFO - cmd: chanel
+2024-08-06 20:27:04,937 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fa8aa7bf410>
+2024-08-06 20:27:04,937 - INFO - Playlist has been created.
+2024-08-06 20:27:04,937 - INFO - msg: Chanel>AcidJazz
+2024-08-06 20:27:04,937 - INFO - cmd: play
+2024-08-06 20:27:04,937 - INFO - playlist: Next track
+2024-08-06 20:27:04,937 - INFO - playlist: Current track: 16
+2024-08-06 20:27:04,938 - INFO - message_queue: Playlist>funky-saxophone-hip-hop-type-beat-out-my-mind-211576
+2024-08-06 20:27:05,144 - INFO - cmd: stop
+2024-08-06 20:27:05,144 - INFO - cmd: chanel
+2024-08-06 20:27:05,144 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fa8aa7bf410>
+2024-08-06 20:27:05,144 - INFO - Playlist has been created.
+2024-08-06 20:27:05,144 - INFO - msg: Chanel>OSHipHop
+2024-08-06 20:27:05,144 - INFO - cmd: play
+2024-08-06 20:27:05,144 - INFO - playlist: Next track
+2024-08-06 20:27:05,145 - INFO - playlist: Current track: 18
+2024-08-06 20:27:05,145 - INFO - message_queue: Playlist>daisuke-teiko-beats-9-10070
+2024-08-06 20:27:06,269 - INFO - cmd: volume, args: ['1.0']
+2024-08-06 20:27:07,063 - INFO - cmd: volume, args: ['1.0']
+2024-08-06 20:27:08,362 - INFO - cmd: stop
+2024-08-06 20:27:08,362 - INFO - cmd: chanel
+2024-08-06 20:27:08,362 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fa8aa7bf410>
+2024-08-06 20:27:08,363 - INFO - Playlist has been created.
+2024-08-06 20:27:08,363 - INFO - msg: Chanel>AcidJazz
+2024-08-06 20:27:08,363 - INFO - cmd: play
+2024-08-06 20:27:08,363 - INFO - playlist: Next track
+2024-08-06 20:27:08,363 - INFO - playlist: Current track: 22
+2024-08-06 20:27:08,363 - INFO - message_queue: Playlist>when-you-smile-151423
+2024-08-06 20:27:09,127 - INFO - cmd: stop
+2024-08-06 20:27:09,127 - INFO - cmd: chanel
+2024-08-06 20:27:09,127 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fa8aa7bf410>
+2024-08-06 20:27:09,127 - INFO - Playlist has been created.
+2024-08-06 20:27:09,127 - INFO - msg: Chanel>AmbientElectronic
+2024-08-06 20:27:09,127 - INFO - cmd: play
+2024-08-06 20:27:09,128 - INFO - playlist: Next track
+2024-08-06 20:27:09,128 - INFO - playlist: Current track: 5
+2024-08-06 20:27:09,128 - INFO - message_queue: Playlist>dark-ambient-soundscape-cold-air-226724
+2024-08-06 20:27:09,743 - INFO - cmd: volume, args: ['0.9']
+2024-08-06 20:27:09,938 - INFO - cmd: volume, args: ['0.8']
+2024-08-06 20:27:10,117 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-06 20:31:22,395 - INFO - playlist: Next track
+2024-08-06 20:31:22,395 - INFO - playlist: Current track: 2
+2024-08-06 20:31:22,395 - INFO - message_queue: Playlist>in-slow-motion-inspiring-ambient-lounge-219592
+2024-08-06 20:33:21,422 - INFO - playlist: Next track
+2024-08-06 20:33:21,422 - INFO - playlist: Current track: 8
+2024-08-06 20:33:21,422 - INFO - message_queue: Playlist>ambient-chill-hop-beat-leaves-118107
+2024-08-06 20:34:40,723 - INFO - playlist: Next track
+2024-08-06 20:34:40,723 - INFO - playlist: Current track: 5
+2024-08-06 20:34:40,723 - INFO - message_queue: Playlist>dark-ambient-soundscape-cold-air-226724
+2024-08-06 20:37:13,773 - INFO - cmd: play
+2024-08-06 20:37:13,774 - INFO - playlist: Next track
+2024-08-06 20:37:13,774 - INFO - playlist: Current track: 6
+2024-08-06 20:37:13,774 - INFO - message_queue: Playlist>heavenly-energy-188908
+2024-08-06 20:37:14,666 - INFO - cmd: stop
+2024-08-06 20:37:15,408 - INFO - cmd: play
+2024-08-06 20:37:15,408 - INFO - playlist: Next track
+2024-08-06 20:37:15,408 - INFO - playlist: Current track: 9
+2024-08-06 20:37:15,408 - INFO - message_queue: Playlist>livail-oasis-114751
+2024-08-06 20:37:46,881 - INFO - cmd: stop
+2024-08-06 20:37:47,449 - INFO - cmd: play
+2024-08-06 20:37:47,449 - INFO - playlist: Next track
+2024-08-06 20:37:47,449 - INFO - playlist: Current track: 0
+2024-08-06 20:37:47,450 - INFO - message_queue: Playlist>reflected-light-147979
+2024-08-06 20:37:48,154 - INFO - cmd: stop
+2024-08-06 20:37:49,316 - INFO - cmd: play
+2024-08-06 20:37:49,316 - INFO - playlist: Next track
+2024-08-06 20:37:49,317 - INFO - playlist: Current track: 7
+2024-08-06 20:37:49,317 - INFO - message_queue: Playlist>bgm007-electronica-experimental-digital-wonder-ufo-148340
+2024-08-06 20:38:41,480 - INFO - playlist: Next track
+2024-08-06 20:38:41,480 - INFO - playlist: Current track: 9
+2024-08-06 20:38:41,480 - INFO - message_queue: Playlist>livail-oasis-114751
+2024-08-06 20:39:08,559 - INFO - cmd: stop
+2024-08-06 20:39:08,895 - INFO - cmd: play
+2024-08-06 20:39:08,895 - INFO - playlist: Next track
+2024-08-06 20:39:08,895 - INFO - playlist: Current track: 2
+2024-08-06 20:39:08,895 - INFO - message_queue: Playlist>in-slow-motion-inspiring-ambient-lounge-219592
+2024-08-06 20:41:07,925 - INFO - playlist: Next track
+2024-08-06 20:41:07,925 - INFO - playlist: Current track: 10
+2024-08-06 20:41:07,925 - INFO - message_queue: Playlist>tech-ambient-110767
+2024-08-06 20:44:35,345 - INFO - playlist: Next track
+2024-08-06 20:44:35,345 - INFO - playlist: Current track: 8
+2024-08-06 20:44:35,345 - INFO - message_queue: Playlist>ambient-chill-hop-beat-leaves-118107
+2024-08-06 20:45:54,622 - INFO - playlist: Next track
+2024-08-06 20:45:54,622 - INFO - playlist: Current track: 2
+2024-08-06 20:45:54,622 - INFO - message_queue: Playlist>in-slow-motion-inspiring-ambient-lounge-219592
+2024-08-06 20:47:53,642 - INFO - playlist: Next track
+2024-08-06 20:47:53,642 - INFO - playlist: Current track: 8
+2024-08-06 20:47:53,643 - INFO - message_queue: Playlist>ambient-chill-hop-beat-leaves-118107
+2024-08-06 20:49:12,922 - INFO - playlist: Next track
+2024-08-06 20:49:12,922 - INFO - playlist: Current track: 6
+2024-08-06 20:49:12,922 - INFO - message_queue: Playlist>heavenly-energy-188908
+2024-08-06 21:12:11,274 - INFO - playlist: Next track
+2024-08-06 21:12:11,274 - INFO - playlist: Current track: 3
+2024-08-06 21:12:11,274 - INFO - message_queue: Playlist>solitude-dark-ambient-electronic-197737
+2024-08-06 21:14:49,342 - INFO - playlist: Next track
+2024-08-06 21:14:49,342 - INFO - playlist: Current track: 1
+2024-08-06 21:14:49,342 - INFO - message_queue: Playlist>tales-from-the-silk-road-ambient-meditation-180357
+2024-08-06 21:29:22,716 - INFO - cmd: exit
+2024-08-06 21:29:22,920 - INFO - Shutting down MP3 Player.
+2024-08-06 21:29:22,920 - INFO - MP3 Player has been shut down.
+2024-08-06 21:29:24,769 - INFO - Command and message queues have been created.
+2024-08-06 21:29:24,771 - INFO - Player process has been created.
+2024-08-06 21:29:24,772 - INFO - Starting TUI.
+2024-08-06 21:29:24,772 - INFO - Tracks have been loaded.
+2024-08-06 21:29:24,772 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f374cdd8d70>
+2024-08-06 21:29:24,772 - INFO - Playlist has been created.
+2024-08-06 21:29:24,773 - INFO - Playlist has been created.
+2024-08-06 21:29:24,793 - INFO - Player has been created.
+2024-08-06 21:29:24,793 - INFO - Entering player process loop.
+2024-08-06 21:29:24,793 - INFO - cmd: chanel_list
+2024-08-06 21:29:24,978 - DEBUG - Using selector: EpollSelector
+2024-08-06 21:29:24,979 - INFO - cmd: stop
+2024-08-06 21:29:24,979 - INFO - cmd: chanel
+2024-08-06 21:29:24,979 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f374cdd8d70>
+2024-08-06 21:29:24,979 - INFO - Playlist has been created.
+2024-08-06 21:29:24,979 - INFO - msg: Chanel>LofiHipHop
+2024-08-06 21:29:24,980 - INFO - cmd: play
+2024-08-06 21:29:24,980 - INFO - playlist: Next track
+2024-08-06 21:29:24,980 - INFO - playlist: Current track: 12
+2024-08-06 21:29:24,980 - INFO - message_queue: Playlist>empty-mind-118973
+2024-08-06 21:29:24,980 - INFO - cmd: shuffle
+2024-08-06 21:29:24,980 - INFO - cmd: shuffle
+2024-08-06 21:29:24,980 - INFO - cmd: mute
+2024-08-06 21:29:24,980 - INFO - cmd: mute
+2024-08-06 21:29:26,865 - INFO - cmd: stop
+2024-08-06 21:29:26,866 - INFO - cmd: chanel
+2024-08-06 21:29:26,866 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f374cdd8d70>
+2024-08-06 21:29:26,866 - INFO - Playlist has been created.
+2024-08-06 21:29:26,866 - INFO - msg: Chanel>AmbientElectronic
+2024-08-06 21:29:26,866 - INFO - cmd: play
+2024-08-06 21:29:26,866 - INFO - playlist: Next track
+2024-08-06 21:29:26,866 - INFO - playlist: Current track: 11
+2024-08-06 21:29:26,866 - INFO - message_queue: Playlist>Low Roar - Tonight, Tonight, Tonight (Edit)
+2024-08-06 21:29:52,402 - INFO - cmd: exit
+2024-08-06 21:29:52,605 - INFO - Shutting down MP3 Player.
+2024-08-06 21:29:52,606 - INFO - MP3 Player has been shut down.
+2024-08-06 21:29:54,683 - INFO - Command and message queues have been created.
+2024-08-06 21:29:54,686 - INFO - Player process has been created.
+2024-08-06 21:29:54,686 - INFO - Starting TUI.
+2024-08-06 21:29:54,687 - INFO - Tracks have been loaded.
+2024-08-06 21:29:54,687 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f65cbbfdeb0>
+2024-08-06 21:29:54,687 - INFO - Playlist has been created.
+2024-08-06 21:29:54,687 - INFO - Playlist has been created.
+2024-08-06 21:29:54,703 - INFO - Player has been created.
+2024-08-06 21:29:54,703 - INFO - Entering player process loop.
+2024-08-06 21:29:54,703 - INFO - cmd: chanel_list
+2024-08-06 21:29:54,894 - DEBUG - Using selector: EpollSelector
+2024-08-06 21:29:54,894 - INFO - cmd: stop
+2024-08-06 21:29:54,894 - INFO - cmd: chanel
+2024-08-06 21:29:54,894 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f65cbbfdeb0>
+2024-08-06 21:29:54,894 - INFO - Playlist has been created.
+2024-08-06 21:29:54,895 - INFO - msg: Chanel>LofiHipHop
+2024-08-06 21:29:54,895 - INFO - cmd: play
+2024-08-06 21:29:54,895 - INFO - playlist: Next track
+2024-08-06 21:29:54,895 - INFO - playlist: Current track: 16
+2024-08-06 21:29:54,895 - INFO - cmd: shuffle
+2024-08-06 21:29:54,895 - INFO - message_queue: Playlist>royalty-free-use-lofi-chill-background-music-dreamscape-201679
+2024-08-06 21:29:54,895 - INFO - cmd: shuffle
+2024-08-06 21:29:54,895 - INFO - cmd: mute
+2024-08-06 21:29:54,895 - INFO - cmd: mute
+2024-08-06 21:29:55,402 - INFO - cmd: stop
+2024-08-06 21:29:55,403 - INFO - cmd: chanel
+2024-08-06 21:29:55,403 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f65cbbfdeb0>
+2024-08-06 21:29:55,403 - INFO - Playlist has been created.
+2024-08-06 21:29:55,403 - INFO - msg: Chanel>LofiHipHop
+2024-08-06 21:29:55,403 - INFO - cmd: play
+2024-08-06 21:29:55,403 - INFO - playlist: Next track
+2024-08-06 21:29:55,403 - INFO - playlist: Current track: 1
+2024-08-06 21:29:55,403 - INFO - message_queue: Playlist>lofi-orchestra-162306
+2024-08-06 21:29:56,588 - INFO - cmd: stop
+2024-08-06 21:29:56,588 - INFO - cmd: chanel
+2024-08-06 21:29:56,588 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f65cbbfdeb0>
+2024-08-06 21:29:56,588 - INFO - Playlist has been created.
+2024-08-06 21:29:56,588 - INFO - msg: Chanel>LofiHipHop
+2024-08-06 21:29:56,588 - INFO - cmd: play
+2024-08-06 21:29:56,588 - INFO - playlist: Next track
+2024-08-06 21:29:56,589 - INFO - playlist: Current track: 20
+2024-08-06 21:29:56,589 - INFO - message_queue: Playlist>chill-lofi-160893
+2024-08-06 21:29:58,230 - INFO - cmd: stop
+2024-08-06 21:29:58,230 - INFO - cmd: chanel
+2024-08-06 21:29:58,230 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f65cbbfdeb0>
+2024-08-06 21:29:58,230 - INFO - Playlist has been created.
+2024-08-06 21:29:58,230 - INFO - msg: Chanel>LofiHipHop
+2024-08-06 21:29:58,230 - INFO - cmd: play
+2024-08-06 21:29:58,231 - INFO - playlist: Next track
+2024-08-06 21:29:58,231 - INFO - playlist: Current track: 8
+2024-08-06 21:29:58,231 - INFO - message_queue: Playlist>free-lofi-type-beat-golden-hour-harmony-209519
+2024-08-06 21:29:59,072 - INFO - cmd: volume, args: ['1.0']
+2024-08-06 21:30:00,046 - INFO - cmd: stop
+2024-08-06 21:30:00,046 - INFO - cmd: chanel
+2024-08-06 21:30:00,047 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f65cbbfdeb0>
+2024-08-06 21:30:00,047 - INFO - Playlist has been created.
+2024-08-06 21:30:00,047 - INFO - msg: Chanel>AmbientElectronic
+2024-08-06 21:30:00,047 - INFO - cmd: play
+2024-08-06 21:30:00,047 - INFO - playlist: Next track
+2024-08-06 21:30:00,047 - INFO - playlist: Current track: 2
+2024-08-06 21:30:00,047 - INFO - message_queue: Playlist>in-slow-motion-inspiring-ambient-lounge-219592
+2024-08-06 21:30:01,096 - INFO - cmd: stop
+2024-08-06 21:30:01,097 - INFO - cmd: chanel
+2024-08-06 21:30:01,097 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f65cbbfdeb0>
+2024-08-06 21:30:01,097 - INFO - Playlist has been created.
+2024-08-06 21:30:01,097 - INFO - msg: Chanel>AcidJazz
+2024-08-06 21:30:01,097 - INFO - cmd: play
+2024-08-06 21:30:01,097 - INFO - playlist: Next track
+2024-08-06 21:30:01,097 - INFO - playlist: Current track: 33
+2024-08-06 21:30:01,097 - INFO - message_queue: Playlist>chill-vibra-jazzy-theme-3245
+2024-08-06 21:30:02,404 - INFO - cmd: stop
+2024-08-06 21:30:02,405 - INFO - cmd: chanel
+2024-08-06 21:30:02,405 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f65cbbfdeb0>
+2024-08-06 21:30:02,405 - INFO - Playlist has been created.
+2024-08-06 21:30:02,405 - INFO - msg: Chanel>AmbientElectronic
+2024-08-06 21:30:02,405 - INFO - cmd: play
+2024-08-06 21:30:02,405 - INFO - playlist: Next track
+2024-08-06 21:30:02,405 - INFO - playlist: Current track: 10
+2024-08-06 21:30:02,405 - INFO - message_queue: Playlist>tech-ambient-110767
+2024-08-06 21:30:03,677 - INFO - cmd: stop
+2024-08-06 21:30:03,677 - INFO - cmd: chanel
+2024-08-06 21:30:03,678 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f65cbbfdeb0>
+2024-08-06 21:30:03,678 - INFO - Playlist has been created.
+2024-08-06 21:30:03,678 - INFO - msg: Chanel>LofiHipHop
+2024-08-06 21:30:03,678 - INFO - cmd: play
+2024-08-06 21:30:03,678 - INFO - playlist: Next track
+2024-08-06 21:30:03,678 - INFO - playlist: Current track: 12
+2024-08-06 21:30:03,678 - INFO - message_queue: Playlist>empty-mind-118973
+2024-08-06 21:30:05,857 - INFO - cmd: exit
+2024-08-06 21:30:06,061 - INFO - Shutting down MP3 Player.
+2024-08-06 21:30:06,062 - INFO - MP3 Player has been shut down.
+2024-08-06 21:30:08,281 - INFO - Command and message queues have been created.
+2024-08-06 21:30:08,283 - INFO - Player process has been created.
+2024-08-06 21:30:08,283 - INFO - Starting TUI.
+2024-08-06 21:30:08,284 - INFO - Tracks have been loaded.
+2024-08-06 21:30:08,284 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-06 21:30:08,284 - INFO - Playlist has been created.
+2024-08-06 21:30:08,284 - INFO - Playlist has been created.
+2024-08-06 21:30:08,300 - INFO - Player has been created.
+2024-08-06 21:30:08,300 - INFO - Entering player process loop.
+2024-08-06 21:30:08,300 - INFO - cmd: chanel_list
+2024-08-06 21:30:08,491 - DEBUG - Using selector: EpollSelector
+2024-08-06 21:30:08,491 - INFO - cmd: stop
+2024-08-06 21:30:08,491 - INFO - cmd: chanel
+2024-08-06 21:30:08,491 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-06 21:30:08,491 - INFO - Playlist has been created.
+2024-08-06 21:30:08,491 - INFO - msg: Chanel>LofiHipHop
+2024-08-06 21:30:08,492 - INFO - cmd: play
+2024-08-06 21:30:08,492 - INFO - playlist: Next track
+2024-08-06 21:30:08,492 - INFO - playlist: Current track: 11
+2024-08-06 21:30:08,492 - INFO - message_queue: Playlist>zombies-lofi-154347
+2024-08-06 21:30:08,492 - INFO - cmd: shuffle
+2024-08-06 21:30:08,492 - INFO - cmd: shuffle
+2024-08-06 21:30:08,492 - INFO - cmd: mute
+2024-08-06 21:30:08,492 - INFO - cmd: mute
+2024-08-06 21:30:09,325 - INFO - cmd: stop
+2024-08-06 21:30:09,325 - INFO - cmd: chanel
+2024-08-06 21:30:09,325 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-06 21:30:09,325 - INFO - Playlist has been created.
+2024-08-06 21:30:09,326 - INFO - msg: Chanel>AmbientElectronic
+2024-08-06 21:30:09,326 - INFO - cmd: play
+2024-08-06 21:30:09,326 - INFO - playlist: Next track
+2024-08-06 21:30:09,326 - INFO - playlist: Current track: 2
+2024-08-06 21:30:09,326 - INFO - message_queue: Playlist>in-slow-motion-inspiring-ambient-lounge-219592
+2024-08-06 21:32:08,345 - INFO - playlist: Next track
+2024-08-06 21:32:08,345 - INFO - playlist: Current track: 10
+2024-08-06 21:32:08,345 - INFO - message_queue: Playlist>tech-ambient-110767

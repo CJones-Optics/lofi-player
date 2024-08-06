@@ -239,10 +239,14 @@ class MP3PlayerApp(App):
             self.update_message("Please provide a valid number")
     def do_chanel_list(self):
         self.command_queue.put(('chanel_list',))
+
         time.sleep(0.2)
         if not self.messages_queue.empty():
             message = self.messages_queue.get()
             category, value = message.split(">")
+        else:
+            category = "Error"
+            value = "Error"
         if  category == "ChanelList":
             self.channel_list = value.split(",")
         else:

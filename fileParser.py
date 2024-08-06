@@ -11,18 +11,18 @@ class fileHandler(object):
 
         self.getChanelList()
         self.getChanel()
-        self.path = sourceDir + "/" + self.chanelDir
+        self.path = os.path.join(self.sourceDir, self.chanelDir)
         self.fileList = self.getTracks()
 
     def changeChannel(self, chanel):
         self.chanelDir = chanel
-        self.path = self.sourceDir + "/" + self.chanelDir
+        self.path = os.path.join(self.sourceDir, self.chanelDir)
         self.fileList = self.getTracks()
         return self
 
     def getTracks(self):
         files = os.listdir(self.path)
-        self.tracklist = self.path + "/" + np.array(files)
+        self.tracklist = np.array([os.path.join(self.path, file) for file in files])
         return self.tracklist
 
     def getChanelList(self):
