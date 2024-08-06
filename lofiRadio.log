@@ -1644,3 +1644,37 @@
 2024-08-06 16:43:33,003 - INFO - playlist: Next track
 2024-08-06 16:43:33,003 - INFO - playlist: Current track: 19
 2024-08-06 16:43:33,003 - INFO - message_queue: Playlist>tik-tok-olistik-sound-project-patrizio-yoga-13261
+2024-08-06 16:48:52,353 - INFO - playlist: Next track
+2024-08-06 16:48:52,353 - INFO - playlist: Current track: 26
+2024-08-06 16:48:52,353 - INFO - message_queue: Playlist>andreas-woll-baconizer-1997
+2024-08-06 16:51:25,483 - INFO - Command and message queues have been created.
+2024-08-06 16:51:25,485 - INFO - Player process has been created.
+2024-08-06 16:51:25,485 - INFO - Starting TUI.
+2024-08-06 16:51:25,486 - INFO - Tracks have been loaded.
+2024-08-06 16:51:25,486 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fa8d3dd7410>
+2024-08-06 16:51:25,486 - INFO - Playlist has been created.
+2024-08-06 16:51:25,486 - INFO - Playlist has been created.
+2024-08-06 16:51:25,502 - INFO - Player has been created.
+2024-08-06 16:51:25,503 - INFO - Entering player process loop.
+2024-08-06 16:51:25,503 - INFO - cmd: chanel_list
+2024-08-06 16:51:25,693 - DEBUG - Using selector: EpollSelector
+2024-08-06 16:51:25,693 - INFO - cmd: stop
+2024-08-06 16:51:25,693 - INFO - cmd: chanel
+2024-08-06 16:51:25,694 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fa8d3dd7410>
+2024-08-06 16:51:25,694 - INFO - Playlist has been created.
+2024-08-06 16:51:25,694 - INFO - msg: Chanel>LofiHipHop
+2024-08-06 16:51:25,694 - INFO - cmd: play
+2024-08-06 16:51:25,694 - INFO - playlist: Next track
+2024-08-06 16:51:25,694 - INFO - cmd: shuffle
+2024-08-06 16:51:25,694 - INFO - playlist: Current track: 2
+2024-08-06 16:51:25,695 - INFO - cmd: shuffle
+2024-08-06 16:51:25,695 - INFO - message_queue: Playlist>coverless-book-lofi-186307
+2024-08-06 16:51:25,695 - INFO - cmd: mute
+2024-08-06 16:51:25,695 - INFO - cmd: mute
+2024-08-06 16:51:28,271 - INFO - cmd: mute
+2024-08-06 16:51:29,091 - INFO - cmd: exit
+2024-08-06 16:51:29,295 - INFO - Shutting down MP3 Player.
+2024-08-06 16:51:29,295 - INFO - MP3 Player has been shut down.
+2024-08-06 16:58:37,686 - INFO - playlist: Next track
+2024-08-06 16:58:37,686 - INFO - playlist: Current track: 10
+2024-08-06 16:58:37,686 - INFO - message_queue: Playlist>prismatica-neon-dreams-variation-3-123234

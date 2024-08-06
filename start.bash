@@ -6,4 +6,4 @@ python3 main.py
 deactivate
 
 echo 'Press any key to exit'
-read -n1"
+read -n1
