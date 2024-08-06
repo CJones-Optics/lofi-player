@@ -140,7 +140,7 @@ def player_process(command_queue,messages_queue):
 
         elif cmd == 'volume':
             logging.info(f"cmd: volume, args: {args}")
-            player.set_volume(float(args[0]))
+            player.set_volume(float(args[0])**3)
             messages_queue.put(f"Volume>{args[0]}")
 
         elif cmd == 'mute':
