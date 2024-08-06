@@ -51,7 +51,7 @@ chmod +x setup.sh
     - Create a sub-folder in `tracks` for each playlist you want to create
     - Add the .mp3 files to each sub-folder
 2. Run the program
-    - (Linux) Run `run.sh` to start the program
+    - (Linux) Run `start.bash` to start the program
     - (Windows) Run `run.bat` to start the program
 
 # Roadmap
