@@ -49,10 +49,10 @@ class MP3PlayerApp(App):
                 ("p", "do_play",        "play"),
                 ("s", "do_shuffle",     "shuffle"),
                 ("m", "do_mute",        "mute"),
-                ("h", "do_volume_down", "volume ↓"),
-                ("j", "do_chanel_up",   "chanel ↑" ),
-                ("k", "do_chanel_down", "chanel ↓"),
-                ("l", "do_volume_up",   "volume ↑"),
+                ("h", "do_volume_down", "v ↓"),
+                ("j", "do_chanel_up",   "c ↑" ),
+                ("k", "do_chanel_down", "c ↓"),
+                ("l", "do_volume_up",   "v ↑"),
     ]
     def action_do_exit(self) -> None:
         self.do_exit()
