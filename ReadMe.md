@@ -29,6 +29,8 @@ chmod +x setup.sh
 ./setup.sh
 ```
 
+## Longer Install
+
 1. Clone the repository
 2. Run the setup.
     - (Linux) Run `setup.sh` to install the required packages
@@ -43,6 +45,14 @@ chmod +x setup.sh
     - (Linux) Create an alias in your `.bashrc` file
     - (Windows) Create a shortcut to the `run.bat` file
 6. Enjoy your music!
+
+## Running the program
+1. Download some .mp3's
+    - Create a sub-folder in `tracks` for each playlist you want to create
+    - Add the .mp3 files to each sub-folder
+2. Run the program
+    - (Linux) Run `run.sh` to start the program
+    - (Windows) Run `run.bat` to start the program
 
 # Roadmap
 Future changes are unlikely because it currently fits my use-case.
