@@ -27,6 +27,9 @@ class fileHandler(object):
 
     def getChanelList(self):
         self.chanelList = os.listdir(self.sourceDir)
+        # If it is empty throw an error
+        if len(self.chanelList) == 0:
+            raise Exception("No chanels found")
         return self.chanelList
 
     def getChanel(self):
