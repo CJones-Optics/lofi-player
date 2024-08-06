@@ -15,6 +15,20 @@ distraction-free listening experience.
 - Features can be added by modifying the python code.
 
 # How to run and install
+## One-Line Install (Linux)
+
+```bash
+# Download the repository
+curl -L https://github.com/CJones-Optics/lofi-player/archive/refs/heads/main.zip -o temp.zip
+unzip temp.zip
+rm temp.zip
+# Navigate to the directory
+cd lofi-player*
+chmod +x setup.sh
+# Run the setup
+./setup.sh
+```
+
 1. Clone the repository
 2. Run the setup.
     - (Linux) Run `setup.sh` to install the required packages

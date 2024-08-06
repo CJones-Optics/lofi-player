@@ -1678,3 +1678,290 @@
 2024-08-06 16:58:37,686 - INFO - playlist: Next track
 2024-08-06 16:58:37,686 - INFO - playlist: Current track: 10
 2024-08-06 16:58:37,686 - INFO - message_queue: Playlist>prismatica-neon-dreams-variation-3-123234
+2024-08-06 17:06:03,637 - INFO - playlist: Next track
+2024-08-06 17:06:03,637 - INFO - playlist: Current track: 23
+2024-08-06 17:06:03,637 - INFO - message_queue: Playlist>wataboi-flavour-1164
+2024-08-06 17:10:04,381 - INFO - playlist: Next track
+2024-08-06 17:10:04,382 - INFO - playlist: Current track: 1
+2024-08-06 17:10:04,382 - INFO - message_queue: Playlist>ethiopian-4-228789
+2024-08-06 17:14:04,119 - INFO - playlist: Next track
+2024-08-06 17:14:04,120 - INFO - playlist: Current track: 11
+2024-08-06 17:14:04,120 - INFO - message_queue: Playlist>ready-to-go-4647
+2024-08-06 17:18:16,278 - INFO - playlist: Next track
+2024-08-06 17:18:16,278 - INFO - playlist: Current track: 23
+2024-08-06 17:18:16,278 - INFO - message_queue: Playlist>wataboi-flavour-1164
+2024-08-06 17:22:17,047 - INFO - playlist: Next track
+2024-08-06 17:22:17,047 - INFO - playlist: Current track: 9
+2024-08-06 17:22:17,047 - INFO - message_queue: Playlist>trygve-larsen-always-near-instrumental-jazz-funk-fusion-12940
+2024-08-06 17:24:18,012 - INFO - cmd: exit
+2024-08-06 17:24:18,216 - INFO - Shutting down MP3 Player.
+2024-08-06 17:24:18,216 - INFO - MP3 Player has been shut down.
+2024-08-06 17:24:23,246 - INFO - Command and message queues have been created.
+2024-08-06 17:24:23,248 - INFO - Player process has been created.
+2024-08-06 17:24:23,248 - INFO - Starting TUI.
+2024-08-06 17:24:23,249 - INFO - Tracks have been loaded.
+2024-08-06 17:24:23,249 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fa69c0fd910>
+2024-08-06 17:24:23,249 - INFO - Playlist has been created.
+2024-08-06 17:24:23,249 - INFO - Playlist has been created.
+2024-08-06 17:24:23,267 - INFO - Player has been created.
+2024-08-06 17:24:23,267 - INFO - Entering player process loop.
+2024-08-06 17:24:23,268 - INFO - cmd: chanel_list
+2024-08-06 17:24:23,456 - DEBUG - Using selector: EpollSelector
+2024-08-06 17:24:23,457 - INFO - cmd: stop
+2024-08-06 17:24:23,457 - INFO - cmd: chanel
+2024-08-06 17:24:23,457 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fa69c0fd910>
+2024-08-06 17:24:23,457 - INFO - Playlist has been created.
+2024-08-06 17:24:23,457 - INFO - msg: Chanel>LofiHipHop
+2024-08-06 17:24:23,457 - INFO - cmd: play
+2024-08-06 17:24:23,458 - INFO - playlist: Next track
+2024-08-06 17:24:23,458 - INFO - cmd: shuffle
+2024-08-06 17:24:23,458 - INFO - playlist: Current track: 20
+2024-08-06 17:24:23,458 - INFO - cmd: shuffle
+2024-08-06 17:24:23,458 - INFO - message_queue: Playlist>chill-lofi-160893
+2024-08-06 17:24:23,458 - INFO - cmd: mute
+2024-08-06 17:24:23,458 - INFO - cmd: mute
+2024-08-06 17:24:25,441 - INFO - cmd: volume, args: ['0.9']
+2024-08-06 17:24:25,706 - INFO - cmd: volume, args: ['0.8']
+2024-08-06 17:24:25,876 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-06 17:24:26,086 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-06 17:24:26,287 - INFO - cmd: volume, args: ['0.5000000000000001']
+2024-08-06 17:24:28,606 - INFO - cmd: volume, args: ['0.40000000000000013']
+2024-08-06 17:24:28,785 - INFO - cmd: volume, args: ['0.30000000000000016']
+2024-08-06 17:24:28,980 - INFO - cmd: volume, args: ['0.20000000000000015']
+2024-08-06 17:24:32,934 - INFO - cmd: volume, args: ['0.10000000000000014']
+2024-08-06 17:24:33,751 - INFO - cmd: volume, args: ['0.20000000000000015']
+2024-08-06 17:24:34,134 - INFO - cmd: volume, args: ['0.30000000000000016']
+2024-08-06 17:24:34,328 - INFO - cmd: volume, args: ['0.40000000000000013']
+2024-08-06 17:24:34,493 - INFO - cmd: volume, args: ['0.5000000000000001']
+2024-08-06 17:24:34,876 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-06 17:24:35,063 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-06 17:24:38,221 - INFO - cmd: volume, args: ['0.8']
+2024-08-06 17:24:38,409 - INFO - cmd: volume, args: ['0.9']
+2024-08-06 17:24:38,558 - INFO - cmd: volume, args: ['1.0']
+2024-08-06 17:24:38,707 - INFO - cmd: volume, args: ['1.0']
+2024-08-06 17:24:39,488 - INFO - cmd: volume, args: ['0.9']
+2024-08-06 17:24:39,645 - INFO - cmd: volume, args: ['0.8']
+2024-08-06 17:24:39,810 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-06 17:24:39,969 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-06 17:24:40,418 - INFO - cmd: volume, args: ['0.5000000000000001']
+2024-08-06 17:24:41,603 - INFO - cmd: volume, args: ['0.40000000000000013']
+2024-08-06 17:24:41,761 - INFO - cmd: volume, args: ['0.30000000000000016']
+2024-08-06 17:24:41,918 - INFO - cmd: volume, args: ['0.20000000000000015']
+2024-08-06 17:24:42,083 - INFO - cmd: volume, args: ['0.10000000000000014']
+2024-08-06 17:24:43,276 - INFO - cmd: volume, args: ['0.20000000000000015']
+2024-08-06 17:24:43,448 - INFO - cmd: volume, args: ['0.30000000000000016']
+2024-08-06 17:24:43,613 - INFO - cmd: volume, args: ['0.40000000000000013']
+2024-08-06 17:24:43,771 - INFO - cmd: volume, args: ['0.5000000000000001']
+2024-08-06 17:24:43,943 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-06 17:24:45,518 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-06 17:24:45,698 - INFO - cmd: volume, args: ['0.8']
+2024-08-06 17:24:47,311 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-06 17:24:47,498 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-06 17:24:48,293 - INFO - cmd: volume, args: ['0.5000000000000001']
+2024-08-06 17:24:48,698 - INFO - cmd: volume, args: ['0.40000000000000013']
+2024-08-06 17:24:48,874 - INFO - cmd: volume, args: ['0.30000000000000016']
+2024-08-06 17:24:49,058 - INFO - cmd: volume, args: ['0.20000000000000015']
+2024-08-06 17:24:49,253 - INFO - cmd: volume, args: ['0.10000000000000014']
+2024-08-06 17:24:49,741 - INFO - cmd: volume, args: ['0.20000000000000015']
+2024-08-06 17:24:49,967 - INFO - cmd: volume, args: ['0.30000000000000016']
+2024-08-06 17:24:50,131 - INFO - cmd: volume, args: ['0.40000000000000013']
+2024-08-06 17:24:50,296 - INFO - cmd: volume, args: ['0.5000000000000001']
+2024-08-06 17:24:50,478 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-06 17:24:50,641 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-06 17:24:50,829 - INFO - cmd: volume, args: ['0.8']
+2024-08-06 17:24:50,994 - INFO - cmd: volume, args: ['0.9']
+2024-08-06 17:24:51,174 - INFO - cmd: volume, args: ['1.0']
+2024-08-06 17:24:51,744 - INFO - cmd: volume, args: ['0.9']
+2024-08-06 17:24:51,916 - INFO - cmd: volume, args: ['0.8']
+2024-08-06 17:24:52,111 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-06 17:24:52,291 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-06 17:24:52,479 - INFO - cmd: volume, args: ['0.5000000000000001']
+2024-08-06 17:24:52,659 - INFO - cmd: volume, args: ['0.40000000000000013']
+2024-08-06 17:24:53,281 - INFO - cmd: volume, args: ['0.30000000000000016']
+2024-08-06 17:24:53,484 - INFO - cmd: volume, args: ['0.20000000000000015']
+2024-08-06 17:24:53,829 - INFO - cmd: volume, args: ['0.10000000000000014']
+2024-08-06 17:24:54,351 - INFO - cmd: exit
+2024-08-06 17:24:54,555 - INFO - Shutting down MP3 Player.
+2024-08-06 17:24:54,555 - INFO - MP3 Player has been shut down.
+2024-08-06 17:25:02,606 - INFO - Command and message queues have been created.
+2024-08-06 17:25:02,608 - INFO - Player process has been created.
+2024-08-06 17:25:02,608 - INFO - Starting TUI.
+2024-08-06 17:25:02,609 - INFO - Tracks have been loaded.
+2024-08-06 17:25:02,609 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f7d96bf59d0>
+2024-08-06 17:25:02,609 - INFO - Playlist has been created.
+2024-08-06 17:25:02,609 - INFO - Playlist has been created.
+2024-08-06 17:25:02,625 - INFO - Player has been created.
+2024-08-06 17:25:02,625 - INFO - Entering player process loop.
+2024-08-06 17:25:02,626 - INFO - cmd: chanel_list
+2024-08-06 17:25:02,815 - DEBUG - Using selector: EpollSelector
+2024-08-06 17:25:02,816 - INFO - cmd: stop
+2024-08-06 17:25:02,816 - INFO - cmd: chanel
+2024-08-06 17:25:02,816 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f7d96bf59d0>
+2024-08-06 17:25:02,817 - INFO - Playlist has been created.
+2024-08-06 17:25:02,817 - INFO - msg: Chanel>LofiHipHop
+2024-08-06 17:25:02,817 - INFO - cmd: play
+2024-08-06 17:25:02,817 - INFO - playlist: Next track
+2024-08-06 17:25:02,817 - INFO - playlist: Current track: 11
+2024-08-06 17:25:02,817 - INFO - cmd: shuffle
+2024-08-06 17:25:02,817 - INFO - message_queue: Playlist>zombies-lofi-154347
+2024-08-06 17:25:02,817 - INFO - cmd: shuffle
+2024-08-06 17:25:02,818 - INFO - cmd: mute
+2024-08-06 17:25:02,818 - INFO - cmd: mute
+2024-08-06 17:25:03,993 - INFO - cmd: volume, args: ['0.9']
+2024-08-06 17:25:04,543 - INFO - cmd: volume, args: ['0.8']
+2024-08-06 17:25:04,967 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-06 17:25:05,357 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-06 17:25:06,302 - INFO - cmd: volume, args: ['0.5000000000000001']
+2024-08-06 17:25:06,499 - INFO - cmd: volume, args: ['0.40000000000000013']
+2024-08-06 17:25:06,670 - INFO - cmd: volume, args: ['0.30000000000000016']
+2024-08-06 17:25:06,835 - INFO - cmd: volume, args: ['0.20000000000000015']
+2024-08-06 17:25:07,000 - INFO - cmd: volume, args: ['0.10000000000000014']
+2024-08-06 17:25:07,375 - INFO - cmd: volume, args: ['0.20000000000000015']
+2024-08-06 17:25:07,555 - INFO - cmd: volume, args: ['0.30000000000000016']
+2024-08-06 17:25:07,713 - INFO - cmd: volume, args: ['0.40000000000000013']
+2024-08-06 17:25:08,094 - INFO - cmd: volume, args: ['0.5000000000000001']
+2024-08-06 17:25:09,011 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-06 17:25:10,466 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-06 17:25:11,372 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-06 17:25:11,980 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-06 17:25:12,461 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-06 17:25:15,277 - INFO - cmd: exit
+2024-08-06 17:25:15,403 - INFO - Shutting down MP3 Player.
+2024-08-06 17:25:15,403 - INFO - MP3 Player has been shut down.
+2024-08-06 17:25:34,793 - INFO - Command and message queues have been created.
+2024-08-06 17:25:34,795 - INFO - Player process has been created.
+2024-08-06 17:25:34,795 - INFO - Starting TUI.
+2024-08-06 17:25:34,796 - INFO - Tracks have been loaded.
+2024-08-06 17:25:34,796 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f16bf477410>
+2024-08-06 17:25:34,796 - INFO - Playlist has been created.
+2024-08-06 17:25:34,796 - INFO - Playlist has been created.
+2024-08-06 17:25:34,812 - INFO - Player has been created.
+2024-08-06 17:25:34,812 - INFO - Entering player process loop.
+2024-08-06 17:25:34,812 - INFO - cmd: chanel_list
+2024-08-06 17:25:35,002 - DEBUG - Using selector: EpollSelector
+2024-08-06 17:25:35,002 - INFO - cmd: stop
+2024-08-06 17:25:35,003 - INFO - cmd: chanel
+2024-08-06 17:25:35,003 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f16bf477410>
+2024-08-06 17:25:35,003 - INFO - Playlist has been created.
+2024-08-06 17:25:35,003 - INFO - msg: Chanel>LofiHipHop
+2024-08-06 17:25:35,003 - INFO - cmd: play
+2024-08-06 17:25:35,003 - INFO - playlist: Next track
+2024-08-06 17:25:35,003 - INFO - cmd: shuffle
+2024-08-06 17:25:35,003 - INFO - playlist: Current track: 26
+2024-08-06 17:25:35,004 - INFO - cmd: shuffle
+2024-08-06 17:25:35,004 - INFO - message_queue: Playlist>lo-fi-podcast-cozy-relaxing-chillout-lounge-music-214440
+2024-08-06 17:25:35,004 - INFO - cmd: mute
+2024-08-06 17:25:35,004 - INFO - cmd: mute
+2024-08-06 17:25:36,236 - INFO - cmd: volume, args: ['0.9']
+2024-08-06 17:25:36,884 - INFO - cmd: volume, args: ['0.8']
+2024-08-06 17:25:37,256 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-06 17:25:37,661 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-06 17:25:38,021 - INFO - cmd: volume, args: ['0.5000000000000001']
+2024-08-06 17:25:38,456 - INFO - cmd: volume, args: ['0.40000000000000013']
+2024-08-06 17:25:39,364 - INFO - cmd: volume, args: ['0.30000000000000016']
+2024-08-06 17:25:39,596 - INFO - cmd: volume, args: ['0.20000000000000015']
+2024-08-06 17:25:39,784 - INFO - cmd: volume, args: ['0.10000000000000014']
+2024-08-06 17:25:40,181 - INFO - cmd: volume, args: ['0.20000000000000015']
+2024-08-06 17:25:40,406 - INFO - cmd: volume, args: ['0.30000000000000016']
+2024-08-06 17:25:40,894 - INFO - cmd: volume, args: ['0.40000000000000013']
+2024-08-06 17:25:41,949 - INFO - cmd: exit
+2024-08-06 17:25:42,152 - INFO - Shutting down MP3 Player.
+2024-08-06 17:25:42,153 - INFO - MP3 Player has been shut down.
+2024-08-06 17:25:49,894 - INFO - Command and message queues have been created.
+2024-08-06 17:25:49,896 - INFO - Player process has been created.
+2024-08-06 17:25:49,896 - INFO - Starting TUI.
+2024-08-06 17:25:49,897 - INFO - Tracks have been loaded.
+2024-08-06 17:25:49,897 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fa8aa7bf410>
+2024-08-06 17:25:49,897 - INFO - Playlist has been created.
+2024-08-06 17:25:49,897 - INFO - Playlist has been created.
+2024-08-06 17:25:49,914 - INFO - Player has been created.
+2024-08-06 17:25:49,914 - INFO - Entering player process loop.
+2024-08-06 17:25:49,914 - INFO - cmd: chanel_list
+2024-08-06 17:25:50,103 - DEBUG - Using selector: EpollSelector
+2024-08-06 17:25:50,104 - INFO - cmd: stop
+2024-08-06 17:25:50,104 - INFO - cmd: chanel
+2024-08-06 17:25:50,104 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fa8aa7bf410>
+2024-08-06 17:25:50,104 - INFO - Playlist has been created.
+2024-08-06 17:25:50,104 - INFO - msg: Chanel>LofiHipHop
+2024-08-06 17:25:50,104 - INFO - cmd: play
+2024-08-06 17:25:50,105 - INFO - playlist: Next track
+2024-08-06 17:25:50,105 - INFO - cmd: shuffle
+2024-08-06 17:25:50,105 - INFO - playlist: Current track: 12
+2024-08-06 17:25:50,105 - INFO - cmd: shuffle
+2024-08-06 17:25:50,105 - INFO - message_queue: Playlist>empty-mind-118973
+2024-08-06 17:25:50,105 - INFO - cmd: mute
+2024-08-06 17:25:50,106 - INFO - cmd: mute
+2024-08-06 17:25:51,521 - INFO - cmd: stop
+2024-08-06 17:25:51,521 - INFO - cmd: chanel
+2024-08-06 17:25:51,521 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fa8aa7bf410>
+2024-08-06 17:25:51,521 - INFO - Playlist has been created.
+2024-08-06 17:25:51,521 - INFO - msg: Chanel>AmbientElectronic
+2024-08-06 17:25:51,522 - INFO - cmd: play
+2024-08-06 17:25:51,522 - INFO - playlist: Next track
+2024-08-06 17:25:51,522 - INFO - playlist: Current track: 8
+2024-08-06 17:25:51,522 - INFO - message_queue: Playlist>ambient-chill-hop-beat-leaves-118107
+2024-08-06 17:25:52,544 - INFO - cmd: volume, args: ['0.9']
+2024-08-06 17:25:52,849 - INFO - cmd: volume, args: ['0.8']
+2024-08-06 17:25:53,126 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-06 17:25:53,404 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-06 17:25:53,682 - INFO - cmd: volume, args: ['0.5000000000000001']
+2024-08-06 17:25:54,470 - INFO - cmd: volume, args: ['0.40000000000000013']
+2024-08-06 17:25:54,724 - INFO - cmd: volume, args: ['0.30000000000000016']
+2024-08-06 17:25:55,076 - INFO - cmd: volume, args: ['0.20000000000000015']
+2024-08-06 17:25:55,436 - INFO - cmd: volume, args: ['0.10000000000000014']
+2024-08-06 17:25:56,164 - INFO - cmd: volume, args: ['0.20000000000000015']
+2024-08-06 17:25:57,221 - INFO - cmd: volume, args: ['0.30000000000000016']
+2024-08-06 17:25:57,446 - INFO - cmd: volume, args: ['0.40000000000000013']
+2024-08-06 17:25:57,778 - INFO - cmd: volume, args: ['0.5000000000000001']
+2024-08-06 17:25:58,024 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-06 17:25:58,264 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-06 17:25:58,488 - INFO - cmd: volume, args: ['0.8']
+2024-08-06 17:25:58,685 - INFO - cmd: volume, args: ['0.9']
+2024-08-06 17:25:58,939 - INFO - cmd: volume, args: ['1.0']
+2024-08-06 17:25:59,547 - INFO - cmd: volume, args: ['0.9']
+2024-08-06 17:25:59,742 - INFO - cmd: volume, args: ['0.8']
+2024-08-06 17:25:59,923 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-06 17:26:00,103 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-06 17:26:00,267 - INFO - cmd: volume, args: ['0.5000000000000001']
+2024-08-06 17:26:00,454 - INFO - cmd: volume, args: ['0.40000000000000013']
+2024-08-06 17:26:00,643 - INFO - cmd: volume, args: ['0.30000000000000016']
+2024-08-06 17:26:00,859 - INFO - cmd: volume, args: ['0.20000000000000015']
+2024-08-06 17:26:01,092 - INFO - cmd: volume, args: ['0.10000000000000014']
+2024-08-06 17:26:01,294 - INFO - cmd: volume, args: ['1.3877787807814457e-16']
+2024-08-06 17:26:01,610 - INFO - cmd: volume, args: ['0.10000000000000014']
+2024-08-06 17:26:01,805 - INFO - cmd: volume, args: ['0.20000000000000015']
+2024-08-06 17:26:02,142 - INFO - cmd: volume, args: ['0.30000000000000016']
+2024-08-06 17:26:02,329 - INFO - cmd: volume, args: ['0.40000000000000013']
+2024-08-06 17:26:02,518 - INFO - cmd: volume, args: ['0.5000000000000001']
+2024-08-06 17:26:03,604 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-06 17:27:10,808 - INFO - playlist: Next track
+2024-08-06 17:27:10,808 - INFO - playlist: Current track: 2
+2024-08-06 17:27:10,809 - INFO - message_queue: Playlist>in-slow-motion-inspiring-ambient-lounge-219592
+2024-08-06 17:27:26,274 - INFO - cmd: volume, args: ['0.5000000000000001']
+2024-08-06 17:27:27,180 - INFO - cmd: volume, args: ['0.40000000000000013']
+2024-08-06 17:29:09,839 - INFO - playlist: Next track
+2024-08-06 17:29:09,839 - INFO - playlist: Current track: 0
+2024-08-06 17:29:09,839 - INFO - message_queue: Playlist>reflected-light-147979
+2024-08-06 17:32:54,562 - INFO - playlist: Next track
+2024-08-06 17:32:54,563 - INFO - playlist: Current track: 8
+2024-08-06 17:32:54,563 - INFO - message_queue: Playlist>ambient-chill-hop-beat-leaves-118107
+2024-08-06 17:33:20,251 - INFO - cmd: volume, args: ['0.5000000000000001']
+2024-08-06 17:33:20,440 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-06 17:33:20,574 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-06 17:33:20,747 - INFO - cmd: volume, args: ['0.8']
+2024-08-06 17:33:20,912 - INFO - cmd: volume, args: ['0.9']
+2024-08-06 17:34:13,842 - INFO - playlist: Next track
+2024-08-06 17:34:13,842 - INFO - playlist: Current track: 5
+2024-08-06 17:34:13,842 - INFO - message_queue: Playlist>dark-ambient-soundscape-cold-air-226724
+2024-08-06 17:38:27,110 - INFO - playlist: Next track
+2024-08-06 17:38:27,110 - INFO - playlist: Current track: 8
+2024-08-06 17:38:27,110 - INFO - message_queue: Playlist>ambient-chill-hop-beat-leaves-118107
+2024-08-06 17:39:46,391 - INFO - playlist: Next track
+2024-08-06 17:39:46,391 - INFO - playlist: Current track: 0
+2024-08-06 17:39:46,392 - INFO - message_queue: Playlist>reflected-light-147979
+2024-08-06 17:43:31,116 - INFO - playlist: Next track
+2024-08-06 17:43:31,116 - INFO - playlist: Current track: 7
+2024-08-06 17:43:31,116 - INFO - message_queue: Playlist>bgm007-electronica-experimental-digital-wonder-ufo-148340
+2024-08-06 17:44:23,268 - INFO - playlist: Next track
+2024-08-06 17:44:23,268 - INFO - playlist: Current track: 0
+2024-08-06 17:44:23,268 - INFO - message_queue: Playlist>reflected-light-147979
