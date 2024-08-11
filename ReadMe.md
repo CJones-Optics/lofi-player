@@ -11,7 +11,8 @@ distraction-free listening experience.
 - *Just* Playlists, with Shuffle, Mute, and Volume Control
 
 # Customisability
-- User interface is customisable by adjusting the .tcss files. (Just fancy css)
+- User interface is customisable by adjusting the .tcss files. (Just fancy css).
+For convenience the colurs may be adjusted using the variables at the beginning of the file.
 - Features can be added by modifying the python code.
 
 # How to run and install
