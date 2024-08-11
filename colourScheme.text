@@ -1,7 +1,0 @@
-
-:root {
-  --background-color: #181825;
-  --boarder-color: #f5c2e7;
-  --footer-background-color: #1e1e2e;
-  --footer-text-color: #f2cdcd;
-}
