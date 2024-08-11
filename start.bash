@@ -1,7 +1,7 @@
 # Go into virtual environment
-source ./.venv/bin/activate
+source /home/cameron/Documents/projects/NonPhD/lofiPlayer/.venv/bin/activate
 # Call the main script
-python3 main.py
+python3 /home/cameron/Documents/projects/NonPhD/lofiPlayer/main.py
 # Exit virtual environment
 deactivate
 

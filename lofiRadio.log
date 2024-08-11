@@ -2280,3 +2280,2170 @@
 2024-08-06 21:32:08,345 - INFO - playlist: Next track
 2024-08-06 21:32:08,345 - INFO - playlist: Current track: 10
 2024-08-06 21:32:08,345 - INFO - message_queue: Playlist>tech-ambient-110767
+2024-08-06 21:35:35,772 - INFO - playlist: Next track
+2024-08-06 21:35:35,772 - INFO - playlist: Current track: 7
+2024-08-06 21:35:35,772 - INFO - message_queue: Playlist>bgm007-electronica-experimental-digital-wonder-ufo-148340
+2024-08-06 21:35:52,125 - INFO - cmd: stop
+2024-08-06 21:35:52,125 - INFO - cmd: chanel
+2024-08-06 21:35:52,126 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-06 21:35:52,126 - INFO - Playlist has been created.
+2024-08-06 21:35:52,126 - INFO - msg: Chanel>AcidJazz
+2024-08-06 21:35:52,126 - INFO - cmd: play
+2024-08-06 21:35:52,126 - INFO - playlist: Next track
+2024-08-06 21:35:52,126 - INFO - playlist: Current track: 28
+2024-08-06 21:35:52,126 - INFO - message_queue: Playlist>the-best-jazz-club-in-new-orleans-164472
+2024-08-06 21:36:28,087 - INFO - cmd: mute
+2024-08-06 21:37:52,260 - INFO - playlist: Next track
+2024-08-06 21:37:52,260 - INFO - playlist: Current track: 12
+2024-08-06 21:37:52,260 - INFO - message_queue: Playlist>background-light-music-with-saxophone-for-short-video-romantic-jazz-166528(1)
+2024-08-06 21:38:58,432 - INFO - playlist: Next track
+2024-08-06 21:38:58,433 - INFO - playlist: Current track: 4
+2024-08-06 21:38:58,433 - INFO - message_queue: Playlist>born-free-20730
+2024-08-06 21:42:07,159 - INFO - playlist: Next track
+2024-08-06 21:42:07,159 - INFO - playlist: Current track: 23
+2024-08-06 21:42:07,159 - INFO - message_queue: Playlist>dance-of-peace-208222
+2024-08-06 21:47:32,825 - INFO - playlist: Next track
+2024-08-06 21:47:32,825 - INFO - playlist: Current track: 7
+2024-08-06 21:47:32,825 - INFO - message_queue: Playlist>ogi-feel-the-beat-chillest-191265
+2024-08-06 21:50:33,635 - INFO - playlist: Next track
+2024-08-06 21:50:33,635 - INFO - playlist: Current track: 16
+2024-08-06 21:50:33,635 - INFO - message_queue: Playlist>funky-saxophone-hip-hop-type-beat-out-my-mind-211576
+2024-08-06 21:53:25,436 - INFO - playlist: Next track
+2024-08-06 21:53:25,436 - INFO - playlist: Current track: 7
+2024-08-06 21:53:25,436 - INFO - message_queue: Playlist>ogi-feel-the-beat-chillest-191265
+2024-08-06 21:56:26,230 - INFO - playlist: Next track
+2024-08-06 21:56:26,230 - INFO - playlist: Current track: 24
+2024-08-06 21:56:26,230 - INFO - message_queue: Playlist>jazz-funk-groove-instrumental-222618
+2024-08-06 22:01:14,355 - INFO - playlist: Next track
+2024-08-06 22:01:14,355 - INFO - playlist: Current track: 33
+2024-08-06 22:01:14,355 - INFO - message_queue: Playlist>chill-vibra-jazzy-theme-3245
+2024-08-06 22:03:14,491 - INFO - playlist: Next track
+2024-08-06 22:03:14,491 - INFO - playlist: Current track: 4
+2024-08-06 22:03:14,491 - INFO - message_queue: Playlist>born-free-20730
+2024-08-06 22:06:23,316 - INFO - playlist: Next track
+2024-08-06 22:06:23,317 - INFO - playlist: Current track: 19
+2024-08-06 22:06:23,317 - INFO - message_queue: Playlist>la-lune-et-lx27ivoire-213602
+2024-08-06 22:11:19,769 - INFO - playlist: Next track
+2024-08-06 22:11:19,770 - INFO - playlist: Current track: 23
+2024-08-06 22:11:19,770 - INFO - message_queue: Playlist>dance-of-peace-208222
+2024-08-07 09:01:05,954 - INFO - cmd: mute
+2024-08-07 09:01:07,374 - INFO - cmd: volume, args: ['0.9']
+2024-08-07 09:01:07,643 - INFO - cmd: volume, args: ['0.8']
+2024-08-07 09:01:07,853 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-07 09:01:08,536 - INFO - cmd: stop
+2024-08-07 09:01:08,536 - INFO - cmd: chanel
+2024-08-07 09:01:08,536 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-07 09:01:08,536 - INFO - Playlist has been created.
+2024-08-07 09:01:08,536 - INFO - msg: Chanel>OSHipHop
+2024-08-07 09:01:08,537 - INFO - cmd: play
+2024-08-07 09:01:08,537 - INFO - playlist: Next track
+2024-08-07 09:01:08,537 - INFO - playlist: Current track: 20
+2024-08-07 09:01:08,537 - INFO - message_queue: Playlist>deluge-140916
+2024-08-07 09:01:09,616 - INFO - cmd: stop
+2024-08-07 09:01:09,616 - INFO - cmd: chanel
+2024-08-07 09:01:09,616 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-07 09:01:09,616 - INFO - Playlist has been created.
+2024-08-07 09:01:09,616 - INFO - msg: Chanel>Funk
+2024-08-07 09:01:09,616 - INFO - cmd: play
+2024-08-07 09:01:09,616 - INFO - playlist: Next track
+2024-08-07 09:01:09,616 - INFO - playlist: Current track: 15
+2024-08-07 09:01:09,617 - INFO - message_queue: Playlist>say-you-be-mine-thebasspapa-3896
+2024-08-07 09:01:10,490 - INFO - cmd: stop
+2024-08-07 09:01:10,490 - INFO - cmd: chanel
+2024-08-07 09:01:10,491 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-07 09:01:10,491 - INFO - Playlist has been created.
+2024-08-07 09:01:10,491 - INFO - msg: Chanel>Funk
+2024-08-07 09:01:10,491 - INFO - cmd: play
+2024-08-07 09:01:10,491 - INFO - playlist: Next track
+2024-08-07 09:01:10,491 - INFO - playlist: Current track: 16
+2024-08-07 09:01:10,491 - INFO - message_queue: Playlist>08-funky-donkey-154651
+2024-08-07 09:01:11,153 - INFO - cmd: stop
+2024-08-07 09:01:11,153 - INFO - cmd: chanel
+2024-08-07 09:01:11,153 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-07 09:01:11,153 - INFO - Playlist has been created.
+2024-08-07 09:01:11,153 - INFO - msg: Chanel>OSHipHop
+2024-08-07 09:01:11,153 - INFO - cmd: play
+2024-08-07 09:01:11,154 - INFO - playlist: Next track
+2024-08-07 09:01:11,154 - INFO - playlist: Current track: 2
+2024-08-07 09:01:11,154 - INFO - message_queue: Playlist>daisuke-teiko-beats-sampled-while-your-lips-are-still-red-from-nightwish-10066
+2024-08-07 09:01:11,437 - INFO - cmd: stop
+2024-08-07 09:01:11,438 - INFO - cmd: chanel
+2024-08-07 09:01:11,438 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-07 09:01:11,438 - INFO - Playlist has been created.
+2024-08-07 09:01:11,438 - INFO - msg: Chanel>AcidJazz
+2024-08-07 09:01:11,438 - INFO - cmd: play
+2024-08-07 09:01:11,438 - INFO - playlist: Next track
+2024-08-07 09:01:11,439 - INFO - playlist: Current track: 13
+2024-08-07 09:01:11,439 - INFO - message_queue: Playlist>draw-me-a-night-jazz-piano-218343(1)
+2024-08-07 09:02:21,750 - INFO - cmd: mute
+2024-08-07 09:03:54,203 - INFO - playlist: Next track
+2024-08-07 09:03:54,203 - INFO - playlist: Current track: 10
+2024-08-07 09:03:54,203 - INFO - message_queue: Playlist>moment-14023
+2024-08-07 09:07:26,813 - INFO - playlist: Next track
+2024-08-07 09:07:26,813 - INFO - playlist: Current track: 9
+2024-08-07 09:07:26,813 - INFO - message_queue: Playlist>a-jazz-piano-110481
+2024-08-07 09:08:43,888 - INFO - playlist: Next track
+2024-08-07 09:08:43,888 - INFO - playlist: Current track: 21
+2024-08-07 09:08:43,889 - INFO - message_queue: Playlist>jacob-field-moonshiner-royalty-free-music-8866
+2024-08-07 09:10:21,989 - INFO - playlist: Next track
+2024-08-07 09:10:21,990 - INFO - playlist: Current track: 27
+2024-08-07 09:10:21,990 - INFO - message_queue: Playlist>ogi-feel-the-beat-jazz-expresso-191266
+2024-08-07 09:15:05,794 - INFO - cmd: mute
+2024-08-07 09:18:25,188 - INFO - playlist: Next track
+2024-08-07 09:18:25,188 - INFO - playlist: Current track: 21
+2024-08-07 09:18:25,188 - INFO - message_queue: Playlist>jacob-field-moonshiner-royalty-free-music-8866
+2024-08-07 09:20:03,297 - INFO - playlist: Next track
+2024-08-07 09:20:03,297 - INFO - playlist: Current track: 17
+2024-08-07 09:20:03,297 - INFO - message_queue: Playlist>jazz-tune-186783
+2024-08-07 09:21:55,621 - INFO - playlist: Next track
+2024-08-07 09:21:55,621 - INFO - playlist: Current track: 20
+2024-08-07 09:21:55,621 - INFO - message_queue: Playlist>podcast-jazz-music-168726
+2024-08-07 09:31:22,359 - INFO - playlist: Next track
+2024-08-07 09:31:22,359 - INFO - playlist: Current track: 24
+2024-08-07 09:31:22,359 - INFO - message_queue: Playlist>jazz-funk-groove-instrumental-222618
+2024-08-07 09:36:10,468 - INFO - playlist: Next track
+2024-08-07 09:36:10,468 - INFO - playlist: Current track: 10
+2024-08-07 09:36:10,468 - INFO - message_queue: Playlist>moment-14023
+2024-08-07 09:39:43,106 - INFO - playlist: Next track
+2024-08-07 09:39:43,106 - INFO - playlist: Current track: 22
+2024-08-07 09:39:43,106 - INFO - message_queue: Playlist>when-you-smile-151423
+2024-08-07 09:44:11,700 - INFO - playlist: Next track
+2024-08-07 09:44:11,700 - INFO - playlist: Current track: 19
+2024-08-07 09:44:11,700 - INFO - message_queue: Playlist>la-lune-et-lx27ivoire-213602
+2024-08-07 09:49:08,119 - INFO - playlist: Next track
+2024-08-07 09:49:08,119 - INFO - playlist: Current track: 13
+2024-08-07 09:49:08,119 - INFO - message_queue: Playlist>draw-me-a-night-jazz-piano-218343(1)
+2024-08-07 09:51:50,895 - INFO - playlist: Next track
+2024-08-07 09:51:50,895 - INFO - playlist: Current track: 0
+2024-08-07 09:51:50,895 - INFO - message_queue: Playlist>on-a-dimly-lit-street-167719
+2024-08-07 09:54:24,470 - INFO - playlist: Next track
+2024-08-07 09:54:24,470 - INFO - playlist: Current track: 13
+2024-08-07 09:54:24,470 - INFO - message_queue: Playlist>draw-me-a-night-jazz-piano-218343(1)
+2024-08-07 09:55:02,078 - INFO - cmd: play
+2024-08-07 09:55:02,078 - INFO - playlist: Next track
+2024-08-07 09:55:02,078 - INFO - playlist: Current track: 18
+2024-08-07 09:55:02,078 - INFO - message_queue: Playlist>180314-simple-modal-jazz-piano-drum-143425
+2024-08-07 09:55:02,250 - INFO - cmd: stop
+2024-08-07 09:55:15,646 - INFO - cmd: play
+2024-08-07 09:55:15,646 - INFO - playlist: Next track
+2024-08-07 09:55:15,646 - INFO - playlist: Current track: 15
+2024-08-07 09:55:15,646 - INFO - message_queue: Playlist>draw-me-a-night-jazz-piano-218343
+2024-08-07 09:55:18,024 - INFO - cmd: stop
+2024-08-07 09:55:18,406 - INFO - cmd: play
+2024-08-07 09:55:18,406 - INFO - playlist: Next track
+2024-08-07 09:55:18,406 - INFO - playlist: Current track: 2
+2024-08-07 09:55:18,406 - INFO - message_queue: Playlist>jazz-blue-215928
+2024-08-07 09:55:28,525 - INFO - cmd: stop
+2024-08-07 09:55:28,831 - INFO - cmd: play
+2024-08-07 09:55:28,832 - INFO - playlist: Next track
+2024-08-07 09:55:28,832 - INFO - playlist: Current track: 7
+2024-08-07 09:55:28,832 - INFO - message_queue: Playlist>ogi-feel-the-beat-chillest-191265
+2024-08-07 09:58:29,620 - INFO - playlist: Next track
+2024-08-07 09:58:29,621 - INFO - playlist: Current track: 13
+2024-08-07 09:58:29,621 - INFO - message_queue: Playlist>draw-me-a-night-jazz-piano-218343(1)
+2024-08-07 10:00:54,625 - INFO - cmd: volume, args: ['0.8']
+2024-08-07 10:00:54,909 - INFO - cmd: volume, args: ['0.9']
+2024-08-07 10:00:56,548 - INFO - cmd: mute
+2024-08-07 10:00:57,223 - INFO - cmd: mute
+2024-08-07 10:01:00,430 - INFO - cmd: stop
+2024-08-07 10:01:00,430 - INFO - cmd: chanel
+2024-08-07 10:01:00,430 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-07 10:01:00,430 - INFO - Playlist has been created.
+2024-08-07 10:01:00,430 - INFO - msg: Chanel>OSHipHop
+2024-08-07 10:01:00,430 - INFO - cmd: play
+2024-08-07 10:01:00,430 - INFO - playlist: Next track
+2024-08-07 10:01:00,430 - INFO - playlist: Current track: 5
+2024-08-07 10:01:00,430 - INFO - message_queue: Playlist>modern-gangstagangster-west-coast-free-rap-beat-129290
+2024-08-07 10:01:02,439 - INFO - cmd: stop
+2024-08-07 10:01:02,439 - INFO - cmd: chanel
+2024-08-07 10:01:02,440 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-07 10:01:02,440 - INFO - Playlist has been created.
+2024-08-07 10:01:02,440 - INFO - msg: Chanel>AcidJazz
+2024-08-07 10:01:02,440 - INFO - cmd: play
+2024-08-07 10:01:02,440 - INFO - playlist: Next track
+2024-08-07 10:01:02,440 - INFO - playlist: Current track: 21
+2024-08-07 10:01:02,440 - INFO - message_queue: Playlist>jazz-funk-groove-instrumental-222618
+2024-08-07 10:01:03,662 - INFO - cmd: stop
+2024-08-07 10:01:03,663 - INFO - cmd: chanel
+2024-08-07 10:01:03,663 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-07 10:01:03,663 - INFO - Playlist has been created.
+2024-08-07 10:01:03,663 - INFO - msg: Chanel>OSHipHop
+2024-08-07 10:01:03,663 - INFO - cmd: play
+2024-08-07 10:01:03,663 - INFO - playlist: Next track
+2024-08-07 10:01:03,663 - INFO - playlist: Current track: 12
+2024-08-07 10:01:03,663 - INFO - message_queue: Playlist>lofi-lofi-dem-bucks-113748
+2024-08-07 10:01:05,822 - INFO - cmd: stop
+2024-08-07 10:01:05,823 - INFO - cmd: chanel
+2024-08-07 10:01:05,823 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-07 10:01:05,823 - INFO - Playlist has been created.
+2024-08-07 10:01:05,823 - INFO - msg: Chanel>AcidJazz
+2024-08-07 10:01:05,823 - INFO - cmd: play
+2024-08-07 10:01:05,823 - INFO - playlist: Next track
+2024-08-07 10:01:05,823 - INFO - playlist: Current track: 16
+2024-08-07 10:01:05,823 - INFO - message_queue: Playlist>180314-simple-modal-jazz-piano-drum-143425
+2024-08-07 10:01:06,475 - INFO - cmd: stop
+2024-08-07 10:01:06,475 - INFO - cmd: chanel
+2024-08-07 10:01:06,475 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-07 10:01:06,475 - INFO - Playlist has been created.
+2024-08-07 10:01:06,475 - INFO - msg: Chanel>AmbientElectronic
+2024-08-07 10:01:06,476 - INFO - cmd: play
+2024-08-07 10:01:06,476 - INFO - playlist: Next track
+2024-08-07 10:01:06,476 - INFO - playlist: Current track: 8
+2024-08-07 10:01:06,476 - INFO - message_queue: Playlist>ambient-chill-hop-beat-leaves-118107
+2024-08-07 10:01:06,955 - INFO - cmd: stop
+2024-08-07 10:01:06,955 - INFO - cmd: chanel
+2024-08-07 10:01:06,956 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-07 10:01:06,956 - INFO - Playlist has been created.
+2024-08-07 10:01:06,956 - INFO - msg: Chanel>LofiHipHop
+2024-08-07 10:01:06,956 - INFO - cmd: play
+2024-08-07 10:01:06,956 - INFO - playlist: Next track
+2024-08-07 10:01:06,956 - INFO - playlist: Current track: 23
+2024-08-07 10:01:06,956 - INFO - message_queue: Playlist>lofi-study-112191
+2024-08-07 10:01:07,754 - INFO - cmd: stop
+2024-08-07 10:01:07,754 - INFO - cmd: chanel
+2024-08-07 10:01:07,755 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-07 10:01:07,755 - INFO - Playlist has been created.
+2024-08-07 10:01:07,755 - INFO - msg: Chanel>LofiHipHop
+2024-08-07 10:01:07,755 - INFO - cmd: play
+2024-08-07 10:01:07,755 - INFO - playlist: Next track
+2024-08-07 10:01:07,755 - INFO - playlist: Current track: 18
+2024-08-07 10:01:07,755 - INFO - message_queue: Playlist>lofi-chillzone-162827
+2024-08-07 10:01:08,313 - INFO - cmd: volume, args: ['1.0']
+2024-08-07 10:01:09,690 - INFO - cmd: stop
+2024-08-07 10:01:09,691 - INFO - cmd: chanel
+2024-08-07 10:01:09,691 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-07 10:01:09,691 - INFO - Playlist has been created.
+2024-08-07 10:01:09,691 - INFO - msg: Chanel>LofiHipHop
+2024-08-07 10:01:09,691 - INFO - cmd: play
+2024-08-07 10:01:09,691 - INFO - playlist: Next track
+2024-08-07 10:01:09,691 - INFO - playlist: Current track: 29
+2024-08-07 10:01:09,691 - INFO - message_queue: Playlist>lofi-music-5-136397
+2024-08-07 10:01:10,323 - INFO - cmd: stop
+2024-08-07 10:01:10,323 - INFO - cmd: chanel
+2024-08-07 10:01:10,323 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-07 10:01:10,323 - INFO - Playlist has been created.
+2024-08-07 10:01:10,323 - INFO - msg: Chanel>AmbientElectronic
+2024-08-07 10:01:10,323 - INFO - cmd: play
+2024-08-07 10:01:10,324 - INFO - playlist: Next track
+2024-08-07 10:01:10,324 - INFO - playlist: Current track: 4
+2024-08-07 10:01:10,324 - INFO - message_queue: Playlist>190519-electronica-aquarium-wonder-chill-lo-fi-155490
+2024-08-07 10:01:11,051 - INFO - cmd: volume, args: ['0.9']
+2024-08-07 10:01:11,268 - INFO - cmd: volume, args: ['0.8']
+2024-08-07 10:01:11,448 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-07 10:01:11,650 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-07 10:01:11,839 - INFO - cmd: volume, args: ['0.5000000000000001']
+2024-08-07 10:02:55,039 - INFO - playlist: Next track
+2024-08-07 10:02:55,039 - INFO - playlist: Current track: 5
+2024-08-07 10:02:55,039 - INFO - message_queue: Playlist>dark-ambient-soundscape-cold-air-226724
+2024-08-07 10:07:08,293 - INFO - playlist: Next track
+2024-08-07 10:07:08,293 - INFO - playlist: Current track: 2
+2024-08-07 10:07:08,293 - INFO - message_queue: Playlist>in-slow-motion-inspiring-ambient-lounge-219592
+2024-08-07 10:09:07,317 - INFO - playlist: Next track
+2024-08-07 10:09:07,317 - INFO - playlist: Current track: 10
+2024-08-07 10:09:07,317 - INFO - message_queue: Playlist>tech-ambient-110767
+2024-08-07 10:12:34,725 - INFO - playlist: Next track
+2024-08-07 10:12:34,725 - INFO - playlist: Current track: 6
+2024-08-07 10:12:34,725 - INFO - message_queue: Playlist>heavenly-energy-188908
+2024-08-07 10:35:33,157 - INFO - playlist: Next track
+2024-08-07 10:35:33,157 - INFO - playlist: Current track: 5
+2024-08-07 10:35:33,157 - INFO - message_queue: Playlist>dark-ambient-soundscape-cold-air-226724
+2024-08-07 10:39:46,348 - INFO - playlist: Next track
+2024-08-07 10:39:46,348 - INFO - playlist: Current track: 9
+2024-08-07 10:39:46,348 - INFO - message_queue: Playlist>livail-oasis-114751
+2024-08-07 10:47:10,417 - INFO - playlist: Next track
+2024-08-07 10:47:10,417 - INFO - playlist: Current track: 6
+2024-08-07 10:47:10,417 - INFO - message_queue: Playlist>heavenly-energy-188908
+2024-08-07 11:10:08,803 - INFO - playlist: Next track
+2024-08-07 11:10:08,803 - INFO - playlist: Current track: 10
+2024-08-07 11:10:08,803 - INFO - message_queue: Playlist>tech-ambient-110767
+2024-08-07 11:13:36,214 - INFO - playlist: Next track
+2024-08-07 11:13:36,214 - INFO - playlist: Current track: 8
+2024-08-07 11:13:36,214 - INFO - message_queue: Playlist>ambient-chill-hop-beat-leaves-118107
+2024-08-07 11:14:55,499 - INFO - playlist: Next track
+2024-08-07 11:14:55,499 - INFO - playlist: Current track: 10
+2024-08-07 11:14:55,499 - INFO - message_queue: Playlist>tech-ambient-110767
+2024-08-07 11:18:22,918 - INFO - playlist: Next track
+2024-08-07 11:18:22,918 - INFO - playlist: Current track: 9
+2024-08-07 11:18:22,918 - INFO - message_queue: Playlist>livail-oasis-114751
+2024-08-07 11:25:47,020 - INFO - playlist: Next track
+2024-08-07 11:25:47,020 - INFO - playlist: Current track: 10
+2024-08-07 11:25:47,020 - INFO - message_queue: Playlist>tech-ambient-110767
+2024-08-07 11:29:14,455 - INFO - playlist: Next track
+2024-08-07 11:29:14,455 - INFO - playlist: Current track: 0
+2024-08-07 11:29:14,455 - INFO - message_queue: Playlist>reflected-light-147979
+2024-08-07 11:32:59,216 - INFO - playlist: Next track
+2024-08-07 11:32:59,216 - INFO - playlist: Current track: 5
+2024-08-07 11:32:59,216 - INFO - message_queue: Playlist>dark-ambient-soundscape-cold-air-226724
+2024-08-07 11:37:12,489 - INFO - playlist: Next track
+2024-08-07 11:37:12,489 - INFO - playlist: Current track: 6
+2024-08-07 11:37:12,489 - INFO - message_queue: Playlist>heavenly-energy-188908
+2024-08-07 12:00:10,832 - INFO - playlist: Next track
+2024-08-07 12:00:10,832 - INFO - playlist: Current track: 11
+2024-08-07 12:00:10,832 - INFO - message_queue: Playlist>Low Roar - Tonight, Tonight, Tonight (Edit)
+2024-08-07 12:06:10,274 - INFO - cmd: stop
+2024-08-07 12:06:10,274 - INFO - cmd: chanel
+2024-08-07 12:06:10,274 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-07 12:06:10,274 - INFO - Playlist has been created.
+2024-08-07 12:06:10,275 - INFO - msg: Chanel>AcidJazz
+2024-08-07 12:06:10,275 - INFO - cmd: play
+2024-08-07 12:06:10,275 - INFO - playlist: Next track
+2024-08-07 12:06:10,275 - INFO - playlist: Current track: 30
+2024-08-07 12:06:10,275 - INFO - message_queue: Playlist>chill-vibra-jazzy-theme-3245
+2024-08-07 12:06:11,733 - INFO - cmd: volume, args: ['0.40000000000000013']
+2024-08-07 12:06:12,150 - INFO - cmd: stop
+2024-08-07 12:06:12,150 - INFO - cmd: chanel
+2024-08-07 12:06:12,151 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-07 12:06:12,151 - INFO - Playlist has been created.
+2024-08-07 12:06:12,151 - INFO - msg: Chanel>AmbientElectronic
+2024-08-07 12:06:12,151 - INFO - cmd: play
+2024-08-07 12:06:12,151 - INFO - playlist: Next track
+2024-08-07 12:06:12,151 - INFO - playlist: Current track: 9
+2024-08-07 12:06:12,151 - INFO - message_queue: Playlist>livail-oasis-114751
+2024-08-07 12:13:36,229 - INFO - playlist: Next track
+2024-08-07 12:13:36,229 - INFO - playlist: Current track: 4
+2024-08-07 12:13:36,229 - INFO - message_queue: Playlist>190519-electronica-aquarium-wonder-chill-lo-fi-155490
+2024-08-07 12:15:20,937 - INFO - playlist: Next track
+2024-08-07 12:15:20,937 - INFO - playlist: Current track: 2
+2024-08-07 12:15:20,937 - INFO - message_queue: Playlist>in-slow-motion-inspiring-ambient-lounge-219592
+2024-08-07 12:17:19,964 - INFO - playlist: Next track
+2024-08-07 12:17:19,965 - INFO - playlist: Current track: 3
+2024-08-07 12:17:19,965 - INFO - message_queue: Playlist>solitude-dark-ambient-electronic-197737
+2024-08-07 12:19:58,042 - INFO - playlist: Next track
+2024-08-07 12:19:58,042 - INFO - playlist: Current track: 9
+2024-08-07 12:19:58,042 - INFO - message_queue: Playlist>livail-oasis-114751
+2024-08-07 12:27:22,138 - INFO - playlist: Next track
+2024-08-07 12:27:22,138 - INFO - playlist: Current track: 11
+2024-08-07 12:27:22,138 - INFO - message_queue: Playlist>Low Roar - Tonight, Tonight, Tonight (Edit)
+2024-08-07 12:35:19,169 - INFO - playlist: Next track
+2024-08-07 12:35:19,169 - INFO - playlist: Current track: 2
+2024-08-07 12:35:19,169 - INFO - message_queue: Playlist>in-slow-motion-inspiring-ambient-lounge-219592
+2024-08-07 12:36:58,593 - INFO - cmd: mute
+2024-08-07 12:37:18,196 - INFO - playlist: Next track
+2024-08-07 12:37:18,196 - INFO - playlist: Current track: 3
+2024-08-07 12:37:18,196 - INFO - message_queue: Playlist>solitude-dark-ambient-electronic-197737
+2024-08-07 12:39:56,260 - INFO - playlist: Next track
+2024-08-07 12:39:56,261 - INFO - playlist: Current track: 11
+2024-08-07 12:39:56,261 - INFO - message_queue: Playlist>Low Roar - Tonight, Tonight, Tonight (Edit)
+2024-08-07 12:47:53,295 - INFO - playlist: Next track
+2024-08-07 12:47:53,295 - INFO - playlist: Current track: 4
+2024-08-07 12:47:53,295 - INFO - message_queue: Playlist>190519-electronica-aquarium-wonder-chill-lo-fi-155490
+2024-08-07 12:49:38,005 - INFO - playlist: Next track
+2024-08-07 12:49:38,005 - INFO - playlist: Current track: 2
+2024-08-07 12:49:38,005 - INFO - message_queue: Playlist>in-slow-motion-inspiring-ambient-lounge-219592
+2024-08-07 12:51:37,020 - INFO - playlist: Next track
+2024-08-07 12:51:37,020 - INFO - playlist: Current track: 0
+2024-08-07 12:51:37,020 - INFO - message_queue: Playlist>reflected-light-147979
+2024-08-07 13:56:51,834 - INFO - cmd: mute
+2024-08-07 13:58:10,426 - INFO - playlist: Next track
+2024-08-07 13:58:10,426 - INFO - playlist: Current track: 6
+2024-08-07 13:58:10,426 - INFO - message_queue: Playlist>heavenly-energy-188908
+2024-08-07 14:11:07,140 - INFO - cmd: volume, args: ['0.5000000000000001']
+2024-08-07 14:11:07,328 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-07 14:11:07,499 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-07 14:21:08,819 - INFO - playlist: Next track
+2024-08-07 14:21:08,820 - INFO - playlist: Current track: 5
+2024-08-07 14:21:08,820 - INFO - message_queue: Playlist>dark-ambient-soundscape-cold-air-226724
+2024-08-07 14:25:22,083 - INFO - playlist: Next track
+2024-08-07 14:25:22,083 - INFO - playlist: Current track: 11
+2024-08-07 14:25:22,083 - INFO - message_queue: Playlist>Low Roar - Tonight, Tonight, Tonight (Edit)
+2024-08-07 14:32:33,218 - INFO - cmd: volume, args: ['0.8']
+2024-08-07 14:32:33,579 - INFO - cmd: volume, args: ['0.9']
+2024-08-07 14:32:34,298 - INFO - cmd: volume, args: ['0.8']
+2024-08-07 14:32:52,316 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-07 14:32:53,245 - INFO - cmd: volume, args: ['0.8']
+2024-08-07 14:32:53,745 - INFO - cmd: volume, args: ['0.9']
+2024-08-07 14:32:53,773 - INFO - cmd: volume, args: ['1.0']
+2024-08-07 14:32:53,804 - INFO - cmd: volume, args: ['1.0']
+2024-08-07 14:32:53,835 - INFO - cmd: volume, args: ['1.0']
+2024-08-07 14:32:53,864 - INFO - cmd: volume, args: ['1.0']
+2024-08-07 14:32:53,895 - INFO - cmd: volume, args: ['1.0']
+2024-08-07 14:32:53,926 - INFO - cmd: volume, args: ['1.0']
+2024-08-07 14:32:58,525 - INFO - cmd: volume, args: ['0.9']
+2024-08-07 14:32:58,870 - INFO - cmd: volume, args: ['0.8']
+2024-08-07 14:32:59,140 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-07 14:32:59,403 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-07 14:33:02,745 - INFO - cmd: mute
+2024-08-07 14:33:03,773 - INFO - cmd: mute
+2024-08-07 14:33:19,086 - INFO - playlist: Next track
+2024-08-07 14:33:19,086 - INFO - playlist: Current track: 7
+2024-08-07 14:33:19,086 - INFO - message_queue: Playlist>bgm007-electronica-experimental-digital-wonder-ufo-148340
+2024-08-07 14:34:11,246 - INFO - playlist: Next track
+2024-08-07 14:34:11,246 - INFO - playlist: Current track: 0
+2024-08-07 14:34:11,246 - INFO - message_queue: Playlist>reflected-light-147979
+2024-08-07 14:37:55,973 - INFO - playlist: Next track
+2024-08-07 14:37:55,974 - INFO - playlist: Current track: 5
+2024-08-07 14:37:55,974 - INFO - message_queue: Playlist>dark-ambient-soundscape-cold-air-226724
+2024-08-07 14:42:09,240 - INFO - playlist: Next track
+2024-08-07 14:42:09,240 - INFO - playlist: Current track: 2
+2024-08-07 14:42:09,240 - INFO - message_queue: Playlist>in-slow-motion-inspiring-ambient-lounge-219592
+2024-08-07 14:44:08,264 - INFO - playlist: Next track
+2024-08-07 14:44:08,264 - INFO - playlist: Current track: 7
+2024-08-07 14:44:08,264 - INFO - message_queue: Playlist>bgm007-electronica-experimental-digital-wonder-ufo-148340
+2024-08-07 14:45:00,418 - INFO - playlist: Next track
+2024-08-07 14:45:00,418 - INFO - playlist: Current track: 2
+2024-08-07 14:45:00,418 - INFO - message_queue: Playlist>in-slow-motion-inspiring-ambient-lounge-219592
+2024-08-07 14:45:10,581 - INFO - cmd: stop
+2024-08-07 14:45:10,956 - INFO - cmd: play
+2024-08-07 14:45:10,956 - INFO - playlist: Next track
+2024-08-07 14:45:10,956 - INFO - playlist: Current track: 3
+2024-08-07 14:45:10,956 - INFO - message_queue: Playlist>solitude-dark-ambient-electronic-197737
+2024-08-07 14:45:19,969 - INFO - cmd: mute
+2024-08-07 14:46:10,763 - INFO - cmd: stop
+2024-08-07 14:46:10,763 - INFO - cmd: chanel
+2024-08-07 14:46:10,763 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-07 14:46:10,763 - INFO - Playlist has been created.
+2024-08-07 14:46:10,763 - INFO - msg: Chanel>LofiHipHop
+2024-08-07 14:46:10,763 - INFO - cmd: play
+2024-08-07 14:46:10,763 - INFO - playlist: Next track
+2024-08-07 14:46:10,764 - INFO - playlist: Current track: 15
+2024-08-07 14:46:10,764 - INFO - message_queue: Playlist>lofi-beat-chill-7373
+2024-08-07 14:46:13,573 - INFO - cmd: mute
+2024-08-07 14:48:43,029 - INFO - playlist: Next track
+2024-08-07 14:48:43,030 - INFO - playlist: Current track: 20
+2024-08-07 14:48:43,030 - INFO - message_queue: Playlist>chill-lofi-160893
+2024-08-07 14:51:31,112 - INFO - playlist: Next track
+2024-08-07 14:51:31,112 - INFO - playlist: Current track: 23
+2024-08-07 14:51:31,112 - INFO - message_queue: Playlist>lofi-study-112191
+2024-08-07 14:53:58,380 - INFO - playlist: Next track
+2024-08-07 14:53:58,380 - INFO - playlist: Current track: 26
+2024-08-07 14:53:58,380 - INFO - message_queue: Playlist>lo-fi-podcast-cozy-relaxing-chillout-lounge-music-214440
+2024-08-07 15:03:40,495 - INFO - playlist: Next track
+2024-08-07 15:03:40,496 - INFO - playlist: Current track: 14
+2024-08-07 15:03:40,496 - INFO - message_queue: Playlist>the-weekend-117427
+2024-08-07 15:06:06,353 - INFO - playlist: Next track
+2024-08-07 15:06:06,353 - INFO - playlist: Current track: 11
+2024-08-07 15:06:06,353 - INFO - message_queue: Playlist>zombies-lofi-154347
+2024-08-07 15:09:18,474 - INFO - playlist: Next track
+2024-08-07 15:09:18,474 - INFO - playlist: Current track: 23
+2024-08-07 15:09:18,474 - INFO - message_queue: Playlist>lofi-study-112191
+2024-08-07 15:11:45,740 - INFO - playlist: Next track
+2024-08-07 15:11:45,740 - INFO - playlist: Current track: 13
+2024-08-07 15:11:45,741 - INFO - message_queue: Playlist>free-lofi-type-beat-cozy-night-210690
+2024-08-07 15:14:28,325 - INFO - playlist: Next track
+2024-08-07 15:14:28,325 - INFO - playlist: Current track: 5
+2024-08-07 15:14:28,326 - INFO - message_queue: Playlist>for-a-dream-lofi-vibes-216038
+2024-08-07 15:18:17,885 - INFO - playlist: Next track
+2024-08-07 15:18:17,885 - INFO - playlist: Current track: 26
+2024-08-07 15:18:17,885 - INFO - message_queue: Playlist>lo-fi-podcast-cozy-relaxing-chillout-lounge-music-214440
+2024-08-07 15:19:18,497 - INFO - cmd: stop
+2024-08-07 15:19:18,497 - INFO - cmd: chanel
+2024-08-07 15:19:18,497 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-07 15:19:18,497 - INFO - Playlist has been created.
+2024-08-07 15:19:18,497 - INFO - msg: Chanel>AmbientElectronic
+2024-08-07 15:19:18,497 - INFO - cmd: play
+2024-08-07 15:19:18,497 - INFO - playlist: Next track
+2024-08-07 15:19:18,498 - INFO - playlist: Current track: 9
+2024-08-07 15:19:18,498 - INFO - message_queue: Playlist>livail-oasis-114751
+2024-08-07 15:19:18,729 - INFO - cmd: stop
+2024-08-07 15:19:18,729 - INFO - cmd: chanel
+2024-08-07 15:19:18,729 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-07 15:19:18,729 - INFO - Playlist has been created.
+2024-08-07 15:19:18,729 - INFO - msg: Chanel>AcidJazz
+2024-08-07 15:19:18,729 - INFO - cmd: play
+2024-08-07 15:19:18,730 - INFO - playlist: Next track
+2024-08-07 15:19:18,730 - INFO - playlist: Current track: 17
+2024-08-07 15:19:18,730 - INFO - message_queue: Playlist>la-lune-et-lx27ivoire-213602
+2024-08-07 15:19:18,989 - INFO - cmd: stop
+2024-08-07 15:19:18,989 - INFO - cmd: chanel
+2024-08-07 15:19:18,990 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-07 15:19:18,990 - INFO - Playlist has been created.
+2024-08-07 15:19:18,990 - INFO - msg: Chanel>OSHipHop
+2024-08-07 15:19:18,990 - INFO - cmd: play
+2024-08-07 15:19:18,990 - INFO - playlist: Next track
+2024-08-07 15:19:18,990 - INFO - playlist: Current track: 6
+2024-08-07 15:19:18,990 - INFO - message_queue: Playlist>boombap-emotional-rap-beat-20240201-193259
+2024-08-07 15:19:22,607 - INFO - cmd: stop
+2024-08-07 15:19:22,607 - INFO - cmd: chanel
+2024-08-07 15:19:22,608 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f794dd93530>
+2024-08-07 15:19:22,608 - INFO - Playlist has been created.
+2024-08-07 15:19:22,608 - INFO - msg: Chanel>AcidJazz
+2024-08-07 15:19:22,608 - INFO - cmd: play
+2024-08-07 15:19:22,608 - INFO - playlist: Next track
+2024-08-07 15:19:22,608 - INFO - playlist: Current track: 14
+2024-08-07 15:19:22,608 - INFO - message_queue: Playlist>funky-saxophone-hip-hop-type-beat-out-my-mind-211576
+2024-08-07 15:19:24,752 - INFO - cmd: stop
+2024-08-07 15:19:24,946 - INFO - cmd: play
+2024-08-07 15:19:24,947 - INFO - playlist: Next track
+2024-08-07 15:19:24,947 - INFO - playlist: Current track: 19
+2024-08-07 15:19:24,947 - INFO - message_queue: Playlist>jacob-field-moonshiner-royalty-free-music-8866
+2024-08-07 15:19:27,084 - INFO - cmd: stop
+2024-08-07 15:19:27,240 - INFO - cmd: play
+2024-08-07 15:19:27,240 - INFO - playlist: Next track
+2024-08-07 15:19:27,241 - INFO - playlist: Current track: 24
+2024-08-07 15:19:27,241 - INFO - message_queue: Playlist>ogi-feel-the-beat-jazz-expresso-191266
+2024-08-07 15:27:30,443 - INFO - playlist: Next track
+2024-08-07 15:27:30,443 - INFO - playlist: Current track: 1
+2024-08-07 15:27:30,443 - INFO - message_queue: Playlist>gimme-gimme-jazz-179073
+2024-08-07 15:28:56,060 - INFO - playlist: Next track
+2024-08-07 15:28:56,060 - INFO - playlist: Current track: 31
+2024-08-07 15:28:56,060 - INFO - message_queue: Playlist>Acid Jazzin Japan
+2024-08-08 09:39:37,735 - INFO - playlist: Next track
+2024-08-08 09:39:37,735 - INFO - playlist: Current track: 20
+2024-08-08 09:39:37,735 - INFO - message_queue: Playlist>when-you-smile-151423
+2024-08-08 09:44:06,412 - INFO - playlist: Next track
+2024-08-08 09:44:06,412 - INFO - playlist: Current track: 14
+2024-08-08 09:44:06,412 - INFO - message_queue: Playlist>funky-saxophone-hip-hop-type-beat-out-my-mind-211576
+2024-08-08 09:46:58,244 - INFO - playlist: Next track
+2024-08-08 09:46:58,244 - INFO - playlist: Current track: 10
+2024-08-08 09:46:58,244 - INFO - message_queue: Playlist>moment-14023
+2024-08-08 09:50:30,951 - INFO - playlist: Next track
+2024-08-08 09:50:30,951 - INFO - playlist: Current track: 6
+2024-08-08 09:50:30,951 - INFO - message_queue: Playlist>dramatic-music-hip-hop-background-jazz-music-beat-black-amp-white-148451
+2024-08-08 09:53:03,483 - INFO - playlist: Next track
+2024-08-08 09:53:03,483 - INFO - playlist: Current track: 7
+2024-08-08 09:53:03,483 - INFO - message_queue: Playlist>ogi-feel-the-beat-chillest-191265
+2024-08-08 09:56:04,237 - INFO - playlist: Next track
+2024-08-08 09:56:04,237 - INFO - playlist: Current track: 23
+2024-08-08 09:56:04,237 - INFO - message_queue: Playlist>good-morning-cafe-jazz-227888
+2024-08-08 10:00:03,964 - INFO - playlist: Next track
+2024-08-08 10:00:03,964 - INFO - playlist: Current track: 20
+2024-08-08 10:00:03,964 - INFO - message_queue: Playlist>when-you-smile-151423
+2024-08-08 10:04:32,622 - INFO - playlist: Next track
+2024-08-08 10:04:32,622 - INFO - playlist: Current track: 27
+2024-08-08 10:04:32,622 - INFO - message_queue: Playlist>a-cup-of-joe-20732
+2024-08-08 10:06:24,012 - INFO - playlist: Next track
+2024-08-08 10:06:24,012 - INFO - playlist: Current track: 0
+2024-08-08 10:06:24,012 - INFO - message_queue: Playlist>on-a-dimly-lit-street-167719
+2024-08-08 10:08:57,626 - INFO - playlist: Next track
+2024-08-08 10:08:57,626 - INFO - playlist: Current track: 1
+2024-08-08 10:08:57,626 - INFO - message_queue: Playlist>gimme-gimme-jazz-179073
+2024-08-08 10:10:23,234 - INFO - playlist: Next track
+2024-08-08 10:10:23,234 - INFO - playlist: Current track: 7
+2024-08-08 10:10:23,234 - INFO - message_queue: Playlist>ogi-feel-the-beat-chillest-191265
+2024-08-08 10:13:24,052 - INFO - playlist: Next track
+2024-08-08 10:13:24,052 - INFO - playlist: Current track: 9
+2024-08-08 10:13:24,052 - INFO - message_queue: Playlist>a-jazz-piano-110481
+2024-08-08 10:14:41,139 - INFO - playlist: Next track
+2024-08-08 10:14:41,139 - INFO - playlist: Current track: 31
+2024-08-08 10:14:41,139 - INFO - message_queue: Playlist>Acid Jazzin Japan
+2024-08-08 11:25:16,719 - INFO - playlist: Next track
+2024-08-08 11:25:16,725 - INFO - playlist: Current track: 20
+2024-08-08 11:25:16,725 - INFO - message_queue: Playlist>when-you-smile-151423
+2024-08-08 11:29:45,351 - INFO - playlist: Next track
+2024-08-08 11:29:45,351 - INFO - playlist: Current track: 30
+2024-08-08 11:29:45,351 - INFO - message_queue: Playlist>chill-vibra-jazzy-theme-3245
+2024-08-08 11:31:45,389 - INFO - playlist: Next track
+2024-08-08 11:31:45,389 - INFO - playlist: Current track: 27
+2024-08-08 11:31:45,389 - INFO - message_queue: Playlist>a-cup-of-joe-20732
+2024-08-08 11:33:36,733 - INFO - playlist: Next track
+2024-08-08 11:33:36,734 - INFO - playlist: Current track: 18
+2024-08-08 11:33:36,734 - INFO - message_queue: Playlist>podcast-jazz-music-168726
+2024-08-08 12:37:23,204 - INFO - Command and message queues have been created.
+2024-08-08 12:37:23,206 - INFO - Player process has been created.
+2024-08-08 12:37:23,206 - INFO - Starting TUI.
+2024-08-08 12:37:23,207 - INFO - Tracks have been loaded.
+2024-08-08 12:37:23,207 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f14d7df9dc0>
+2024-08-08 12:37:23,207 - INFO - Playlist has been created.
+2024-08-08 12:37:23,207 - INFO - Playlist has been created.
+2024-08-08 12:37:23,223 - INFO - Player has been created.
+2024-08-08 12:37:23,223 - INFO - Entering player process loop.
+2024-08-08 12:37:23,223 - INFO - cmd: chanel_list
+2024-08-08 12:37:23,414 - DEBUG - Using selector: EpollSelector
+2024-08-08 12:37:23,415 - INFO - cmd: stop
+2024-08-08 12:37:23,415 - INFO - cmd: chanel
+2024-08-08 12:37:23,415 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f14d7df9dc0>
+2024-08-08 12:37:23,415 - INFO - Playlist has been created.
+2024-08-08 12:37:23,415 - INFO - msg: Chanel>LofiHipHop
+2024-08-08 12:37:23,415 - INFO - cmd: play
+2024-08-08 12:37:23,416 - INFO - playlist: Next track
+2024-08-08 12:37:23,416 - INFO - playlist: Current track: 9
+2024-08-08 12:37:23,416 - INFO - message_queue: Playlist>freedom-lofi-beats-160088
+2024-08-08 12:37:23,416 - INFO - cmd: shuffle
+2024-08-08 12:37:23,416 - INFO - cmd: shuffle
+2024-08-08 12:37:23,416 - INFO - cmd: mute
+2024-08-08 12:37:23,416 - INFO - cmd: mute
+2024-08-08 12:40:35,669 - INFO - playlist: Next track
+2024-08-08 12:40:35,669 - INFO - playlist: Current track: 27
+2024-08-08 12:40:35,669 - INFO - message_queue: Playlist>10min-atmos-10334
+2024-08-08 12:50:38,036 - INFO - playlist: Next track
+2024-08-08 12:50:38,036 - INFO - playlist: Current track: 21
+2024-08-08 12:50:38,036 - INFO - message_queue: Playlist>analog-dreams-lofi-vibes-216040
+2024-08-08 12:54:53,118 - INFO - playlist: Next track
+2024-08-08 12:54:53,119 - INFO - playlist: Current track: 22
+2024-08-08 12:54:53,119 - INFO - message_queue: Playlist>lofi-girl-dreams-113883
+2024-08-08 12:57:06,461 - INFO - cmd: volume, args: ['0.9']
+2024-08-08 12:57:06,761 - INFO - cmd: volume, args: ['0.8']
+2024-08-08 12:57:07,211 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-08 12:57:08,217 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-08 12:57:20,914 - INFO - playlist: Next track
+2024-08-08 12:57:20,915 - INFO - playlist: Current track: 21
+2024-08-08 12:57:20,915 - INFO - message_queue: Playlist>analog-dreams-lofi-vibes-216040
+2024-08-08 13:01:36,014 - INFO - playlist: Next track
+2024-08-08 13:01:36,014 - INFO - playlist: Current track: 1
+2024-08-08 13:01:36,014 - INFO - message_queue: Playlist>lofi-orchestra-162306
+2024-08-08 13:05:58,459 - INFO - playlist: Next track
+2024-08-08 13:05:58,459 - INFO - playlist: Current track: 25
+2024-08-08 13:05:58,459 - INFO - message_queue: Playlist>solitarymaninblack-blasted-into-orbit-3920
+2024-08-08 13:15:01,863 - INFO - playlist: Next track
+2024-08-08 13:15:01,863 - INFO - playlist: Current track: 0
+2024-08-08 13:15:01,863 - INFO - message_queue: Playlist>summer-rain-lofi-vibes-216043
+2024-08-08 13:20:06,998 - INFO - playlist: Next track
+2024-08-08 13:20:06,998 - INFO - playlist: Current track: 27
+2024-08-08 13:20:06,998 - INFO - message_queue: Playlist>10min-atmos-10334
+2024-08-08 13:30:09,412 - INFO - playlist: Next track
+2024-08-08 13:30:09,412 - INFO - playlist: Current track: 6
+2024-08-08 13:30:09,412 - INFO - message_queue: Playlist>good-night-160166
+2024-08-08 13:32:36,552 - INFO - playlist: Next track
+2024-08-08 13:32:36,553 - INFO - playlist: Current track: 7
+2024-08-08 13:32:36,553 - INFO - message_queue: Playlist>instrumental-lofi-tranquilas-151240
+2024-08-08 13:37:18,885 - INFO - playlist: Next track
+2024-08-08 13:37:18,885 - INFO - playlist: Current track: 20
+2024-08-08 13:37:18,886 - INFO - message_queue: Playlist>chill-lofi-160893
+2024-08-08 13:40:07,057 - INFO - playlist: Next track
+2024-08-08 13:40:07,057 - INFO - playlist: Current track: 5
+2024-08-08 13:40:07,058 - INFO - message_queue: Playlist>for-a-dream-lofi-vibes-216038
+2024-08-08 13:43:56,641 - INFO - playlist: Next track
+2024-08-08 13:43:56,641 - INFO - playlist: Current track: 7
+2024-08-08 13:43:56,641 - INFO - message_queue: Playlist>instrumental-lofi-tranquilas-151240
+2024-08-08 13:48:32,856 - INFO - playlist: Next track
+2024-08-08 13:48:32,856 - INFO - playlist: Current track: 2
+2024-08-08 13:48:32,857 - INFO - message_queue: Playlist>coverless-book-lofi-186307
+2024-08-08 13:53:02,698 - INFO - playlist: Next track
+2024-08-08 13:53:02,698 - INFO - playlist: Current track: 12
+2024-08-08 13:53:02,698 - INFO - message_queue: Playlist>empty-mind-118973
+2024-08-08 13:55:58,291 - INFO - playlist: Next track
+2024-08-08 13:55:58,291 - INFO - playlist: Current track: 2
+2024-08-08 13:55:58,291 - INFO - message_queue: Playlist>coverless-book-lofi-186307
+2024-08-08 14:00:22,380 - INFO - playlist: Next track
+2024-08-08 14:00:22,381 - INFO - playlist: Current track: 15
+2024-08-08 14:00:22,381 - INFO - message_queue: Playlist>lofi-beat-chill-7373
+2024-08-08 14:02:54,649 - INFO - playlist: Next track
+2024-08-08 14:02:54,649 - INFO - playlist: Current track: 17
+2024-08-08 14:02:54,649 - INFO - message_queue: Playlist>lofi-relax-chillhood-by-lofium-123327
+2024-08-08 14:04:28,862 - INFO - playlist: Next track
+2024-08-08 14:04:28,862 - INFO - playlist: Current track: 24
+2024-08-08 14:04:28,862 - INFO - message_queue: Playlist>lofi-relax-travel-by-lofium-123560
+2024-08-08 14:09:35,319 - INFO - playlist: Next track
+2024-08-08 14:09:35,319 - INFO - playlist: Current track: 9
+2024-08-08 14:09:35,319 - INFO - message_queue: Playlist>freedom-lofi-beats-160088
+2024-08-08 14:12:47,547 - INFO - playlist: Next track
+2024-08-08 14:12:47,547 - INFO - playlist: Current track: 5
+2024-08-08 14:12:47,547 - INFO - message_queue: Playlist>for-a-dream-lofi-vibes-216038
+2024-08-08 14:16:37,123 - INFO - playlist: Next track
+2024-08-08 14:16:37,123 - INFO - playlist: Current track: 17
+2024-08-08 14:16:37,123 - INFO - message_queue: Playlist>lofi-relax-chillhood-by-lofium-123327
+2024-08-08 14:18:11,334 - INFO - playlist: Next track
+2024-08-08 14:18:11,334 - INFO - playlist: Current track: 22
+2024-08-08 14:18:11,334 - INFO - message_queue: Playlist>lofi-girl-dreams-113883
+2024-08-08 14:20:39,190 - INFO - playlist: Next track
+2024-08-08 14:20:39,191 - INFO - playlist: Current track: 30
+2024-08-08 14:20:39,191 - INFO - message_queue: Playlist>Low Roar - Tonight, Tonight, Tonight (Edit)
+2024-08-08 14:28:36,165 - INFO - playlist: Next track
+2024-08-08 14:28:36,165 - INFO - playlist: Current track: 28
+2024-08-08 14:28:36,165 - INFO - message_queue: Playlist>bell-fi-broadcasts-181511
+2024-08-08 14:35:13,937 - INFO - Command and message queues have been created.
+2024-08-08 14:35:13,940 - INFO - Player process has been created.
+2024-08-08 14:35:13,940 - INFO - Starting TUI.
+2024-08-08 14:35:13,941 - INFO - Tracks have been loaded.
+2024-08-08 14:35:13,941 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fce8ddf9520>
+2024-08-08 14:35:13,941 - INFO - Playlist has been created.
+2024-08-08 14:35:13,941 - INFO - Playlist has been created.
+2024-08-08 14:35:13,957 - INFO - Player has been created.
+2024-08-08 14:35:13,957 - INFO - Entering player process loop.
+2024-08-08 14:35:13,958 - INFO - cmd: chanel_list
+2024-08-08 14:35:14,147 - DEBUG - Using selector: EpollSelector
+2024-08-08 14:35:14,147 - INFO - cmd: stop
+2024-08-08 14:35:14,148 - INFO - cmd: chanel
+2024-08-08 14:35:14,148 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fce8ddf9520>
+2024-08-08 14:35:14,148 - INFO - Playlist has been created.
+2024-08-08 14:35:14,148 - INFO - msg: Chanel>LofiHipHop
+2024-08-08 14:35:14,148 - INFO - cmd: play
+2024-08-08 14:35:14,148 - INFO - playlist: Next track
+2024-08-08 14:35:14,148 - INFO - cmd: shuffle
+2024-08-08 14:35:14,148 - INFO - playlist: Current track: 30
+2024-08-08 14:35:14,149 - INFO - cmd: shuffle
+2024-08-08 14:35:14,149 - INFO - message_queue: Playlist>Low Roar - Tonight, Tonight, Tonight (Edit)
+2024-08-08 14:35:14,149 - INFO - cmd: mute
+2024-08-08 14:35:14,149 - INFO - cmd: mute
+2024-08-08 14:35:15,221 - INFO - cmd: exit
+2024-08-08 14:35:15,425 - INFO - Shutting down MP3 Player.
+2024-08-08 14:35:15,425 - INFO - MP3 Player has been shut down.
+2024-08-08 14:39:59,657 - INFO - playlist: Next track
+2024-08-08 14:39:59,657 - INFO - playlist: Current track: 22
+2024-08-08 14:39:59,657 - INFO - message_queue: Playlist>lofi-girl-dreams-113883
+2024-08-08 14:42:27,535 - INFO - playlist: Next track
+2024-08-08 14:42:27,535 - INFO - playlist: Current track: 16
+2024-08-08 14:42:27,535 - INFO - message_queue: Playlist>royalty-free-use-lofi-chill-background-music-dreamscape-201679
+2024-08-08 14:44:10,160 - INFO - playlist: Next track
+2024-08-08 14:44:10,160 - INFO - playlist: Current track: 24
+2024-08-08 14:44:10,160 - INFO - message_queue: Playlist>lofi-relax-travel-by-lofium-123560
+2024-08-08 14:49:16,634 - INFO - playlist: Next track
+2024-08-08 14:49:16,634 - INFO - playlist: Current track: 0
+2024-08-08 14:49:16,634 - INFO - message_queue: Playlist>summer-rain-lofi-vibes-216043
+2024-08-08 14:54:21,753 - INFO - playlist: Next track
+2024-08-08 14:54:21,754 - INFO - playlist: Current track: 21
+2024-08-08 14:54:21,754 - INFO - message_queue: Playlist>analog-dreams-lofi-vibes-216040
+2024-08-08 14:58:36,835 - INFO - playlist: Next track
+2024-08-08 14:58:36,835 - INFO - playlist: Current track: 7
+2024-08-08 14:58:36,835 - INFO - message_queue: Playlist>instrumental-lofi-tranquilas-151240
+2024-08-08 15:03:13,112 - INFO - playlist: Next track
+2024-08-08 15:03:13,112 - INFO - playlist: Current track: 21
+2024-08-08 15:03:13,112 - INFO - message_queue: Playlist>analog-dreams-lofi-vibes-216040
+2024-08-08 15:07:28,255 - INFO - playlist: Next track
+2024-08-08 15:07:28,255 - INFO - playlist: Current track: 24
+2024-08-08 15:07:28,255 - INFO - message_queue: Playlist>lofi-relax-travel-by-lofium-123560
+2024-08-08 15:12:34,690 - INFO - playlist: Next track
+2024-08-08 15:12:34,690 - INFO - playlist: Current track: 28
+2024-08-08 15:12:34,690 - INFO - message_queue: Playlist>bell-fi-broadcasts-181511
+2024-08-08 15:23:58,170 - INFO - playlist: Next track
+2024-08-08 15:23:58,170 - INFO - playlist: Current track: 27
+2024-08-08 15:23:58,170 - INFO - message_queue: Playlist>10min-atmos-10334
+2024-08-08 15:34:00,547 - INFO - playlist: Next track
+2024-08-08 15:34:00,547 - INFO - playlist: Current track: 22
+2024-08-08 15:34:00,547 - INFO - message_queue: Playlist>lofi-girl-dreams-113883
+2024-08-08 15:36:28,361 - INFO - playlist: Next track
+2024-08-08 15:36:28,361 - INFO - playlist: Current track: 0
+2024-08-08 15:36:28,361 - INFO - message_queue: Playlist>summer-rain-lofi-vibes-216043
+2024-08-08 15:41:33,489 - INFO - playlist: Next track
+2024-08-08 15:41:33,489 - INFO - playlist: Current track: 13
+2024-08-08 15:41:33,489 - INFO - message_queue: Playlist>free-lofi-type-beat-cozy-night-210690
+2024-08-08 15:44:16,025 - INFO - playlist: Next track
+2024-08-08 15:44:16,026 - INFO - playlist: Current track: 6
+2024-08-08 15:44:16,026 - INFO - message_queue: Playlist>good-night-160166
+2024-08-08 15:46:43,194 - INFO - playlist: Next track
+2024-08-08 15:46:43,194 - INFO - playlist: Current track: 25
+2024-08-08 15:46:43,194 - INFO - message_queue: Playlist>solitarymaninblack-blasted-into-orbit-3920
+2024-08-08 15:55:46,622 - INFO - playlist: Next track
+2024-08-08 15:55:46,622 - INFO - playlist: Current track: 10
+2024-08-08 15:55:46,622 - INFO - message_queue: Playlist>sloth-tier-lofi-jazz-223593
+2024-08-08 15:59:43,594 - INFO - playlist: Next track
+2024-08-08 15:59:43,594 - INFO - playlist: Current track: 22
+2024-08-08 15:59:43,594 - INFO - message_queue: Playlist>lofi-girl-dreams-113883
+2024-08-08 16:02:11,458 - INFO - playlist: Next track
+2024-08-08 16:02:11,458 - INFO - playlist: Current track: 9
+2024-08-08 16:02:11,458 - INFO - message_queue: Playlist>freedom-lofi-beats-160088
+2024-08-08 16:05:23,672 - INFO - playlist: Next track
+2024-08-08 16:05:23,672 - INFO - playlist: Current track: 18
+2024-08-08 16:05:23,672 - INFO - message_queue: Playlist>lofi-chillzone-162827
+2024-08-08 16:13:23,749 - INFO - playlist: Next track
+2024-08-08 16:13:23,750 - INFO - playlist: Current track: 6
+2024-08-08 16:13:23,750 - INFO - message_queue: Playlist>good-night-160166
+2024-08-08 16:15:27,561 - INFO - cmd: mute
+2024-08-08 16:15:50,958 - INFO - playlist: Next track
+2024-08-08 16:15:50,958 - INFO - playlist: Current track: 13
+2024-08-08 16:15:50,958 - INFO - message_queue: Playlist>free-lofi-type-beat-cozy-night-210690
+2024-08-08 16:18:33,562 - INFO - playlist: Next track
+2024-08-08 16:18:33,562 - INFO - playlist: Current track: 7
+2024-08-08 16:18:33,562 - INFO - message_queue: Playlist>instrumental-lofi-tranquilas-151240
+2024-08-08 16:23:09,859 - INFO - playlist: Next track
+2024-08-08 16:23:09,859 - INFO - playlist: Current track: 0
+2024-08-08 16:23:09,859 - INFO - message_queue: Playlist>summer-rain-lofi-vibes-216043
+2024-08-08 16:28:15,009 - INFO - playlist: Next track
+2024-08-08 16:28:15,009 - INFO - playlist: Current track: 2
+2024-08-08 16:28:15,009 - INFO - message_queue: Playlist>coverless-book-lofi-186307
+2024-08-08 16:32:39,136 - INFO - playlist: Next track
+2024-08-08 16:32:39,137 - INFO - playlist: Current track: 27
+2024-08-08 16:32:39,137 - INFO - message_queue: Playlist>10min-atmos-10334
+2024-08-08 16:42:41,559 - INFO - playlist: Next track
+2024-08-08 16:42:41,559 - INFO - playlist: Current track: 10
+2024-08-08 16:42:41,560 - INFO - message_queue: Playlist>sloth-tier-lofi-jazz-223593
+2024-08-08 16:46:38,523 - INFO - playlist: Next track
+2024-08-08 16:46:38,524 - INFO - playlist: Current track: 9
+2024-08-08 16:46:38,524 - INFO - message_queue: Playlist>freedom-lofi-beats-160088
+2024-08-08 16:49:50,731 - INFO - playlist: Next track
+2024-08-08 16:49:50,731 - INFO - playlist: Current track: 4
+2024-08-08 16:49:50,731 - INFO - message_queue: Playlist>lofi-hiphop-type-beat-170305
+2024-08-08 16:50:54,501 - INFO - playlist: Next track
+2024-08-08 16:50:54,501 - INFO - playlist: Current track: 13
+2024-08-08 16:50:54,501 - INFO - message_queue: Playlist>free-lofi-type-beat-cozy-night-210690
+2024-08-08 16:53:37,092 - INFO - playlist: Next track
+2024-08-08 16:53:37,092 - INFO - playlist: Current track: 4
+2024-08-08 16:53:37,092 - INFO - message_queue: Playlist>lofi-hiphop-type-beat-170305
+2024-08-08 16:54:40,870 - INFO - playlist: Next track
+2024-08-08 16:54:40,870 - INFO - playlist: Current track: 29
+2024-08-08 16:54:40,870 - INFO - message_queue: Playlist>lofi-music-5-136397
+2024-08-08 17:04:42,888 - INFO - playlist: Next track
+2024-08-08 17:04:42,888 - INFO - playlist: Current track: 20
+2024-08-08 17:04:42,888 - INFO - message_queue: Playlist>chill-lofi-160893
+2024-08-08 17:07:30,984 - INFO - playlist: Next track
+2024-08-08 17:07:30,985 - INFO - playlist: Current track: 16
+2024-08-08 17:07:30,985 - INFO - message_queue: Playlist>royalty-free-use-lofi-chill-background-music-dreamscape-201679
+2024-08-08 17:09:13,620 - INFO - playlist: Next track
+2024-08-08 17:09:13,620 - INFO - playlist: Current track: 19
+2024-08-08 17:09:13,620 - INFO - message_queue: Playlist>spirit-blossom-15285
+2024-08-08 17:11:01,749 - INFO - playlist: Next track
+2024-08-08 17:11:01,749 - INFO - playlist: Current track: 17
+2024-08-08 17:11:01,749 - INFO - message_queue: Playlist>lofi-relax-chillhood-by-lofium-123327
+2024-08-08 17:12:35,960 - INFO - playlist: Next track
+2024-08-08 17:12:35,960 - INFO - playlist: Current track: 5
+2024-08-08 17:12:35,960 - INFO - message_queue: Playlist>for-a-dream-lofi-vibes-216038
+2024-08-08 17:16:25,531 - INFO - playlist: Next track
+2024-08-08 17:16:25,532 - INFO - playlist: Current track: 23
+2024-08-08 17:16:25,532 - INFO - message_queue: Playlist>lofi-study-112191
+2024-08-08 17:18:52,820 - INFO - playlist: Next track
+2024-08-08 17:18:52,820 - INFO - playlist: Current track: 17
+2024-08-08 17:18:52,820 - INFO - message_queue: Playlist>lofi-relax-chillhood-by-lofium-123327
+2024-08-08 17:20:27,038 - INFO - playlist: Next track
+2024-08-08 17:20:27,038 - INFO - playlist: Current track: 29
+2024-08-08 17:20:27,038 - INFO - message_queue: Playlist>lofi-music-5-136397
+2024-08-08 17:30:28,980 - INFO - playlist: Next track
+2024-08-08 17:30:28,980 - INFO - playlist: Current track: 26
+2024-08-08 17:30:28,980 - INFO - message_queue: Playlist>lo-fi-podcast-cozy-relaxing-chillout-lounge-music-214440
+2024-08-08 17:40:11,090 - INFO - playlist: Next track
+2024-08-08 17:40:11,091 - INFO - playlist: Current track: 25
+2024-08-08 17:40:11,091 - INFO - message_queue: Playlist>solitarymaninblack-blasted-into-orbit-3920
+2024-08-08 17:49:14,521 - INFO - playlist: Next track
+2024-08-08 17:49:14,522 - INFO - playlist: Current track: 30
+2024-08-08 17:49:14,522 - INFO - message_queue: Playlist>Low Roar - Tonight, Tonight, Tonight (Edit)
+2024-08-08 17:57:11,494 - INFO - playlist: Next track
+2024-08-08 17:57:11,494 - INFO - playlist: Current track: 26
+2024-08-08 17:57:11,494 - INFO - message_queue: Playlist>lo-fi-podcast-cozy-relaxing-chillout-lounge-music-214440
+2024-08-08 18:06:53,618 - INFO - playlist: Next track
+2024-08-08 18:06:53,618 - INFO - playlist: Current track: 22
+2024-08-08 18:06:53,618 - INFO - message_queue: Playlist>lofi-girl-dreams-113883
+2024-08-08 18:09:21,494 - INFO - playlist: Next track
+2024-08-08 18:09:21,494 - INFO - playlist: Current track: 18
+2024-08-08 18:09:21,494 - INFO - message_queue: Playlist>lofi-chillzone-162827
+2024-08-08 18:17:21,577 - INFO - playlist: Next track
+2024-08-08 18:17:21,577 - INFO - playlist: Current track: 2
+2024-08-08 18:17:21,577 - INFO - message_queue: Playlist>coverless-book-lofi-186307
+2024-08-08 18:21:45,701 - INFO - playlist: Next track
+2024-08-08 18:21:45,702 - INFO - playlist: Current track: 0
+2024-08-08 18:21:45,702 - INFO - message_queue: Playlist>summer-rain-lofi-vibes-216043
+2024-08-08 18:26:50,862 - INFO - playlist: Next track
+2024-08-08 18:26:50,862 - INFO - playlist: Current track: 19
+2024-08-08 18:26:50,862 - INFO - message_queue: Playlist>spirit-blossom-15285
+2024-08-08 18:28:38,987 - INFO - playlist: Next track
+2024-08-08 18:28:38,987 - INFO - playlist: Current track: 21
+2024-08-08 18:28:38,987 - INFO - message_queue: Playlist>analog-dreams-lofi-vibes-216040
+2024-08-08 18:32:54,019 - INFO - playlist: Next track
+2024-08-08 18:32:54,019 - INFO - playlist: Current track: 0
+2024-08-08 18:32:54,019 - INFO - message_queue: Playlist>summer-rain-lofi-vibes-216043
+2024-08-08 18:37:59,192 - INFO - playlist: Next track
+2024-08-08 18:37:59,192 - INFO - playlist: Current track: 24
+2024-08-08 18:37:59,192 - INFO - message_queue: Playlist>lofi-relax-travel-by-lofium-123560
+2024-08-08 18:43:05,668 - INFO - playlist: Next track
+2024-08-08 18:43:05,668 - INFO - playlist: Current track: 10
+2024-08-08 18:43:05,668 - INFO - message_queue: Playlist>sloth-tier-lofi-jazz-223593
+2024-08-08 18:47:02,656 - INFO - playlist: Next track
+2024-08-08 18:47:02,656 - INFO - playlist: Current track: 11
+2024-08-08 18:47:02,656 - INFO - message_queue: Playlist>zombies-lofi-154347
+2024-08-08 18:50:14,691 - INFO - playlist: Next track
+2024-08-08 18:50:14,691 - INFO - playlist: Current track: 13
+2024-08-08 18:50:14,691 - INFO - message_queue: Playlist>free-lofi-type-beat-cozy-night-210690
+2024-08-08 18:52:57,301 - INFO - playlist: Next track
+2024-08-08 18:52:57,301 - INFO - playlist: Current track: 5
+2024-08-08 18:52:57,301 - INFO - message_queue: Playlist>for-a-dream-lofi-vibes-216038
+2024-08-08 18:56:46,875 - INFO - playlist: Next track
+2024-08-08 18:56:46,875 - INFO - playlist: Current track: 22
+2024-08-08 18:56:46,875 - INFO - message_queue: Playlist>lofi-girl-dreams-113883
+2024-08-08 18:59:14,742 - INFO - playlist: Next track
+2024-08-08 18:59:14,742 - INFO - playlist: Current track: 18
+2024-08-08 18:59:14,742 - INFO - message_queue: Playlist>lofi-chillzone-162827
+2024-08-08 19:07:14,801 - INFO - playlist: Next track
+2024-08-08 19:07:14,802 - INFO - playlist: Current track: 25
+2024-08-08 19:07:14,802 - INFO - message_queue: Playlist>solitarymaninblack-blasted-into-orbit-3920
+2024-08-08 19:16:18,264 - INFO - playlist: Next track
+2024-08-08 19:16:18,264 - INFO - playlist: Current track: 10
+2024-08-08 19:16:18,264 - INFO - message_queue: Playlist>sloth-tier-lofi-jazz-223593
+2024-08-08 19:20:15,249 - INFO - playlist: Next track
+2024-08-08 19:20:15,249 - INFO - playlist: Current track: 15
+2024-08-08 19:20:15,249 - INFO - message_queue: Playlist>lofi-beat-chill-7373
+2024-08-08 19:22:47,531 - INFO - playlist: Next track
+2024-08-08 19:22:47,531 - INFO - playlist: Current track: 12
+2024-08-08 19:22:47,531 - INFO - message_queue: Playlist>empty-mind-118973
+2024-08-08 19:25:43,136 - INFO - playlist: Next track
+2024-08-08 19:25:43,136 - INFO - playlist: Current track: 2
+2024-08-08 19:25:43,136 - INFO - message_queue: Playlist>coverless-book-lofi-186307
+2024-08-08 19:30:07,229 - INFO - playlist: Next track
+2024-08-08 19:30:07,229 - INFO - playlist: Current track: 23
+2024-08-08 19:30:07,229 - INFO - message_queue: Playlist>lofi-study-112191
+2024-08-08 19:32:34,509 - INFO - playlist: Next track
+2024-08-08 19:32:34,509 - INFO - playlist: Current track: 24
+2024-08-08 19:32:34,509 - INFO - message_queue: Playlist>lofi-relax-travel-by-lofium-123560
+2024-08-08 19:37:40,983 - INFO - playlist: Next track
+2024-08-08 19:37:40,983 - INFO - playlist: Current track: 1
+2024-08-08 19:37:40,984 - INFO - message_queue: Playlist>lofi-orchestra-162306
+2024-08-08 19:42:03,508 - INFO - playlist: Next track
+2024-08-08 19:42:03,508 - INFO - playlist: Current track: 5
+2024-08-08 19:42:03,508 - INFO - message_queue: Playlist>for-a-dream-lofi-vibes-216038
+2024-08-08 19:45:53,085 - INFO - playlist: Next track
+2024-08-08 19:45:53,085 - INFO - playlist: Current track: 10
+2024-08-08 19:45:53,085 - INFO - message_queue: Playlist>sloth-tier-lofi-jazz-223593
+2024-08-08 19:49:50,059 - INFO - playlist: Next track
+2024-08-08 19:49:50,059 - INFO - playlist: Current track: 5
+2024-08-08 19:49:50,059 - INFO - message_queue: Playlist>for-a-dream-lofi-vibes-216038
+2024-08-08 19:53:39,658 - INFO - playlist: Next track
+2024-08-08 19:53:39,659 - INFO - playlist: Current track: 3
+2024-08-08 19:53:39,659 - INFO - message_queue: Playlist>deep-lofi-vibes-205062
+2024-08-08 19:56:57,713 - INFO - playlist: Next track
+2024-08-08 19:56:57,714 - INFO - playlist: Current track: 23
+2024-08-08 19:56:57,714 - INFO - message_queue: Playlist>lofi-study-112191
+2024-08-08 19:59:24,985 - INFO - playlist: Next track
+2024-08-08 19:59:24,985 - INFO - playlist: Current track: 0
+2024-08-08 19:59:24,985 - INFO - message_queue: Playlist>summer-rain-lofi-vibes-216043
+2024-08-08 20:04:30,156 - INFO - playlist: Next track
+2024-08-08 20:04:30,156 - INFO - playlist: Current track: 14
+2024-08-08 20:04:30,156 - INFO - message_queue: Playlist>the-weekend-117427
+2024-08-08 20:06:56,033 - INFO - playlist: Next track
+2024-08-08 20:06:56,033 - INFO - playlist: Current track: 28
+2024-08-08 20:06:56,033 - INFO - message_queue: Playlist>bell-fi-broadcasts-181511
+2024-08-08 20:18:19,507 - INFO - playlist: Next track
+2024-08-08 20:18:19,508 - INFO - playlist: Current track: 6
+2024-08-08 20:18:19,508 - INFO - message_queue: Playlist>good-night-160166
+2024-08-08 20:20:46,676 - INFO - playlist: Next track
+2024-08-08 20:20:46,676 - INFO - playlist: Current track: 14
+2024-08-08 20:20:46,676 - INFO - message_queue: Playlist>the-weekend-117427
+2024-08-08 20:23:12,553 - INFO - playlist: Next track
+2024-08-08 20:23:12,553 - INFO - playlist: Current track: 30
+2024-08-08 20:23:12,553 - INFO - message_queue: Playlist>Low Roar - Tonight, Tonight, Tonight (Edit)
+2024-08-08 20:31:09,521 - INFO - playlist: Next track
+2024-08-08 20:31:09,521 - INFO - playlist: Current track: 22
+2024-08-08 20:31:09,521 - INFO - message_queue: Playlist>lofi-girl-dreams-113883
+2024-08-08 20:33:37,385 - INFO - playlist: Next track
+2024-08-08 20:33:37,385 - INFO - playlist: Current track: 13
+2024-08-08 20:33:37,385 - INFO - message_queue: Playlist>free-lofi-type-beat-cozy-night-210690
+2024-08-08 20:36:19,987 - INFO - playlist: Next track
+2024-08-08 20:36:19,987 - INFO - playlist: Current track: 11
+2024-08-08 20:36:19,987 - INFO - message_queue: Playlist>zombies-lofi-154347
+2024-08-08 20:39:32,040 - INFO - playlist: Next track
+2024-08-08 20:39:32,040 - INFO - playlist: Current track: 10
+2024-08-08 20:39:32,040 - INFO - message_queue: Playlist>sloth-tier-lofi-jazz-223593
+2024-08-08 20:43:29,011 - INFO - playlist: Next track
+2024-08-08 20:43:29,011 - INFO - playlist: Current track: 16
+2024-08-08 20:43:29,011 - INFO - message_queue: Playlist>royalty-free-use-lofi-chill-background-music-dreamscape-201679
+2024-08-08 20:45:11,640 - INFO - playlist: Next track
+2024-08-08 20:45:11,640 - INFO - playlist: Current track: 18
+2024-08-08 20:45:11,640 - INFO - message_queue: Playlist>lofi-chillzone-162827
+2024-08-08 20:53:11,757 - INFO - playlist: Next track
+2024-08-08 20:53:11,757 - INFO - playlist: Current track: 21
+2024-08-08 20:53:11,757 - INFO - message_queue: Playlist>analog-dreams-lofi-vibes-216040
+2024-08-08 20:57:26,892 - INFO - playlist: Next track
+2024-08-08 20:57:26,892 - INFO - playlist: Current track: 26
+2024-08-08 20:57:26,892 - INFO - message_queue: Playlist>lo-fi-podcast-cozy-relaxing-chillout-lounge-music-214440
+2024-08-08 21:07:14,724 - INFO - playlist: Next track
+2024-08-08 21:07:14,724 - INFO - playlist: Current track: 8
+2024-08-08 21:07:14,724 - INFO - message_queue: Playlist>free-lofi-type-beat-golden-hour-harmony-209519
+2024-08-08 21:11:57,533 - INFO - playlist: Next track
+2024-08-08 21:11:57,533 - INFO - playlist: Current track: 15
+2024-08-08 21:11:57,533 - INFO - message_queue: Playlist>lofi-beat-chill-7373
+2024-08-08 21:14:29,877 - INFO - playlist: Next track
+2024-08-08 21:14:29,877 - INFO - playlist: Current track: 9
+2024-08-08 21:14:29,877 - INFO - message_queue: Playlist>freedom-lofi-beats-160088
+2024-08-08 21:17:42,103 - INFO - playlist: Next track
+2024-08-08 21:17:42,103 - INFO - playlist: Current track: 10
+2024-08-08 21:17:42,103 - INFO - message_queue: Playlist>sloth-tier-lofi-jazz-223593
+2024-08-08 21:21:44,663 - INFO - playlist: Next track
+2024-08-08 21:21:44,663 - INFO - playlist: Current track: 18
+2024-08-08 21:21:44,663 - INFO - message_queue: Playlist>lofi-chillzone-162827
+2024-08-08 21:29:44,820 - INFO - playlist: Next track
+2024-08-08 21:29:44,820 - INFO - playlist: Current track: 3
+2024-08-08 21:29:44,820 - INFO - message_queue: Playlist>deep-lofi-vibes-205062
+2024-08-08 21:33:02,923 - INFO - playlist: Next track
+2024-08-08 21:33:02,923 - INFO - playlist: Current track: 24
+2024-08-08 21:33:02,923 - INFO - message_queue: Playlist>lofi-relax-travel-by-lofium-123560
+2024-08-08 21:38:14,983 - INFO - playlist: Next track
+2024-08-08 21:38:14,983 - INFO - playlist: Current track: 16
+2024-08-08 21:38:14,983 - INFO - message_queue: Playlist>royalty-free-use-lofi-chill-background-music-dreamscape-201679
+2024-08-08 21:39:57,545 - INFO - playlist: Next track
+2024-08-08 21:39:57,545 - INFO - playlist: Current track: 10
+2024-08-08 21:39:57,545 - INFO - message_queue: Playlist>sloth-tier-lofi-jazz-223593
+2024-08-08 21:43:54,467 - INFO - playlist: Next track
+2024-08-08 21:43:54,467 - INFO - playlist: Current track: 18
+2024-08-08 21:43:54,468 - INFO - message_queue: Playlist>lofi-chillzone-162827
+2024-08-08 22:23:39,411 - INFO - playlist: Next track
+2024-08-08 22:23:39,411 - INFO - playlist: Current track: 12
+2024-08-08 22:23:39,411 - INFO - message_queue: Playlist>empty-mind-118973
+2024-08-08 22:26:35,050 - INFO - playlist: Next track
+2024-08-08 22:26:35,050 - INFO - playlist: Current track: 15
+2024-08-08 22:26:35,050 - INFO - message_queue: Playlist>lofi-beat-chill-7373
+2024-08-08 22:29:07,299 - INFO - playlist: Next track
+2024-08-08 22:29:07,299 - INFO - playlist: Current track: 8
+2024-08-08 22:29:07,299 - INFO - message_queue: Playlist>free-lofi-type-beat-golden-hour-harmony-209519
+2024-08-08 22:33:50,148 - INFO - playlist: Next track
+2024-08-08 22:33:50,148 - INFO - playlist: Current track: 15
+2024-08-08 22:33:50,148 - INFO - message_queue: Playlist>lofi-beat-chill-7373
+2024-08-08 22:36:22,459 - INFO - playlist: Next track
+2024-08-08 22:36:22,459 - INFO - playlist: Current track: 17
+2024-08-08 22:36:22,459 - INFO - message_queue: Playlist>lofi-relax-chillhood-by-lofium-123327
+2024-08-09 09:36:16,619 - INFO - playlist: Next track
+2024-08-09 09:36:16,619 - INFO - playlist: Current track: 8
+2024-08-09 09:36:16,619 - INFO - message_queue: Playlist>free-lofi-type-beat-golden-hour-harmony-209519
+2024-08-09 09:40:59,493 - INFO - playlist: Next track
+2024-08-09 09:40:59,493 - INFO - playlist: Current track: 23
+2024-08-09 09:40:59,493 - INFO - message_queue: Playlist>lofi-study-112191
+2024-08-09 09:43:26,792 - INFO - playlist: Next track
+2024-08-09 09:43:26,792 - INFO - playlist: Current track: 14
+2024-08-09 09:43:26,792 - INFO - message_queue: Playlist>the-weekend-117427
+2024-08-09 09:45:52,682 - INFO - playlist: Next track
+2024-08-09 09:45:52,682 - INFO - playlist: Current track: 28
+2024-08-09 09:45:52,682 - INFO - message_queue: Playlist>bell-fi-broadcasts-181511
+2024-08-09 09:57:16,104 - INFO - playlist: Next track
+2024-08-09 09:57:16,104 - INFO - playlist: Current track: 19
+2024-08-09 09:57:16,104 - INFO - message_queue: Playlist>spirit-blossom-15285
+2024-08-09 09:59:04,233 - INFO - playlist: Next track
+2024-08-09 09:59:04,233 - INFO - playlist: Current track: 25
+2024-08-09 09:59:04,233 - INFO - message_queue: Playlist>solitarymaninblack-blasted-into-orbit-3920
+2024-08-09 10:08:07,633 - INFO - playlist: Next track
+2024-08-09 10:08:07,634 - INFO - playlist: Current track: 27
+2024-08-09 10:08:07,634 - INFO - message_queue: Playlist>10min-atmos-10334
+2024-08-09 10:18:09,987 - INFO - playlist: Next track
+2024-08-09 10:18:09,987 - INFO - playlist: Current track: 3
+2024-08-09 10:18:09,987 - INFO - message_queue: Playlist>deep-lofi-vibes-205062
+2024-08-09 10:21:28,093 - INFO - playlist: Next track
+2024-08-09 10:21:28,094 - INFO - playlist: Current track: 10
+2024-08-09 10:21:28,094 - INFO - message_queue: Playlist>sloth-tier-lofi-jazz-223593
+2024-08-09 10:25:25,046 - INFO - playlist: Next track
+2024-08-09 10:25:25,046 - INFO - playlist: Current track: 16
+2024-08-09 10:25:25,046 - INFO - message_queue: Playlist>royalty-free-use-lofi-chill-background-music-dreamscape-201679
+2024-08-09 10:27:07,650 - INFO - playlist: Next track
+2024-08-09 10:27:07,650 - INFO - playlist: Current track: 14
+2024-08-09 10:27:07,650 - INFO - message_queue: Playlist>the-weekend-117427
+2024-08-09 10:29:33,504 - INFO - playlist: Next track
+2024-08-09 10:29:33,505 - INFO - playlist: Current track: 12
+2024-08-09 10:29:33,505 - INFO - message_queue: Playlist>empty-mind-118973
+2024-08-09 10:32:29,090 - INFO - playlist: Next track
+2024-08-09 10:32:29,090 - INFO - playlist: Current track: 6
+2024-08-09 10:32:29,090 - INFO - message_queue: Playlist>good-night-160166
+2024-08-09 10:34:56,250 - INFO - playlist: Next track
+2024-08-09 10:34:56,250 - INFO - playlist: Current track: 9
+2024-08-09 10:34:56,250 - INFO - message_queue: Playlist>freedom-lofi-beats-160088
+2024-08-09 10:38:08,466 - INFO - playlist: Next track
+2024-08-09 10:38:08,466 - INFO - playlist: Current track: 24
+2024-08-09 10:38:08,466 - INFO - message_queue: Playlist>lofi-relax-travel-by-lofium-123560
+2024-08-09 10:43:14,922 - INFO - playlist: Next track
+2024-08-09 10:43:14,922 - INFO - playlist: Current track: 28
+2024-08-09 10:43:14,922 - INFO - message_queue: Playlist>bell-fi-broadcasts-181511
+2024-08-09 10:54:38,411 - INFO - playlist: Next track
+2024-08-09 10:54:38,412 - INFO - playlist: Current track: 10
+2024-08-09 10:54:38,412 - INFO - message_queue: Playlist>sloth-tier-lofi-jazz-223593
+2024-08-09 10:58:35,371 - INFO - playlist: Next track
+2024-08-09 10:58:35,371 - INFO - playlist: Current track: 23
+2024-08-09 10:58:35,371 - INFO - message_queue: Playlist>lofi-study-112191
+2024-08-09 11:01:02,621 - INFO - playlist: Next track
+2024-08-09 11:01:02,621 - INFO - playlist: Current track: 9
+2024-08-09 11:01:02,621 - INFO - message_queue: Playlist>freedom-lofi-beats-160088
+2024-08-09 11:04:14,824 - INFO - playlist: Next track
+2024-08-09 11:04:14,824 - INFO - playlist: Current track: 22
+2024-08-09 11:04:14,824 - INFO - message_queue: Playlist>lofi-girl-dreams-113883
+2024-08-09 11:06:42,682 - INFO - playlist: Next track
+2024-08-09 11:06:42,682 - INFO - playlist: Current track: 7
+2024-08-09 11:06:42,682 - INFO - message_queue: Playlist>instrumental-lofi-tranquilas-151240
+2024-08-09 11:11:18,976 - INFO - playlist: Next track
+2024-08-09 11:11:18,976 - INFO - playlist: Current track: 2
+2024-08-09 11:11:18,977 - INFO - message_queue: Playlist>coverless-book-lofi-186307
+2024-08-09 11:15:43,069 - INFO - playlist: Next track
+2024-08-09 11:15:43,069 - INFO - playlist: Current track: 18
+2024-08-09 11:15:43,069 - INFO - message_queue: Playlist>lofi-chillzone-162827
+2024-08-09 11:23:43,117 - INFO - playlist: Next track
+2024-08-09 11:23:43,117 - INFO - playlist: Current track: 20
+2024-08-09 11:23:43,117 - INFO - message_queue: Playlist>chill-lofi-160893
+2024-08-09 11:26:31,230 - INFO - playlist: Next track
+2024-08-09 11:26:31,230 - INFO - playlist: Current track: 0
+2024-08-09 11:26:31,230 - INFO - message_queue: Playlist>summer-rain-lofi-vibes-216043
+2024-08-09 11:31:36,413 - INFO - playlist: Next track
+2024-08-09 11:31:36,413 - INFO - playlist: Current track: 29
+2024-08-09 11:31:36,413 - INFO - message_queue: Playlist>lofi-music-5-136397
+2024-08-09 11:41:38,357 - INFO - playlist: Next track
+2024-08-09 11:41:38,357 - INFO - playlist: Current track: 17
+2024-08-09 11:41:38,357 - INFO - message_queue: Playlist>lofi-relax-chillhood-by-lofium-123327
+2024-08-09 11:43:12,568 - INFO - playlist: Next track
+2024-08-09 11:43:12,568 - INFO - playlist: Current track: 22
+2024-08-09 11:43:12,568 - INFO - message_queue: Playlist>lofi-girl-dreams-113883
+2024-08-09 11:45:40,347 - INFO - playlist: Next track
+2024-08-09 11:45:40,348 - INFO - playlist: Current track: 26
+2024-08-09 11:45:40,348 - INFO - message_queue: Playlist>lo-fi-podcast-cozy-relaxing-chillout-lounge-music-214440
+2024-08-09 11:55:22,449 - INFO - playlist: Next track
+2024-08-09 11:55:22,449 - INFO - playlist: Current track: 21
+2024-08-09 11:55:22,449 - INFO - message_queue: Playlist>analog-dreams-lofi-vibes-216040
+2024-08-09 11:59:37,568 - INFO - playlist: Next track
+2024-08-09 11:59:37,568 - INFO - playlist: Current track: 29
+2024-08-09 11:59:37,568 - INFO - message_queue: Playlist>lofi-music-5-136397
+2024-08-09 12:09:39,500 - INFO - playlist: Next track
+2024-08-09 12:09:39,500 - INFO - playlist: Current track: 10
+2024-08-09 12:09:39,500 - INFO - message_queue: Playlist>sloth-tier-lofi-jazz-223593
+2024-08-09 12:13:36,453 - INFO - playlist: Next track
+2024-08-09 12:13:36,453 - INFO - playlist: Current track: 17
+2024-08-09 12:13:36,453 - INFO - message_queue: Playlist>lofi-relax-chillhood-by-lofium-123327
+2024-08-09 12:15:10,652 - INFO - playlist: Next track
+2024-08-09 12:15:10,652 - INFO - playlist: Current track: 8
+2024-08-09 12:15:10,652 - INFO - message_queue: Playlist>free-lofi-type-beat-golden-hour-harmony-209519
+2024-08-09 12:17:05,813 - INFO - cmd: mute
+2024-08-09 12:17:08,283 - INFO - cmd: play
+2024-08-09 12:17:08,285 - INFO - playlist: Next track
+2024-08-09 12:17:08,285 - INFO - playlist: Current track: 3
+2024-08-09 12:17:08,285 - INFO - message_queue: Playlist>deep-lofi-vibes-205062
+2024-08-09 12:17:08,619 - INFO - cmd: stop
+2024-08-09 12:17:11,110 - INFO - cmd: play
+2024-08-09 12:17:11,110 - INFO - playlist: Next track
+2024-08-09 12:17:11,110 - INFO - playlist: Current track: 19
+2024-08-09 12:17:11,110 - INFO - message_queue: Playlist>spirit-blossom-15285
+2024-08-09 12:17:12,692 - INFO - cmd: stop
+2024-08-09 12:17:12,693 - INFO - cmd: chanel
+2024-08-09 12:17:12,696 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f14d7df9dc0>
+2024-08-09 12:17:12,696 - INFO - Playlist has been created.
+2024-08-09 12:17:12,697 - INFO - msg: Chanel>AmbientElectronic
+2024-08-09 12:17:12,697 - INFO - cmd: play
+2024-08-09 12:17:12,697 - INFO - playlist: Next track
+2024-08-09 12:17:12,697 - INFO - playlist: Current track: 9
+2024-08-09 12:17:12,697 - INFO - message_queue: Playlist>livail-oasis-114751
+2024-08-09 12:17:14,029 - INFO - cmd: stop
+2024-08-09 12:17:14,029 - INFO - cmd: chanel
+2024-08-09 12:17:14,029 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f14d7df9dc0>
+2024-08-09 12:17:14,029 - INFO - Playlist has been created.
+2024-08-09 12:17:14,029 - INFO - msg: Chanel>AcidJazz
+2024-08-09 12:17:14,030 - INFO - cmd: play
+2024-08-09 12:17:14,030 - INFO - playlist: Next track
+2024-08-09 12:17:14,030 - INFO - playlist: Current track: 9
+2024-08-09 12:17:14,030 - INFO - message_queue: Playlist>a-jazz-piano-110481
+2024-08-09 12:18:31,121 - INFO - playlist: Next track
+2024-08-09 12:18:31,121 - INFO - playlist: Current track: 11
+2024-08-09 12:18:31,121 - INFO - message_queue: Playlist>piano-jazz-music-203494
+2024-08-09 12:20:29,457 - INFO - playlist: Next track
+2024-08-09 12:20:29,457 - INFO - playlist: Current track: 7
+2024-08-09 12:20:29,457 - INFO - message_queue: Playlist>ogi-feel-the-beat-chillest-191265
+2024-08-09 12:23:30,264 - INFO - playlist: Next track
+2024-08-09 12:23:30,265 - INFO - playlist: Current track: 12
+2024-08-09 12:23:30,265 - INFO - message_queue: Playlist>background-light-music-with-saxophone-for-short-video-romantic-jazz-166528
+2024-08-09 12:24:36,446 - INFO - playlist: Next track
+2024-08-09 12:24:36,446 - INFO - playlist: Current track: 33
+2024-08-09 12:24:36,446 - INFO - message_queue: Playlist>FunkNo1-TOKYO GROOVE JYOSHI
+2024-08-09 12:25:06,129 - INFO - cmd: stop
+2024-08-09 14:27:52,009 - INFO - cmd: mute
+2024-08-09 14:27:52,797 - INFO - cmd: mute
+2024-08-09 14:27:54,307 - INFO - cmd: play
+2024-08-09 14:27:54,307 - INFO - playlist: Next track
+2024-08-09 14:27:54,307 - INFO - playlist: Current track: 34
+2024-08-09 14:27:54,307 - INFO - message_queue: Playlist>Playlist JAZZHOP Jazz hiphop Rap jazz Trip hop mix Summer Vibe
+2024-08-09 14:29:45,084 - INFO - cmd: mute
+2024-08-09 15:07:21,861 - INFO - playlist: Next track
+2024-08-09 15:07:21,861 - INFO - playlist: Current track: 30
+2024-08-09 15:07:21,861 - INFO - message_queue: Playlist>chill-vibra-jazzy-theme-3245
+2024-08-09 15:09:21,985 - INFO - playlist: Next track
+2024-08-09 15:09:21,985 - INFO - playlist: Current track: 0
+2024-08-09 15:09:21,985 - INFO - message_queue: Playlist>on-a-dimly-lit-street-167719
+2024-08-09 15:11:55,546 - INFO - playlist: Next track
+2024-08-09 15:11:55,546 - INFO - playlist: Current track: 21
+2024-08-09 15:11:55,546 - INFO - message_queue: Playlist>jazz-funk-groove-instrumental-222618
+2024-08-09 15:16:43,639 - INFO - playlist: Next track
+2024-08-09 15:16:43,639 - INFO - playlist: Current track: 3
+2024-08-09 15:16:43,639 - INFO - message_queue: Playlist>jazz-commercials-217891
+2024-08-09 15:18:48,568 - INFO - playlist: Next track
+2024-08-09 15:18:48,568 - INFO - playlist: Current track: 0
+2024-08-09 15:18:48,568 - INFO - message_queue: Playlist>on-a-dimly-lit-street-167719
+2024-08-09 15:21:22,128 - INFO - playlist: Next track
+2024-08-09 15:21:22,128 - INFO - playlist: Current track: 13
+2024-08-09 15:21:22,128 - INFO - message_queue: Playlist>draw-me-a-night-jazz-piano-218343
+2024-08-09 15:24:04,908 - INFO - playlist: Next track
+2024-08-09 15:24:04,908 - INFO - playlist: Current track: 5
+2024-08-09 15:24:04,908 - INFO - message_queue: Playlist>cung-vui-ve-chill-sky-bar-jazz-relaxing-for-youtube-video-222700
+2024-08-09 15:28:20,177 - INFO - playlist: Next track
+2024-08-09 15:28:20,177 - INFO - playlist: Current track: 24
+2024-08-09 15:28:20,177 - INFO - message_queue: Playlist>ogi-feel-the-beat-jazz-expresso-191266
+2024-08-09 15:36:23,380 - INFO - playlist: Next track
+2024-08-09 15:36:23,381 - INFO - playlist: Current track: 7
+2024-08-09 15:36:23,381 - INFO - message_queue: Playlist>ogi-feel-the-beat-chillest-191265
+2024-08-09 15:39:24,183 - INFO - playlist: Next track
+2024-08-09 15:39:24,183 - INFO - playlist: Current track: 8
+2024-08-09 15:39:24,183 - INFO - message_queue: Playlist>mr-pleasure-10310
+2024-08-09 15:45:31,013 - INFO - playlist: Next track
+2024-08-09 15:45:31,013 - INFO - playlist: Current track: 3
+2024-08-09 15:45:31,013 - INFO - message_queue: Playlist>jazz-commercials-217891
+2024-08-09 15:47:35,845 - INFO - playlist: Next track
+2024-08-09 15:47:35,845 - INFO - playlist: Current track: 1
+2024-08-09 15:47:35,845 - INFO - message_queue: Playlist>gimme-gimme-jazz-179073
+2024-08-09 15:49:01,434 - INFO - playlist: Next track
+2024-08-09 15:49:01,434 - INFO - playlist: Current track: 25
+2024-08-09 15:49:01,434 - INFO - message_queue: Playlist>the-best-jazz-club-in-new-orleans-164472
+2024-08-09 15:51:01,565 - INFO - playlist: Next track
+2024-08-09 15:51:01,566 - INFO - playlist: Current track: 33
+2024-08-09 15:51:01,566 - INFO - message_queue: Playlist>FunkNo1-TOKYO GROOVE JYOSHI
+2024-08-09 15:56:09,076 - INFO - playlist: Next track
+2024-08-09 15:56:09,076 - INFO - playlist: Current track: 19
+2024-08-09 15:56:09,076 - INFO - message_queue: Playlist>jacob-field-moonshiner-royalty-free-music-8866
+2024-08-09 15:57:47,175 - INFO - playlist: Next track
+2024-08-09 15:57:47,175 - INFO - playlist: Current track: 22
+2024-08-09 15:57:47,175 - INFO - message_queue: Playlist>night-jazz-beats-10039
+2024-08-09 16:01:08,284 - INFO - playlist: Next track
+2024-08-09 16:01:08,284 - INFO - playlist: Current track: 18
+2024-08-09 16:01:08,284 - INFO - message_queue: Playlist>podcast-jazz-music-168726
+2024-08-09 16:10:34,997 - INFO - playlist: Next track
+2024-08-09 16:10:34,997 - INFO - playlist: Current track: 19
+2024-08-09 16:10:34,997 - INFO - message_queue: Playlist>jacob-field-moonshiner-royalty-free-music-8866
+2024-08-09 16:12:13,103 - INFO - playlist: Next track
+2024-08-09 16:12:13,103 - INFO - playlist: Current track: 8
+2024-08-09 16:12:13,103 - INFO - message_queue: Playlist>mr-pleasure-10310
+2024-08-09 16:18:19,887 - INFO - playlist: Next track
+2024-08-09 16:18:19,887 - INFO - playlist: Current track: 32
+2024-08-09 16:18:19,887 - INFO - message_queue: Playlist>Playlist Acid jazz and Nu jazz mix Summer Vibe
+2024-08-09 16:56:44,580 - INFO - playlist: Next track
+2024-08-09 16:56:44,580 - INFO - playlist: Current track: 20
+2024-08-09 16:56:44,580 - INFO - message_queue: Playlist>when-you-smile-151423
+2024-08-09 17:01:13,163 - INFO - playlist: Next track
+2024-08-09 17:01:13,164 - INFO - playlist: Current track: 9
+2024-08-09 17:01:13,164 - INFO - message_queue: Playlist>a-jazz-piano-110481
+2024-08-09 17:02:30,245 - INFO - playlist: Next track
+2024-08-09 17:02:30,246 - INFO - playlist: Current track: 25
+2024-08-09 17:02:30,246 - INFO - message_queue: Playlist>the-best-jazz-club-in-new-orleans-164472
+2024-08-09 17:04:30,375 - INFO - playlist: Next track
+2024-08-09 17:04:30,375 - INFO - playlist: Current track: 31
+2024-08-09 17:04:30,375 - INFO - message_queue: Playlist>Acid Jazzin Japan
+2024-08-09 20:30:15,405 - INFO - cmd: mute
+2024-08-09 20:30:17,636 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-09 20:30:17,845 - INFO - cmd: volume, args: ['0.8']
+2024-08-09 20:30:18,085 - INFO - cmd: volume, args: ['0.9']
+2024-08-09 20:30:24,469 - INFO - cmd: volume, args: ['0.8']
+2024-08-09 20:30:24,926 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-09 20:34:55,567 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-09 20:34:55,868 - INFO - cmd: volume, args: ['0.5000000000000001']
+2024-08-09 20:34:56,985 - INFO - cmd: volume, args: ['0.40000000000000013']
+2024-08-09 20:37:07,710 - INFO - cmd: volume, args: ['0.30000000000000016']
+2024-08-09 20:48:28,903 - INFO - cmd: volume, args: ['0.40000000000000013']
+2024-08-09 20:48:29,121 - INFO - cmd: volume, args: ['0.5000000000000001']
+2024-08-09 21:19:32,902 - INFO - cmd: volume, args: ['0.40000000000000013']
+2024-08-09 21:19:33,127 - INFO - cmd: volume, args: ['0.30000000000000016']
+2024-08-09 21:23:43,478 - INFO - playlist: Next track
+2024-08-09 21:23:43,479 - INFO - playlist: Current track: 32
+2024-08-09 21:23:43,479 - INFO - message_queue: Playlist>Playlist Acid jazz and Nu jazz mix Summer Vibe
+2024-08-09 21:54:13,455 - INFO - cmd: mute
+2024-08-09 21:54:13,898 - INFO - cmd: mute
+2024-08-09 21:54:14,763 - INFO - cmd: volume, args: ['0.40000000000000013']
+2024-08-09 21:54:14,980 - INFO - cmd: volume, args: ['0.5000000000000001']
+2024-08-09 21:54:15,445 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-09 21:54:15,686 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-09 21:54:17,051 - INFO - cmd: volume, args: ['0.8']
+2024-08-09 21:54:17,283 - INFO - cmd: volume, args: ['0.9']
+2024-08-09 21:56:46,120 - INFO - cmd: volume, args: ['1.0']
+2024-08-09 22:02:08,261 - INFO - playlist: Next track
+2024-08-09 22:02:08,261 - INFO - playlist: Current track: 33
+2024-08-09 22:02:08,261 - INFO - message_queue: Playlist>FunkNo1-TOKYO GROOVE JYOSHI
+2024-08-09 22:07:15,712 - INFO - playlist: Next track
+2024-08-09 22:07:15,713 - INFO - playlist: Current track: 23
+2024-08-09 22:07:15,713 - INFO - message_queue: Playlist>good-morning-cafe-jazz-227888
+2024-08-09 22:11:15,482 - INFO - playlist: Next track
+2024-08-09 22:11:15,482 - INFO - playlist: Current track: 7
+2024-08-09 22:11:15,483 - INFO - message_queue: Playlist>ogi-feel-the-beat-chillest-191265
+2024-08-09 22:14:16,296 - INFO - playlist: Next track
+2024-08-09 22:14:16,296 - INFO - playlist: Current track: 20
+2024-08-09 22:14:16,296 - INFO - message_queue: Playlist>when-you-smile-151423
+2024-08-09 22:14:23,130 - INFO - cmd: stop
+2024-08-09 22:14:23,131 - INFO - cmd: chanel
+2024-08-09 22:14:23,137 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f14d7df9dc0>
+2024-08-09 22:14:23,137 - INFO - Playlist has been created.
+2024-08-09 22:14:23,137 - INFO - msg: Chanel>OSHipHop
+2024-08-09 22:14:23,137 - INFO - cmd: play
+2024-08-09 22:14:23,137 - INFO - playlist: Next track
+2024-08-09 22:14:23,137 - INFO - playlist: Current track: 1
+2024-08-09 22:14:23,137 - INFO - message_queue: Playlist>inundation-141802
+2024-08-09 22:18:35,556 - INFO - playlist: Next track
+2024-08-09 22:18:35,556 - INFO - playlist: Current track: 10
+2024-08-09 22:18:35,556 - INFO - message_queue: Playlist>ogi-feel-the-beat-morning-after-free-style-188319
+2024-08-09 22:23:35,646 - INFO - playlist: Next track
+2024-08-09 22:23:35,646 - INFO - playlist: Current track: 8
+2024-08-09 22:23:35,646 - INFO - message_queue: Playlist>corrupted-carnival-210716
+2024-08-09 22:24:26,585 - INFO - cmd: stop
+2024-08-09 22:24:26,748 - INFO - cmd: play
+2024-08-09 22:24:26,748 - INFO - playlist: Next track
+2024-08-09 22:24:26,748 - INFO - playlist: Current track: 2
+2024-08-09 22:24:26,748 - INFO - message_queue: Playlist>daisuke-teiko-beats-sampled-while-your-lips-are-still-red-from-nightwish-10066
+2024-08-09 22:30:22,793 - INFO - playlist: Next track
+2024-08-09 22:30:22,793 - INFO - playlist: Current track: 30
+2024-08-09 22:30:22,793 - INFO - message_queue: Playlist>atmospheric-beats-176775
+2024-08-09 22:30:30,737 - INFO - cmd: stop
+2024-08-09 22:30:30,737 - INFO - cmd: chanel
+2024-08-09 22:30:30,738 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f14d7df9dc0>
+2024-08-09 22:30:30,738 - INFO - Playlist has been created.
+2024-08-09 22:30:30,738 - INFO - msg: Chanel>Funk
+2024-08-09 22:30:30,738 - INFO - cmd: play
+2024-08-09 22:30:30,738 - INFO - playlist: Next track
+2024-08-09 22:30:30,738 - INFO - playlist: Current track: 23
+2024-08-09 22:30:30,738 - INFO - message_queue: Playlist>wataboi-flavour-1164
+2024-08-09 22:31:44,688 - INFO - cmd: mute
+2024-08-09 22:34:31,499 - INFO - playlist: Next track
+2024-08-09 22:34:31,499 - INFO - playlist: Current track: 17
+2024-08-09 22:34:31,499 - INFO - message_queue: Playlist>disco-breaking-by-roses-street-114043
+2024-08-09 22:39:58,884 - INFO - playlist: Next track
+2024-08-09 22:39:58,884 - INFO - playlist: Current track: 0
+2024-08-09 22:39:58,884 - INFO - message_queue: Playlist>mosahik-211316
+2024-08-09 22:44:20,685 - INFO - playlist: Next track
+2024-08-09 22:44:20,685 - INFO - playlist: Current track: 11
+2024-08-09 22:44:20,685 - INFO - message_queue: Playlist>ready-to-go-4647
+2024-08-10 09:11:13,425 - INFO - cmd: mute
+2024-08-10 09:11:29,153 - INFO - playlist: Next track
+2024-08-10 09:11:29,153 - INFO - playlist: Current track: 20
+2024-08-10 09:11:29,153 - INFO - message_queue: Playlist>funky-pat-olistik-sound-project-patrizio-yoga-180088
+2024-08-10 09:15:49,962 - INFO - playlist: Next track
+2024-08-10 09:15:49,962 - INFO - playlist: Current track: 16
+2024-08-10 09:15:49,962 - INFO - message_queue: Playlist>08-funky-donkey-154651
+2024-08-10 09:21:38,849 - INFO - playlist: Next track
+2024-08-10 09:21:38,849 - INFO - playlist: Current track: 15
+2024-08-10 09:21:38,849 - INFO - message_queue: Playlist>say-you-be-mine-thebasspapa-3896
+2024-08-10 09:25:45,734 - INFO - playlist: Next track
+2024-08-10 09:25:45,735 - INFO - playlist: Current track: 22
+2024-08-10 09:25:45,735 - INFO - message_queue: Playlist>feel-the-heat-now-217739
+2024-08-10 09:29:45,624 - INFO - playlist: Next track
+2024-08-10 09:29:45,624 - INFO - playlist: Current track: 3
+2024-08-10 09:29:45,624 - INFO - message_queue: Playlist>funky-patrik-olistik-sound-project-patrizio-yoga-126566
+2024-08-10 09:37:04,335 - INFO - playlist: Next track
+2024-08-10 09:37:04,335 - INFO - playlist: Current track: 23
+2024-08-10 09:37:04,335 - INFO - message_queue: Playlist>wataboi-flavour-1164
+2024-08-10 09:41:05,101 - INFO - playlist: Next track
+2024-08-10 09:41:05,101 - INFO - playlist: Current track: 13
+2024-08-10 09:41:05,101 - INFO - message_queue: Playlist>prismatica-disco-glow-123242
+2024-08-10 09:45:37,192 - INFO - playlist: Next track
+2024-08-10 09:45:37,192 - INFO - playlist: Current track: 2
+2024-08-10 09:45:37,192 - INFO - message_queue: Playlist>lunar-213413
+2024-08-10 09:50:47,351 - INFO - playlist: Next track
+2024-08-10 09:50:47,351 - INFO - playlist: Current track: 13
+2024-08-10 09:50:47,351 - INFO - message_queue: Playlist>prismatica-disco-glow-123242
+2024-08-10 09:55:19,477 - INFO - playlist: Next track
+2024-08-10 09:55:19,478 - INFO - playlist: Current track: 8
+2024-08-10 09:55:19,478 - INFO - message_queue: Playlist>trygve-larsen-moog-scape-instrumental-jazz-116293
+2024-08-10 10:01:54,375 - INFO - playlist: Next track
+2024-08-10 10:01:54,375 - INFO - playlist: Current track: 7
+2024-08-10 10:01:54,375 - INFO - message_queue: Playlist>that-subtle-feeling-5347
+2024-08-10 10:06:42,477 - INFO - playlist: Next track
+2024-08-10 10:06:42,477 - INFO - playlist: Current track: 19
+2024-08-10 10:06:42,478 - INFO - message_queue: Playlist>tik-tok-olistik-sound-project-patrizio-yoga-13261
+2024-08-10 11:58:34,472 - INFO - playlist: Next track
+2024-08-10 11:58:34,472 - INFO - playlist: Current track: 7
+2024-08-10 11:58:34,472 - INFO - message_queue: Playlist>that-subtle-feeling-5347
+2024-08-10 12:03:22,580 - INFO - playlist: Next track
+2024-08-10 12:03:22,581 - INFO - playlist: Current track: 12
+2024-08-10 12:03:22,581 - INFO - message_queue: Playlist>atlantic-voyage-117088
+2024-08-10 12:08:48,247 - INFO - playlist: Next track
+2024-08-10 12:08:48,247 - INFO - playlist: Current track: 24
+2024-08-10 12:08:48,247 - INFO - message_queue: Playlist>disco-funk-expresso-217952
+2024-08-10 12:23:00,839 - INFO - playlist: Next track
+2024-08-10 12:23:00,839 - INFO - playlist: Current track: 11
+2024-08-10 12:23:00,839 - INFO - message_queue: Playlist>ready-to-go-4647
+2024-08-10 12:27:12,907 - INFO - playlist: Next track
+2024-08-10 12:27:12,907 - INFO - playlist: Current track: 5
+2024-08-10 12:27:12,907 - INFO - message_queue: Playlist>trygve-larsen-discovering-the-pensive-one-instrumental-jazz-funk-11832
+2024-08-10 12:31:29,477 - INFO - playlist: Next track
+2024-08-10 12:31:29,477 - INFO - playlist: Current track: 26
+2024-08-10 12:31:29,477 - INFO - message_queue: Playlist>andreas-woll-baconizer-1997
+2024-08-10 12:41:14,745 - INFO - playlist: Next track
+2024-08-10 12:41:14,745 - INFO - playlist: Current track: 16
+2024-08-10 12:41:14,745 - INFO - message_queue: Playlist>08-funky-donkey-154651
+2024-08-10 12:47:03,707 - INFO - playlist: Next track
+2024-08-10 12:47:03,707 - INFO - playlist: Current track: 3
+2024-08-10 12:47:03,707 - INFO - message_queue: Playlist>funky-patrik-olistik-sound-project-patrizio-yoga-126566
+2024-08-10 13:56:05,429 - INFO - playlist: Next track
+2024-08-10 13:56:05,429 - INFO - playlist: Current track: 10
+2024-08-10 13:56:05,429 - INFO - message_queue: Playlist>prismatica-neon-dreams-variation-3-123234
+2024-08-10 14:03:31,373 - INFO - playlist: Next track
+2024-08-10 14:03:31,373 - INFO - playlist: Current track: 14
+2024-08-10 14:03:31,373 - INFO - message_queue: Playlist>funky-pineapple-185725
+2024-08-10 14:07:58,284 - INFO - playlist: Next track
+2024-08-10 14:07:58,284 - INFO - playlist: Current track: 6
+2024-08-10 14:07:58,284 - INFO - message_queue: Playlist>the-fermi-paradox-funk-142196
+2024-08-10 14:12:00,372 - INFO - playlist: Next track
+2024-08-10 14:12:00,372 - INFO - playlist: Current track: 25
+2024-08-10 14:12:00,372 - INFO - message_queue: Playlist>retro-funk-24-05-24-2330-211931
+2024-08-10 14:20:27,885 - INFO - playlist: Next track
+2024-08-10 14:20:27,885 - INFO - playlist: Current track: 22
+2024-08-10 14:20:27,885 - INFO - message_queue: Playlist>feel-the-heat-now-217739
+2024-08-10 14:24:27,806 - INFO - playlist: Next track
+2024-08-10 14:24:27,806 - INFO - playlist: Current track: 10
+2024-08-10 14:24:27,806 - INFO - message_queue: Playlist>prismatica-neon-dreams-variation-3-123234
+2024-08-10 14:31:53,735 - INFO - playlist: Next track
+2024-08-10 14:31:53,735 - INFO - playlist: Current track: 12
+2024-08-10 14:31:53,735 - INFO - message_queue: Playlist>atlantic-voyage-117088
+2024-08-10 18:20:40,943 - INFO - cmd: mute
+2024-08-10 18:21:00,060 - INFO - playlist: Next track
+2024-08-10 18:21:00,061 - INFO - playlist: Current track: 16
+2024-08-10 18:21:00,061 - INFO - message_queue: Playlist>08-funky-donkey-154651
+2024-08-10 18:26:49,013 - INFO - playlist: Next track
+2024-08-10 18:26:49,013 - INFO - playlist: Current track: 18
+2024-08-10 18:26:49,014 - INFO - message_queue: Playlist>funky-da-funk-148872
+2024-08-10 18:31:32,301 - INFO - playlist: Next track
+2024-08-10 18:31:32,301 - INFO - playlist: Current track: 3
+2024-08-10 18:31:32,301 - INFO - message_queue: Playlist>funky-patrik-olistik-sound-project-patrizio-yoga-126566
+2024-08-10 18:38:51,054 - INFO - playlist: Next track
+2024-08-10 18:38:51,054 - INFO - playlist: Current track: 9
+2024-08-10 18:38:51,054 - INFO - message_queue: Playlist>trygve-larsen-always-near-instrumental-jazz-funk-fusion-12940
+2024-08-10 18:45:00,131 - INFO - playlist: Next track
+2024-08-10 18:45:00,131 - INFO - playlist: Current track: 21
+2024-08-10 18:45:00,131 - INFO - message_queue: Playlist>contemplation-trepidation-208584
+2024-08-10 18:48:59,889 - INFO - playlist: Next track
+2024-08-10 18:48:59,889 - INFO - playlist: Current track: 5
+2024-08-10 18:48:59,890 - INFO - message_queue: Playlist>trygve-larsen-discovering-the-pensive-one-instrumental-jazz-funk-11832
+2024-08-10 18:53:16,549 - INFO - playlist: Next track
+2024-08-10 18:53:16,549 - INFO - playlist: Current track: 26
+2024-08-10 18:53:16,549 - INFO - message_queue: Playlist>andreas-woll-baconizer-1997
+2024-08-10 19:03:01,864 - INFO - playlist: Next track
+2024-08-10 19:03:01,864 - INFO - playlist: Current track: 17
+2024-08-10 19:03:01,864 - INFO - message_queue: Playlist>disco-breaking-by-roses-street-114043
+2024-08-10 19:08:29,199 - INFO - playlist: Next track
+2024-08-10 19:08:29,199 - INFO - playlist: Current track: 4
+2024-08-10 19:08:29,199 - INFO - message_queue: Playlist>prismatica-solaris-123231
+2024-08-10 19:15:22,426 - INFO - playlist: Next track
+2024-08-10 19:15:22,426 - INFO - playlist: Current track: 11
+2024-08-10 19:15:22,426 - INFO - message_queue: Playlist>ready-to-go-4647
+2024-08-10 19:19:34,585 - INFO - playlist: Next track
+2024-08-10 19:19:34,585 - INFO - playlist: Current track: 2
+2024-08-10 19:19:34,585 - INFO - message_queue: Playlist>lunar-213413
+2024-08-10 19:24:44,709 - INFO - playlist: Next track
+2024-08-10 19:24:44,709 - INFO - playlist: Current track: 5
+2024-08-10 19:24:44,709 - INFO - message_queue: Playlist>trygve-larsen-discovering-the-pensive-one-instrumental-jazz-funk-11832
+2024-08-10 19:29:01,270 - INFO - playlist: Next track
+2024-08-10 19:29:01,270 - INFO - playlist: Current track: 9
+2024-08-10 19:29:01,270 - INFO - message_queue: Playlist>trygve-larsen-always-near-instrumental-jazz-funk-fusion-12940
+2024-08-10 19:35:10,360 - INFO - playlist: Next track
+2024-08-10 19:35:10,360 - INFO - playlist: Current track: 20
+2024-08-10 19:35:10,360 - INFO - message_queue: Playlist>funky-pat-olistik-sound-project-patrizio-yoga-180088
+2024-08-10 19:39:31,127 - INFO - playlist: Next track
+2024-08-10 19:39:31,128 - INFO - playlist: Current track: 3
+2024-08-10 19:39:31,128 - INFO - message_queue: Playlist>funky-patrik-olistik-sound-project-patrizio-yoga-126566
+2024-08-10 19:46:49,878 - INFO - playlist: Next track
+2024-08-10 19:46:49,878 - INFO - playlist: Current track: 20
+2024-08-10 19:46:49,878 - INFO - message_queue: Playlist>funky-pat-olistik-sound-project-patrizio-yoga-180088
+2024-08-10 19:51:10,648 - INFO - playlist: Next track
+2024-08-10 19:51:10,648 - INFO - playlist: Current track: 17
+2024-08-10 19:51:10,648 - INFO - message_queue: Playlist>disco-breaking-by-roses-street-114043
+2024-08-10 19:56:37,982 - INFO - playlist: Next track
+2024-08-10 19:56:37,982 - INFO - playlist: Current track: 13
+2024-08-10 19:56:37,983 - INFO - message_queue: Playlist>prismatica-disco-glow-123242
+2024-08-10 20:01:10,064 - INFO - playlist: Next track
+2024-08-10 20:01:10,064 - INFO - playlist: Current track: 22
+2024-08-10 20:01:10,064 - INFO - message_queue: Playlist>feel-the-heat-now-217739
+2024-08-10 20:05:09,913 - INFO - playlist: Next track
+2024-08-10 20:05:09,913 - INFO - playlist: Current track: 17
+2024-08-10 20:05:09,913 - INFO - message_queue: Playlist>disco-breaking-by-roses-street-114043
+2024-08-10 20:10:37,249 - INFO - playlist: Next track
+2024-08-10 20:10:37,249 - INFO - playlist: Current track: 13
+2024-08-10 20:10:37,249 - INFO - message_queue: Playlist>prismatica-disco-glow-123242
+2024-08-10 20:15:09,336 - INFO - playlist: Next track
+2024-08-10 20:15:09,336 - INFO - playlist: Current track: 19
+2024-08-10 20:15:09,336 - INFO - message_queue: Playlist>tik-tok-olistik-sound-project-patrizio-yoga-13261
+2024-08-10 20:20:28,770 - INFO - playlist: Next track
+2024-08-10 20:20:28,770 - INFO - playlist: Current track: 18
+2024-08-10 20:20:28,770 - INFO - message_queue: Playlist>funky-da-funk-148872
+2024-08-10 20:25:12,060 - INFO - playlist: Next track
+2024-08-10 20:25:12,060 - INFO - playlist: Current track: 17
+2024-08-10 20:25:12,060 - INFO - message_queue: Playlist>disco-breaking-by-roses-street-114043
+2024-08-10 20:30:39,397 - INFO - playlist: Next track
+2024-08-10 20:30:39,397 - INFO - playlist: Current track: 7
+2024-08-10 20:30:39,397 - INFO - message_queue: Playlist>that-subtle-feeling-5347
+2024-08-10 20:35:27,493 - INFO - playlist: Next track
+2024-08-10 20:35:27,493 - INFO - playlist: Current track: 16
+2024-08-10 20:35:27,493 - INFO - message_queue: Playlist>08-funky-donkey-154651
+2024-08-10 20:41:16,364 - INFO - playlist: Next track
+2024-08-10 20:41:16,364 - INFO - playlist: Current track: 17
+2024-08-10 20:41:16,364 - INFO - message_queue: Playlist>disco-breaking-by-roses-street-114043
+2024-08-10 20:46:43,706 - INFO - playlist: Next track
+2024-08-10 20:46:43,706 - INFO - playlist: Current track: 24
+2024-08-10 20:46:43,707 - INFO - message_queue: Playlist>disco-funk-expresso-217952
+2024-08-10 21:00:56,235 - INFO - playlist: Next track
+2024-08-10 21:00:56,235 - INFO - playlist: Current track: 20
+2024-08-10 21:00:56,235 - INFO - message_queue: Playlist>funky-pat-olistik-sound-project-patrizio-yoga-180088
+2024-08-10 21:09:00,678 - INFO - playlist: Next track
+2024-08-10 21:09:00,678 - INFO - playlist: Current track: 9
+2024-08-10 21:09:00,678 - INFO - message_queue: Playlist>trygve-larsen-always-near-instrumental-jazz-funk-fusion-12940
+2024-08-10 21:15:09,754 - INFO - playlist: Next track
+2024-08-10 21:15:09,754 - INFO - playlist: Current track: 20
+2024-08-10 21:15:09,754 - INFO - message_queue: Playlist>funky-pat-olistik-sound-project-patrizio-yoga-180088
+2024-08-10 21:19:30,523 - INFO - playlist: Next track
+2024-08-10 21:19:30,523 - INFO - playlist: Current track: 10
+2024-08-10 21:19:30,523 - INFO - message_queue: Playlist>prismatica-neon-dreams-variation-3-123234
+2024-08-10 21:26:56,484 - INFO - playlist: Next track
+2024-08-10 21:26:56,484 - INFO - playlist: Current track: 6
+2024-08-10 21:26:56,484 - INFO - message_queue: Playlist>the-fermi-paradox-funk-142196
+2024-08-10 21:30:58,635 - INFO - playlist: Next track
+2024-08-10 21:30:58,635 - INFO - playlist: Current track: 4
+2024-08-10 21:30:58,635 - INFO - message_queue: Playlist>prismatica-solaris-123231
+2024-08-10 21:37:51,864 - INFO - playlist: Next track
+2024-08-10 21:37:51,864 - INFO - playlist: Current track: 8
+2024-08-10 21:37:51,864 - INFO - message_queue: Playlist>trygve-larsen-moog-scape-instrumental-jazz-116293
+2024-08-10 21:44:26,768 - INFO - playlist: Next track
+2024-08-10 21:44:26,768 - INFO - playlist: Current track: 7
+2024-08-10 21:44:26,768 - INFO - message_queue: Playlist>that-subtle-feeling-5347
+2024-08-10 21:49:14,863 - INFO - playlist: Next track
+2024-08-10 21:49:14,863 - INFO - playlist: Current track: 9
+2024-08-10 21:49:14,863 - INFO - message_queue: Playlist>trygve-larsen-always-near-instrumental-jazz-funk-fusion-12940
+2024-08-10 21:55:23,950 - INFO - playlist: Next track
+2024-08-10 21:55:23,950 - INFO - playlist: Current track: 5
+2024-08-10 21:55:23,950 - INFO - message_queue: Playlist>trygve-larsen-discovering-the-pensive-one-instrumental-jazz-funk-11832
+2024-08-10 21:59:40,537 - INFO - playlist: Next track
+2024-08-10 21:59:40,537 - INFO - playlist: Current track: 3
+2024-08-10 21:59:40,538 - INFO - message_queue: Playlist>funky-patrik-olistik-sound-project-patrizio-yoga-126566
+2024-08-10 22:06:59,211 - INFO - playlist: Next track
+2024-08-10 22:06:59,211 - INFO - playlist: Current track: 4
+2024-08-10 22:06:59,211 - INFO - message_queue: Playlist>prismatica-solaris-123231
+2024-08-10 22:13:52,459 - INFO - playlist: Next track
+2024-08-10 22:13:52,459 - INFO - playlist: Current track: 15
+2024-08-10 22:13:52,459 - INFO - message_queue: Playlist>say-you-be-mine-thebasspapa-3896
+2024-08-10 22:17:59,371 - INFO - playlist: Next track
+2024-08-10 22:17:59,372 - INFO - playlist: Current track: 8
+2024-08-10 22:17:59,372 - INFO - message_queue: Playlist>trygve-larsen-moog-scape-instrumental-jazz-116293
+2024-08-11 09:56:32,793 - INFO - playlist: Next track
+2024-08-11 09:56:32,793 - INFO - playlist: Current track: 11
+2024-08-11 09:56:32,793 - INFO - message_queue: Playlist>ready-to-go-4647
+2024-08-11 10:00:44,951 - INFO - playlist: Next track
+2024-08-11 10:00:44,951 - INFO - playlist: Current track: 7
+2024-08-11 10:00:44,951 - INFO - message_queue: Playlist>that-subtle-feeling-5347
+2024-08-11 10:05:33,052 - INFO - playlist: Next track
+2024-08-11 10:05:33,052 - INFO - playlist: Current track: 15
+2024-08-11 10:05:33,052 - INFO - message_queue: Playlist>say-you-be-mine-thebasspapa-3896
+2024-08-11 10:09:39,909 - INFO - playlist: Next track
+2024-08-11 10:09:39,910 - INFO - playlist: Current track: 1
+2024-08-11 10:09:39,910 - INFO - message_queue: Playlist>ethiopian-4-228789
+2024-08-11 10:13:39,660 - INFO - playlist: Next track
+2024-08-11 10:13:39,660 - INFO - playlist: Current track: 9
+2024-08-11 10:13:39,660 - INFO - message_queue: Playlist>trygve-larsen-always-near-instrumental-jazz-funk-fusion-12940
+2024-08-11 10:19:48,745 - INFO - playlist: Next track
+2024-08-11 10:19:48,745 - INFO - playlist: Current track: 16
+2024-08-11 10:19:48,745 - INFO - message_queue: Playlist>08-funky-donkey-154651
+2024-08-11 10:25:37,618 - INFO - playlist: Next track
+2024-08-11 10:25:37,619 - INFO - playlist: Current track: 25
+2024-08-11 10:25:37,619 - INFO - message_queue: Playlist>retro-funk-24-05-24-2330-211931
+2024-08-11 10:34:05,179 - INFO - playlist: Next track
+2024-08-11 10:34:05,179 - INFO - playlist: Current track: 6
+2024-08-11 10:34:05,179 - INFO - message_queue: Playlist>the-fermi-paradox-funk-142196
+2024-08-11 10:38:07,302 - INFO - playlist: Next track
+2024-08-11 10:38:07,302 - INFO - playlist: Current track: 2
+2024-08-11 10:38:07,302 - INFO - message_queue: Playlist>lunar-213413
+2024-08-11 11:18:22,096 - INFO - cmd: mute
+2024-08-11 11:18:23,982 - INFO - cmd: volume, args: ['0.9']
+2024-08-11 11:18:24,371 - INFO - cmd: volume, args: ['0.8']
+2024-08-11 11:18:24,603 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-11 11:18:24,827 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-11 11:20:20,928 - INFO - playlist: Next track
+2024-08-11 11:20:20,928 - INFO - playlist: Current track: 4
+2024-08-11 11:20:20,928 - INFO - message_queue: Playlist>prismatica-solaris-123231
+2024-08-11 11:27:14,206 - INFO - playlist: Next track
+2024-08-11 11:27:14,206 - INFO - playlist: Current track: 6
+2024-08-11 11:27:14,206 - INFO - message_queue: Playlist>the-fermi-paradox-funk-142196
+2024-08-11 11:31:16,282 - INFO - playlist: Next track
+2024-08-11 11:31:16,283 - INFO - playlist: Current track: 16
+2024-08-11 11:31:16,283 - INFO - message_queue: Playlist>08-funky-donkey-154651
+2024-08-11 11:37:05,176 - INFO - playlist: Next track
+2024-08-11 11:37:05,176 - INFO - playlist: Current track: 11
+2024-08-11 11:37:05,176 - INFO - message_queue: Playlist>ready-to-go-4647
+2024-08-11 11:41:17,260 - INFO - playlist: Next track
+2024-08-11 11:41:17,260 - INFO - playlist: Current track: 7
+2024-08-11 11:41:17,260 - INFO - message_queue: Playlist>that-subtle-feeling-5347
+2024-08-11 11:46:05,387 - INFO - playlist: Next track
+2024-08-11 11:46:05,387 - INFO - playlist: Current track: 15
+2024-08-11 11:46:05,387 - INFO - message_queue: Playlist>say-you-be-mine-thebasspapa-3896
+2024-08-11 11:50:12,288 - INFO - playlist: Next track
+2024-08-11 11:50:12,288 - INFO - playlist: Current track: 18
+2024-08-11 11:50:12,288 - INFO - message_queue: Playlist>funky-da-funk-148872
+2024-08-11 11:54:55,667 - INFO - playlist: Next track
+2024-08-11 11:54:55,668 - INFO - playlist: Current track: 23
+2024-08-11 11:54:55,668 - INFO - message_queue: Playlist>wataboi-flavour-1164
+2024-08-11 11:58:56,451 - INFO - playlist: Next track
+2024-08-11 11:58:56,451 - INFO - playlist: Current track: 26
+2024-08-11 11:58:56,451 - INFO - message_queue: Playlist>andreas-woll-baconizer-1997
+2024-08-11 12:08:41,800 - INFO - playlist: Next track
+2024-08-11 12:08:41,800 - INFO - playlist: Current track: 23
+2024-08-11 12:08:41,800 - INFO - message_queue: Playlist>wataboi-flavour-1164
+2024-08-11 12:12:42,583 - INFO - playlist: Next track
+2024-08-11 12:12:42,583 - INFO - playlist: Current track: 5
+2024-08-11 12:12:42,583 - INFO - message_queue: Playlist>trygve-larsen-discovering-the-pensive-one-instrumental-jazz-funk-11832
+2024-08-11 12:16:59,168 - INFO - playlist: Next track
+2024-08-11 12:16:59,168 - INFO - playlist: Current track: 3
+2024-08-11 12:16:59,168 - INFO - message_queue: Playlist>funky-patrik-olistik-sound-project-patrizio-yoga-126566
+2024-08-11 12:24:17,844 - INFO - playlist: Next track
+2024-08-11 12:24:17,844 - INFO - playlist: Current track: 22
+2024-08-11 12:24:17,844 - INFO - message_queue: Playlist>feel-the-heat-now-217739
+2024-08-11 12:28:17,713 - INFO - playlist: Next track
+2024-08-11 12:28:17,713 - INFO - playlist: Current track: 24
+2024-08-11 12:28:17,713 - INFO - message_queue: Playlist>disco-funk-expresso-217952
+2024-08-11 12:42:30,286 - INFO - playlist: Next track
+2024-08-11 12:42:30,286 - INFO - playlist: Current track: 4
+2024-08-11 12:42:30,286 - INFO - message_queue: Playlist>prismatica-solaris-123231
+2024-08-11 12:49:23,528 - INFO - playlist: Next track
+2024-08-11 12:49:23,528 - INFO - playlist: Current track: 13
+2024-08-11 12:49:23,528 - INFO - message_queue: Playlist>prismatica-disco-glow-123242
+2024-08-11 12:53:55,630 - INFO - playlist: Next track
+2024-08-11 12:53:55,630 - INFO - playlist: Current track: 8
+2024-08-11 12:53:55,630 - INFO - message_queue: Playlist>trygve-larsen-moog-scape-instrumental-jazz-116293
+2024-08-11 13:00:30,493 - INFO - playlist: Next track
+2024-08-11 13:00:30,494 - INFO - playlist: Current track: 16
+2024-08-11 13:00:30,494 - INFO - message_queue: Playlist>08-funky-donkey-154651
+2024-08-11 13:06:19,383 - INFO - playlist: Next track
+2024-08-11 13:06:19,383 - INFO - playlist: Current track: 23
+2024-08-11 13:06:19,384 - INFO - message_queue: Playlist>wataboi-flavour-1164
+2024-08-11 13:18:16,517 - INFO - playlist: Next track
+2024-08-11 13:18:16,517 - INFO - playlist: Current track: 4
+2024-08-11 13:18:16,517 - INFO - message_queue: Playlist>prismatica-solaris-123231
+2024-08-11 13:25:09,718 - INFO - playlist: Next track
+2024-08-11 13:25:09,719 - INFO - playlist: Current track: 7
+2024-08-11 13:25:09,719 - INFO - message_queue: Playlist>that-subtle-feeling-5347
+2024-08-11 13:29:57,766 - INFO - playlist: Next track
+2024-08-11 13:29:57,766 - INFO - playlist: Current track: 22
+2024-08-11 13:29:57,766 - INFO - message_queue: Playlist>feel-the-heat-now-217739
+2024-08-11 13:33:57,663 - INFO - playlist: Next track
+2024-08-11 13:33:57,663 - INFO - playlist: Current track: 5
+2024-08-11 13:33:57,663 - INFO - message_queue: Playlist>trygve-larsen-discovering-the-pensive-one-instrumental-jazz-funk-11832
+2024-08-11 13:38:14,262 - INFO - playlist: Next track
+2024-08-11 13:38:14,263 - INFO - playlist: Current track: 12
+2024-08-11 13:38:14,263 - INFO - message_queue: Playlist>atlantic-voyage-117088
+2024-08-11 13:43:39,953 - INFO - playlist: Next track
+2024-08-11 13:43:39,953 - INFO - playlist: Current track: 8
+2024-08-11 13:43:39,953 - INFO - message_queue: Playlist>trygve-larsen-moog-scape-instrumental-jazz-116293
+2024-08-11 13:50:14,839 - INFO - playlist: Next track
+2024-08-11 13:50:14,839 - INFO - playlist: Current track: 6
+2024-08-11 13:50:14,839 - INFO - message_queue: Playlist>the-fermi-paradox-funk-142196
+2024-08-11 13:54:16,949 - INFO - playlist: Next track
+2024-08-11 13:54:16,949 - INFO - playlist: Current track: 9
+2024-08-11 13:54:16,949 - INFO - message_queue: Playlist>trygve-larsen-always-near-instrumental-jazz-funk-fusion-12940
+2024-08-11 14:00:25,997 - INFO - playlist: Next track
+2024-08-11 14:00:25,997 - INFO - playlist: Current track: 13
+2024-08-11 14:00:25,997 - INFO - message_queue: Playlist>prismatica-disco-glow-123242
+2024-08-11 14:04:58,137 - INFO - playlist: Next track
+2024-08-11 14:04:58,137 - INFO - playlist: Current track: 25
+2024-08-11 14:04:58,137 - INFO - message_queue: Playlist>retro-funk-24-05-24-2330-211931
+2024-08-11 14:13:25,663 - INFO - playlist: Next track
+2024-08-11 14:13:25,663 - INFO - playlist: Current track: 11
+2024-08-11 14:13:25,663 - INFO - message_queue: Playlist>ready-to-go-4647
+2024-08-11 14:17:37,772 - INFO - playlist: Next track
+2024-08-11 14:17:37,772 - INFO - playlist: Current track: 9
+2024-08-11 14:17:37,772 - INFO - message_queue: Playlist>trygve-larsen-always-near-instrumental-jazz-funk-fusion-12940
+2024-08-11 14:23:46,822 - INFO - playlist: Next track
+2024-08-11 14:23:46,822 - INFO - playlist: Current track: 20
+2024-08-11 14:23:46,822 - INFO - message_queue: Playlist>funky-pat-olistik-sound-project-patrizio-yoga-180088
+2024-08-11 14:28:07,635 - INFO - playlist: Next track
+2024-08-11 14:28:07,635 - INFO - playlist: Current track: 15
+2024-08-11 14:28:07,636 - INFO - message_queue: Playlist>say-you-be-mine-thebasspapa-3896
+2024-08-11 14:32:14,533 - INFO - playlist: Next track
+2024-08-11 14:32:14,533 - INFO - playlist: Current track: 2
+2024-08-11 14:32:14,533 - INFO - message_queue: Playlist>lunar-213413
+2024-08-11 14:37:24,623 - INFO - playlist: Next track
+2024-08-11 14:37:24,623 - INFO - playlist: Current track: 23
+2024-08-11 14:37:24,623 - INFO - message_queue: Playlist>wataboi-flavour-1164
+2024-08-11 14:41:25,316 - INFO - playlist: Next track
+2024-08-11 14:41:25,317 - INFO - playlist: Current track: 9
+2024-08-11 14:41:25,317 - INFO - message_queue: Playlist>trygve-larsen-always-near-instrumental-jazz-funk-fusion-12940
+2024-08-11 14:47:34,378 - INFO - playlist: Next track
+2024-08-11 14:47:34,378 - INFO - playlist: Current track: 12
+2024-08-11 14:47:34,378 - INFO - message_queue: Playlist>atlantic-voyage-117088
+2024-08-11 14:53:00,066 - INFO - playlist: Next track
+2024-08-11 14:53:00,066 - INFO - playlist: Current track: 9
+2024-08-11 14:53:00,066 - INFO - message_queue: Playlist>trygve-larsen-always-near-instrumental-jazz-funk-fusion-12940
+2024-08-11 14:59:09,134 - INFO - playlist: Next track
+2024-08-11 14:59:09,134 - INFO - playlist: Current track: 17
+2024-08-11 14:59:09,134 - INFO - message_queue: Playlist>disco-breaking-by-roses-street-114043
+2024-08-11 15:04:36,438 - INFO - playlist: Next track
+2024-08-11 15:04:36,438 - INFO - playlist: Current track: 22
+2024-08-11 15:04:36,438 - INFO - message_queue: Playlist>feel-the-heat-now-217739
+2024-08-11 15:08:36,319 - INFO - playlist: Next track
+2024-08-11 15:08:36,320 - INFO - playlist: Current track: 21
+2024-08-11 15:08:36,320 - INFO - message_queue: Playlist>contemplation-trepidation-208584
+2024-08-11 15:12:36,112 - INFO - playlist: Next track
+2024-08-11 15:12:36,112 - INFO - playlist: Current track: 20
+2024-08-11 15:12:36,112 - INFO - message_queue: Playlist>funky-pat-olistik-sound-project-patrizio-yoga-180088
+2024-08-11 15:16:56,939 - INFO - playlist: Next track
+2024-08-11 15:16:56,939 - INFO - playlist: Current track: 23
+2024-08-11 15:16:56,940 - INFO - message_queue: Playlist>wataboi-flavour-1164
+2024-08-11 15:20:57,730 - INFO - playlist: Next track
+2024-08-11 15:20:57,730 - INFO - playlist: Current track: 16
+2024-08-11 15:20:57,730 - INFO - message_queue: Playlist>08-funky-donkey-154651
+2024-08-11 15:26:46,626 - INFO - playlist: Next track
+2024-08-11 15:26:46,626 - INFO - playlist: Current track: 1
+2024-08-11 15:26:46,626 - INFO - message_queue: Playlist>ethiopian-4-228789
+2024-08-11 15:30:46,358 - INFO - playlist: Next track
+2024-08-11 15:30:46,358 - INFO - playlist: Current track: 22
+2024-08-11 15:30:46,358 - INFO - message_queue: Playlist>feel-the-heat-now-217739
+2024-08-11 15:34:46,193 - INFO - playlist: Next track
+2024-08-11 15:34:46,194 - INFO - playlist: Current track: 14
+2024-08-11 15:34:46,194 - INFO - message_queue: Playlist>funky-pineapple-185725
+2024-08-11 15:39:13,057 - INFO - playlist: Next track
+2024-08-11 15:39:13,058 - INFO - playlist: Current track: 0
+2024-08-11 15:39:13,058 - INFO - message_queue: Playlist>mosahik-211316
+2024-08-11 15:43:34,819 - INFO - playlist: Next track
+2024-08-11 15:43:34,820 - INFO - playlist: Current track: 22
+2024-08-11 15:43:34,820 - INFO - message_queue: Playlist>feel-the-heat-now-217739
+2024-08-11 15:47:34,711 - INFO - playlist: Next track
+2024-08-11 15:47:34,711 - INFO - playlist: Current track: 1
+2024-08-11 15:47:34,711 - INFO - message_queue: Playlist>ethiopian-4-228789
+2024-08-11 15:51:34,486 - INFO - playlist: Next track
+2024-08-11 15:51:34,486 - INFO - playlist: Current track: 2
+2024-08-11 15:51:34,486 - INFO - message_queue: Playlist>lunar-213413
+2024-08-11 15:56:44,615 - INFO - playlist: Next track
+2024-08-11 15:56:44,615 - INFO - playlist: Current track: 6
+2024-08-11 15:56:44,615 - INFO - message_queue: Playlist>the-fermi-paradox-funk-142196
+2024-08-11 16:00:46,690 - INFO - playlist: Next track
+2024-08-11 16:00:46,690 - INFO - playlist: Current track: 8
+2024-08-11 16:00:46,690 - INFO - message_queue: Playlist>trygve-larsen-moog-scape-instrumental-jazz-116293
+2024-08-11 16:07:21,617 - INFO - playlist: Next track
+2024-08-11 16:07:21,619 - INFO - playlist: Current track: 18
+2024-08-11 16:07:21,619 - INFO - message_queue: Playlist>funky-da-funk-148872
+2024-08-11 16:11:03,800 - INFO - cmd: mute
+2024-08-11 16:11:04,445 - INFO - cmd: mute
+2024-08-11 16:12:04,931 - INFO - playlist: Next track
+2024-08-11 16:12:04,931 - INFO - playlist: Current track: 20
+2024-08-11 16:12:04,931 - INFO - message_queue: Playlist>funky-pat-olistik-sound-project-patrizio-yoga-180088
+2024-08-11 16:14:32,656 - INFO - cmd: exit
+2024-08-11 16:14:32,860 - INFO - Shutting down MP3 Player.
+2024-08-11 16:14:32,860 - INFO - MP3 Player has been shut down.
+2024-08-11 16:14:36,992 - INFO - Command and message queues have been created.
+2024-08-11 16:14:36,994 - INFO - Player process has been created.
+2024-08-11 16:14:36,994 - INFO - Starting TUI.
+2024-08-11 16:14:36,995 - INFO - Tracks have been loaded.
+2024-08-11 16:14:36,995 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f23037f95b0>
+2024-08-11 16:14:36,995 - INFO - Playlist has been created.
+2024-08-11 16:14:36,995 - INFO - Playlist has been created.
+2024-08-11 16:14:37,024 - INFO - Player has been created.
+2024-08-11 16:14:37,024 - INFO - Entering player process loop.
+2024-08-11 16:14:37,024 - INFO - cmd: chanel_list
+2024-08-11 16:14:37,203 - DEBUG - Using selector: EpollSelector
+2024-08-11 16:14:37,203 - INFO - cmd: stop
+2024-08-11 16:14:37,203 - INFO - cmd: chanel
+2024-08-11 16:14:37,204 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f23037f95b0>
+2024-08-11 16:14:37,204 - INFO - Playlist has been created.
+2024-08-11 16:14:37,204 - INFO - msg: Chanel>LofiHipHop
+2024-08-11 16:14:37,204 - INFO - cmd: play
+2024-08-11 16:14:37,204 - INFO - playlist: Next track
+2024-08-11 16:14:37,204 - INFO - cmd: shuffle
+2024-08-11 16:14:37,205 - INFO - playlist: Current track: 10
+2024-08-11 16:14:37,205 - INFO - cmd: shuffle
+2024-08-11 16:14:37,205 - INFO - message_queue: Playlist>sloth-tier-lofi-jazz-223593
+2024-08-11 16:14:37,205 - INFO - cmd: mute
+2024-08-11 16:14:37,205 - INFO - cmd: mute
+2024-08-11 16:14:37,382 - INFO - Shutting down MP3 Player.
+2024-08-11 16:15:09,759 - INFO - Command and message queues have been created.
+2024-08-11 16:15:09,761 - INFO - Player process has been created.
+2024-08-11 16:15:09,761 - INFO - Starting TUI.
+2024-08-11 16:15:09,762 - INFO - Tracks have been loaded.
+2024-08-11 16:15:09,762 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fe8d5155910>
+2024-08-11 16:15:09,762 - INFO - Playlist has been created.
+2024-08-11 16:15:09,762 - INFO - Playlist has been created.
+2024-08-11 16:15:09,777 - INFO - Player has been created.
+2024-08-11 16:15:09,777 - INFO - Entering player process loop.
+2024-08-11 16:15:09,777 - INFO - cmd: chanel_list
+2024-08-11 16:15:09,968 - DEBUG - Using selector: EpollSelector
+2024-08-11 16:15:09,969 - INFO - cmd: stop
+2024-08-11 16:15:09,969 - INFO - cmd: chanel
+2024-08-11 16:15:09,969 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fe8d5155910>
+2024-08-11 16:15:09,969 - INFO - Playlist has been created.
+2024-08-11 16:15:09,969 - INFO - msg: Chanel>LofiHipHop
+2024-08-11 16:15:09,969 - INFO - cmd: play
+2024-08-11 16:15:09,970 - INFO - playlist: Next track
+2024-08-11 16:15:09,970 - INFO - cmd: shuffle
+2024-08-11 16:15:09,970 - INFO - playlist: Current track: 28
+2024-08-11 16:15:09,970 - INFO - cmd: shuffle
+2024-08-11 16:15:09,970 - INFO - message_queue: Playlist>bell-fi-broadcasts-181511
+2024-08-11 16:15:09,970 - INFO - cmd: mute
+2024-08-11 16:15:09,970 - INFO - cmd: mute
+2024-08-11 16:15:10,138 - INFO - Shutting down MP3 Player.
+2024-08-11 16:16:08,436 - INFO - Command and message queues have been created.
+2024-08-11 16:16:08,438 - INFO - Player process has been created.
+2024-08-11 16:16:08,439 - INFO - Starting TUI.
+2024-08-11 16:16:08,439 - INFO - Tracks have been loaded.
+2024-08-11 16:16:08,440 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f9765d9abd0>
+2024-08-11 16:16:08,440 - INFO - Playlist has been created.
+2024-08-11 16:16:08,440 - INFO - Playlist has been created.
+2024-08-11 16:16:08,455 - INFO - Player has been created.
+2024-08-11 16:16:08,455 - INFO - Entering player process loop.
+2024-08-11 16:16:08,455 - INFO - cmd: chanel_list
+2024-08-11 16:16:08,646 - INFO - cmd: stop
+2024-08-11 16:16:08,646 - INFO - cmd: chanel
+2024-08-11 16:16:08,646 - DEBUG - Using selector: EpollSelector
+2024-08-11 16:16:08,646 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f9765d9abd0>
+2024-08-11 16:16:08,646 - INFO - Playlist has been created.
+2024-08-11 16:16:08,647 - INFO - msg: Chanel>LofiHipHop
+2024-08-11 16:16:08,647 - INFO - cmd: play
+2024-08-11 16:16:08,647 - INFO - playlist: Next track
+2024-08-11 16:16:08,647 - INFO - cmd: shuffle
+2024-08-11 16:16:08,647 - INFO - playlist: Current track: 15
+2024-08-11 16:16:08,647 - INFO - cmd: shuffle
+2024-08-11 16:16:08,647 - INFO - message_queue: Playlist>lofi-beat-chill-7373
+2024-08-11 16:16:08,647 - INFO - cmd: mute
+2024-08-11 16:16:08,648 - INFO - cmd: mute
+2024-08-11 16:16:11,376 - INFO - cmd: mute
+2024-08-11 16:16:11,856 - INFO - cmd: mute
+2024-08-11 16:16:12,951 - INFO - cmd: exit
+2024-08-11 16:16:13,156 - INFO - Shutting down MP3 Player.
+2024-08-11 16:16:13,156 - INFO - MP3 Player has been shut down.
+2024-08-11 16:16:47,843 - INFO - Command and message queues have been created.
+2024-08-11 16:16:47,845 - INFO - Player process has been created.
+2024-08-11 16:16:47,845 - INFO - Starting TUI.
+2024-08-11 16:16:47,846 - INFO - Tracks have been loaded.
+2024-08-11 16:16:47,846 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f3d12a68920>
+2024-08-11 16:16:47,846 - INFO - Playlist has been created.
+2024-08-11 16:16:47,846 - INFO - Playlist has been created.
+2024-08-11 16:16:47,861 - INFO - Player has been created.
+2024-08-11 16:16:47,861 - INFO - Entering player process loop.
+2024-08-11 16:16:47,861 - INFO - cmd: chanel_list
+2024-08-11 16:16:48,052 - DEBUG - Using selector: EpollSelector
+2024-08-11 16:16:48,053 - INFO - cmd: stop
+2024-08-11 16:16:48,053 - INFO - cmd: chanel
+2024-08-11 16:16:48,053 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f3d12a68920>
+2024-08-11 16:16:48,053 - INFO - Playlist has been created.
+2024-08-11 16:16:48,054 - INFO - msg: Chanel>LofiHipHop
+2024-08-11 16:16:48,054 - INFO - cmd: play
+2024-08-11 16:16:48,054 - INFO - playlist: Next track
+2024-08-11 16:16:48,054 - INFO - cmd: shuffle
+2024-08-11 16:16:48,054 - INFO - playlist: Current track: 13
+2024-08-11 16:16:48,054 - INFO - cmd: shuffle
+2024-08-11 16:16:48,054 - INFO - message_queue: Playlist>free-lofi-type-beat-cozy-night-210690
+2024-08-11 16:16:48,054 - INFO - cmd: mute
+2024-08-11 16:16:48,055 - INFO - cmd: mute
+2024-08-11 16:16:50,154 - INFO - Shutting down MP3 Player.
+2024-08-11 16:16:58,648 - INFO - Command and message queues have been created.
+2024-08-11 16:16:58,651 - INFO - Player process has been created.
+2024-08-11 16:16:58,651 - INFO - Starting TUI.
+2024-08-11 16:16:58,652 - INFO - Tracks have been loaded.
+2024-08-11 16:16:58,652 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fdabc7f1b80>
+2024-08-11 16:16:58,652 - INFO - Playlist has been created.
+2024-08-11 16:16:58,652 - INFO - Playlist has been created.
+2024-08-11 16:16:58,667 - INFO - Player has been created.
+2024-08-11 16:16:58,668 - INFO - Entering player process loop.
+2024-08-11 16:16:58,668 - INFO - cmd: chanel_list
+2024-08-11 16:16:58,858 - DEBUG - Using selector: EpollSelector
+2024-08-11 16:16:58,858 - INFO - cmd: stop
+2024-08-11 16:16:58,858 - INFO - cmd: chanel
+2024-08-11 16:16:58,859 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fdabc7f1b80>
+2024-08-11 16:16:58,859 - INFO - Playlist has been created.
+2024-08-11 16:16:58,859 - INFO - msg: Chanel>LofiHipHop
+2024-08-11 16:16:58,859 - INFO - cmd: play
+2024-08-11 16:16:58,859 - INFO - playlist: Next track
+2024-08-11 16:16:58,859 - INFO - playlist: Current track: 1
+2024-08-11 16:16:58,859 - INFO - message_queue: Playlist>lofi-orchestra-162306
+2024-08-11 16:16:58,859 - INFO - cmd: shuffle
+2024-08-11 16:16:58,859 - INFO - cmd: shuffle
+2024-08-11 16:16:58,860 - INFO - cmd: mute
+2024-08-11 16:16:58,860 - INFO - cmd: mute
+2024-08-11 16:17:00,646 - INFO - cmd: mute
+2024-08-11 16:17:01,080 - INFO - cmd: mute
+2024-08-11 16:17:01,537 - INFO - cmd: shuffle
+2024-08-11 16:17:02,003 - INFO - cmd: shuffle
+2024-08-11 16:17:03,236 - INFO - cmd: play
+2024-08-11 16:17:03,237 - INFO - playlist: Next track
+2024-08-11 16:17:03,237 - INFO - playlist: Current track: 15
+2024-08-11 16:17:03,237 - INFO - message_queue: Playlist>lofi-beat-chill-7373
+2024-08-11 16:17:03,613 - INFO - cmd: stop
+2024-08-11 16:17:04,157 - INFO - cmd: play
+2024-08-11 16:17:04,158 - INFO - playlist: Next track
+2024-08-11 16:17:04,158 - INFO - playlist: Current track: 1
+2024-08-11 16:17:04,158 - INFO - message_queue: Playlist>lofi-orchestra-162306
+2024-08-11 16:17:04,923 - INFO - cmd: volume, args: ['0.9']
+2024-08-11 16:17:05,537 - INFO - cmd: stop
+2024-08-11 16:17:05,538 - INFO - cmd: chanel
+2024-08-11 16:17:05,538 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fdabc7f1b80>
+2024-08-11 16:17:05,538 - INFO - Playlist has been created.
+2024-08-11 16:17:05,538 - INFO - msg: Chanel>AmbientElectronic
+2024-08-11 16:17:05,538 - INFO - cmd: play
+2024-08-11 16:17:05,538 - INFO - playlist: Next track
+2024-08-11 16:17:05,538 - INFO - playlist: Current track: 5
+2024-08-11 16:17:05,538 - INFO - message_queue: Playlist>dark-ambient-soundscape-cold-air-226724
+2024-08-11 16:17:05,912 - INFO - cmd: stop
+2024-08-11 16:17:05,913 - INFO - cmd: chanel
+2024-08-11 16:17:05,913 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fdabc7f1b80>
+2024-08-11 16:17:05,913 - INFO - Playlist has been created.
+2024-08-11 16:17:05,913 - INFO - msg: Chanel>AcidJazz
+2024-08-11 16:17:05,913 - INFO - cmd: play
+2024-08-11 16:17:05,913 - INFO - playlist: Next track
+2024-08-11 16:17:05,913 - INFO - playlist: Current track: 28
+2024-08-11 16:17:05,913 - INFO - message_queue: Playlist>80x-lo-fi-jazz-201651
+2024-08-11 16:17:06,482 - INFO - cmd: stop
+2024-08-11 16:17:06,483 - INFO - cmd: chanel
+2024-08-11 16:17:06,483 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fdabc7f1b80>
+2024-08-11 16:17:06,483 - INFO - Playlist has been created.
+2024-08-11 16:17:06,483 - INFO - msg: Chanel>OSHipHop
+2024-08-11 16:17:06,483 - INFO - cmd: play
+2024-08-11 16:17:06,483 - INFO - playlist: Next track
+2024-08-11 16:17:06,483 - INFO - playlist: Current track: 27
+2024-08-11 16:17:06,483 - INFO - message_queue: Playlist>daisuke-teiko-beats-1105-9774
+2024-08-11 16:17:06,850 - INFO - cmd: volume, args: ['0.8']
+2024-08-11 16:17:07,045 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-11 16:17:07,203 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-11 16:17:07,368 - INFO - cmd: volume, args: ['0.5000000000000001']
+2024-08-11 16:17:07,518 - INFO - cmd: volume, args: ['0.40000000000000013']
+2024-08-11 16:17:09,766 - INFO - cmd: exit
+2024-08-11 16:17:09,969 - INFO - Shutting down MP3 Player.
+2024-08-11 16:17:09,969 - INFO - MP3 Player has been shut down.
+2024-08-11 16:19:00,561 - INFO - Command and message queues have been created.
+2024-08-11 16:19:00,563 - INFO - Player process has been created.
+2024-08-11 16:19:00,563 - INFO - Starting TUI.
+2024-08-11 16:19:00,564 - INFO - Tracks have been loaded.
+2024-08-11 16:19:00,564 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f71e21f2120>
+2024-08-11 16:19:00,564 - INFO - Playlist has been created.
+2024-08-11 16:19:00,564 - INFO - Playlist has been created.
+2024-08-11 16:19:00,580 - INFO - Player has been created.
+2024-08-11 16:19:00,580 - INFO - Entering player process loop.
+2024-08-11 16:19:00,580 - INFO - cmd: chanel_list
+2024-08-11 16:19:00,770 - DEBUG - Using selector: EpollSelector
+2024-08-11 16:19:00,771 - INFO - cmd: stop
+2024-08-11 16:19:00,771 - INFO - cmd: chanel
+2024-08-11 16:19:00,771 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f71e21f2120>
+2024-08-11 16:19:00,771 - INFO - Playlist has been created.
+2024-08-11 16:19:00,771 - INFO - msg: Chanel>LofiHipHop
+2024-08-11 16:19:00,771 - INFO - cmd: play
+2024-08-11 16:19:00,771 - INFO - playlist: Next track
+2024-08-11 16:19:00,771 - INFO - cmd: shuffle
+2024-08-11 16:19:00,772 - INFO - playlist: Current track: 22
+2024-08-11 16:19:00,772 - INFO - cmd: shuffle
+2024-08-11 16:19:00,772 - INFO - message_queue: Playlist>lofi-girl-dreams-113883
+2024-08-11 16:19:00,772 - INFO - cmd: mute
+2024-08-11 16:19:00,772 - INFO - cmd: mute
+2024-08-11 16:19:02,091 - INFO - cmd: exit
+2024-08-11 16:19:02,294 - INFO - Shutting down MP3 Player.
+2024-08-11 16:19:02,294 - INFO - MP3 Player has been shut down.
+2024-08-11 16:20:25,219 - INFO - Command and message queues have been created.
+2024-08-11 16:20:25,221 - INFO - Player process has been created.
+2024-08-11 16:20:25,221 - INFO - Starting TUI.
+2024-08-11 16:20:25,222 - INFO - Tracks have been loaded.
+2024-08-11 16:20:25,222 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f63de40d760>
+2024-08-11 16:20:25,222 - INFO - Playlist has been created.
+2024-08-11 16:20:25,222 - INFO - Playlist has been created.
+2024-08-11 16:20:25,237 - INFO - Player has been created.
+2024-08-11 16:20:25,237 - INFO - Entering player process loop.
+2024-08-11 16:20:25,237 - INFO - cmd: chanel_list
+2024-08-11 16:20:25,428 - DEBUG - Using selector: EpollSelector
+2024-08-11 16:20:25,428 - INFO - cmd: stop
+2024-08-11 16:20:25,428 - INFO - cmd: chanel
+2024-08-11 16:20:25,429 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f63de40d760>
+2024-08-11 16:20:25,429 - INFO - Playlist has been created.
+2024-08-11 16:20:25,429 - INFO - msg: Chanel>LofiHipHop
+2024-08-11 16:20:25,429 - INFO - cmd: play
+2024-08-11 16:20:25,429 - INFO - playlist: Next track
+2024-08-11 16:20:25,429 - INFO - cmd: shuffle
+2024-08-11 16:20:25,430 - INFO - playlist: Current track: 24
+2024-08-11 16:20:25,430 - INFO - cmd: shuffle
+2024-08-11 16:20:25,430 - INFO - message_queue: Playlist>lofi-relax-travel-by-lofium-123560
+2024-08-11 16:20:25,430 - INFO - cmd: mute
+2024-08-11 16:20:25,430 - INFO - cmd: mute
+2024-08-11 16:20:28,015 - INFO - cmd: mute
+2024-08-11 16:20:28,546 - INFO - cmd: mute
+2024-08-11 16:20:29,545 - INFO - cmd: mute
+2024-08-11 16:20:29,851 - INFO - cmd: mute
+2024-08-11 16:21:08,275 - INFO - cmd: exit
+2024-08-11 16:21:08,479 - INFO - Shutting down MP3 Player.
+2024-08-11 16:21:08,479 - INFO - MP3 Player has been shut down.
+2024-08-11 16:21:11,164 - INFO - Command and message queues have been created.
+2024-08-11 16:21:11,166 - INFO - Player process has been created.
+2024-08-11 16:21:11,166 - INFO - Starting TUI.
+2024-08-11 16:21:11,167 - INFO - Tracks have been loaded.
+2024-08-11 16:21:11,167 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f3113f509e0>
+2024-08-11 16:21:11,167 - INFO - Playlist has been created.
+2024-08-11 16:21:11,167 - INFO - Playlist has been created.
+2024-08-11 16:21:11,182 - INFO - Player has been created.
+2024-08-11 16:21:11,182 - INFO - Entering player process loop.
+2024-08-11 16:21:11,182 - INFO - cmd: chanel_list
+2024-08-11 16:21:11,374 - DEBUG - Using selector: EpollSelector
+2024-08-11 16:21:11,374 - INFO - cmd: stop
+2024-08-11 16:21:11,374 - INFO - cmd: chanel
+2024-08-11 16:21:11,375 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f3113f509e0>
+2024-08-11 16:21:11,375 - INFO - Playlist has been created.
+2024-08-11 16:21:11,375 - INFO - msg: Chanel>LofiHipHop
+2024-08-11 16:21:11,375 - INFO - cmd: play
+2024-08-11 16:21:11,375 - INFO - playlist: Next track
+2024-08-11 16:21:11,375 - INFO - playlist: Current track: 17
+2024-08-11 16:21:11,375 - INFO - message_queue: Playlist>lofi-relax-chillhood-by-lofium-123327
+2024-08-11 16:21:11,375 - INFO - cmd: shuffle
+2024-08-11 16:21:11,376 - INFO - cmd: shuffle
+2024-08-11 16:21:11,376 - INFO - cmd: mute
+2024-08-11 16:21:11,376 - INFO - cmd: mute
+2024-08-11 16:21:13,841 - INFO - cmd: mute
+2024-08-11 16:21:14,282 - INFO - cmd: mute
+2024-08-11 16:21:14,597 - INFO - cmd: exit
+2024-08-11 16:21:14,802 - INFO - Shutting down MP3 Player.
+2024-08-11 16:21:14,802 - INFO - MP3 Player has been shut down.
+2024-08-11 16:21:28,481 - INFO - Command and message queues have been created.
+2024-08-11 16:21:28,484 - INFO - Player process has been created.
+2024-08-11 16:21:28,484 - INFO - Starting TUI.
+2024-08-11 16:21:28,485 - INFO - Tracks have been loaded.
+2024-08-11 16:21:28,485 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fd1bd815970>
+2024-08-11 16:21:28,485 - INFO - Playlist has been created.
+2024-08-11 16:21:28,485 - INFO - Playlist has been created.
+2024-08-11 16:21:28,500 - INFO - Player has been created.
+2024-08-11 16:21:28,500 - INFO - Entering player process loop.
+2024-08-11 16:21:28,500 - INFO - cmd: chanel_list
+2024-08-11 16:21:28,691 - DEBUG - Using selector: EpollSelector
+2024-08-11 16:21:28,691 - INFO - cmd: stop
+2024-08-11 16:21:28,692 - INFO - cmd: chanel
+2024-08-11 16:21:28,692 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fd1bd815970>
+2024-08-11 16:21:28,692 - INFO - Playlist has been created.
+2024-08-11 16:21:28,692 - INFO - msg: Chanel>LofiHipHop
+2024-08-11 16:21:28,692 - INFO - cmd: play
+2024-08-11 16:21:28,692 - INFO - playlist: Next track
+2024-08-11 16:21:28,692 - INFO - cmd: shuffle
+2024-08-11 16:21:28,692 - INFO - playlist: Current track: 17
+2024-08-11 16:21:28,693 - INFO - cmd: shuffle
+2024-08-11 16:21:28,693 - INFO - message_queue: Playlist>lofi-relax-chillhood-by-lofium-123327
+2024-08-11 16:21:28,693 - INFO - cmd: mute
+2024-08-11 16:21:28,693 - INFO - cmd: mute
+2024-08-11 16:21:30,273 - INFO - cmd: exit
+2024-08-11 16:21:30,477 - INFO - Shutting down MP3 Player.
+2024-08-11 16:21:30,477 - INFO - MP3 Player has been shut down.
+2024-08-11 16:22:34,149 - INFO - Command and message queues have been created.
+2024-08-11 16:22:34,151 - INFO - Player process has been created.
+2024-08-11 16:22:34,152 - INFO - Starting TUI.
+2024-08-11 16:22:34,152 - INFO - Tracks have been loaded.
+2024-08-11 16:22:34,152 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fda63bf1a30>
+2024-08-11 16:22:34,153 - INFO - Playlist has been created.
+2024-08-11 16:22:34,153 - INFO - Playlist has been created.
+2024-08-11 16:22:34,167 - INFO - Player has been created.
+2024-08-11 16:22:34,167 - INFO - Entering player process loop.
+2024-08-11 16:22:34,167 - INFO - cmd: chanel_list
+2024-08-11 16:22:34,358 - DEBUG - Using selector: EpollSelector
+2024-08-11 16:22:34,359 - INFO - cmd: stop
+2024-08-11 16:22:34,359 - INFO - cmd: chanel
+2024-08-11 16:22:34,359 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fda63bf1a30>
+2024-08-11 16:22:34,359 - INFO - Playlist has been created.
+2024-08-11 16:22:34,359 - INFO - msg: Chanel>LofiHipHop
+2024-08-11 16:22:34,359 - INFO - cmd: play
+2024-08-11 16:22:34,359 - INFO - playlist: Next track
+2024-08-11 16:22:34,359 - INFO - cmd: shuffle
+2024-08-11 16:22:34,360 - INFO - playlist: Current track: 12
+2024-08-11 16:22:34,360 - INFO - message_queue: Playlist>empty-mind-118973
+2024-08-11 16:22:34,360 - INFO - cmd: shuffle
+2024-08-11 16:22:34,360 - INFO - cmd: mute
+2024-08-11 16:22:34,360 - INFO - cmd: mute
+2024-08-11 16:22:39,434 - INFO - cmd: exit
+2024-08-11 16:22:39,638 - INFO - Shutting down MP3 Player.
+2024-08-11 16:22:39,638 - INFO - MP3 Player has been shut down.
+2024-08-11 16:22:58,070 - INFO - Command and message queues have been created.
+2024-08-11 16:22:58,072 - INFO - Player process has been created.
+2024-08-11 16:22:58,072 - INFO - Starting TUI.
+2024-08-11 16:22:58,073 - INFO - Tracks have been loaded.
+2024-08-11 16:22:58,073 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f85e7dbf320>
+2024-08-11 16:22:58,073 - INFO - Playlist has been created.
+2024-08-11 16:22:58,073 - INFO - Playlist has been created.
+2024-08-11 16:22:58,088 - INFO - Player has been created.
+2024-08-11 16:22:58,088 - INFO - Entering player process loop.
+2024-08-11 16:22:58,088 - INFO - cmd: chanel_list
+2024-08-11 16:22:58,279 - DEBUG - Using selector: EpollSelector
+2024-08-11 16:22:58,279 - INFO - cmd: stop
+2024-08-11 16:22:58,279 - INFO - cmd: chanel
+2024-08-11 16:22:58,280 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f85e7dbf320>
+2024-08-11 16:22:58,280 - INFO - Playlist has been created.
+2024-08-11 16:22:58,280 - INFO - msg: Chanel>LofiHipHop
+2024-08-11 16:22:58,280 - INFO - cmd: play
+2024-08-11 16:22:58,280 - INFO - playlist: Next track
+2024-08-11 16:22:58,280 - INFO - cmd: shuffle
+2024-08-11 16:22:58,280 - INFO - playlist: Current track: 4
+2024-08-11 16:22:58,280 - INFO - cmd: shuffle
+2024-08-11 16:22:58,280 - INFO - message_queue: Playlist>lofi-hiphop-type-beat-170305
+2024-08-11 16:22:58,281 - INFO - cmd: mute
+2024-08-11 16:22:58,281 - INFO - cmd: mute
+2024-08-11 16:22:59,640 - INFO - cmd: exit
+2024-08-11 16:22:59,843 - INFO - Shutting down MP3 Player.
+2024-08-11 16:22:59,844 - INFO - MP3 Player has been shut down.
+2024-08-11 16:23:12,936 - INFO - Command and message queues have been created.
+2024-08-11 16:23:12,938 - INFO - Player process has been created.
+2024-08-11 16:23:12,938 - INFO - Starting TUI.
+2024-08-11 16:23:12,939 - INFO - Tracks have been loaded.
+2024-08-11 16:23:12,939 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7ff7702d5910>
+2024-08-11 16:23:12,939 - INFO - Playlist has been created.
+2024-08-11 16:23:12,939 - INFO - Playlist has been created.
+2024-08-11 16:23:12,954 - INFO - Player has been created.
+2024-08-11 16:23:12,954 - INFO - Entering player process loop.
+2024-08-11 16:23:12,955 - INFO - cmd: chanel_list
+2024-08-11 16:23:13,146 - DEBUG - Using selector: EpollSelector
+2024-08-11 16:23:13,146 - INFO - cmd: stop
+2024-08-11 16:23:13,146 - INFO - cmd: chanel
+2024-08-11 16:23:13,147 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7ff7702d5910>
+2024-08-11 16:23:13,147 - INFO - Playlist has been created.
+2024-08-11 16:23:13,147 - INFO - msg: Chanel>LofiHipHop
+2024-08-11 16:23:13,147 - INFO - cmd: play
+2024-08-11 16:23:13,147 - INFO - playlist: Next track
+2024-08-11 16:23:13,147 - INFO - cmd: shuffle
+2024-08-11 16:23:13,147 - INFO - playlist: Current track: 20
+2024-08-11 16:23:13,147 - INFO - cmd: shuffle
+2024-08-11 16:23:13,148 - INFO - message_queue: Playlist>chill-lofi-160893
+2024-08-11 16:23:13,148 - INFO - cmd: mute
+2024-08-11 16:23:13,148 - INFO - cmd: mute
+2024-08-11 16:23:14,274 - INFO - Shutting down MP3 Player.
+2024-08-11 16:23:22,990 - INFO - Command and message queues have been created.
+2024-08-11 16:23:22,992 - INFO - Player process has been created.
+2024-08-11 16:23:22,992 - INFO - Starting TUI.
+2024-08-11 16:23:22,993 - INFO - Tracks have been loaded.
+2024-08-11 16:23:22,993 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f146fff5940>
+2024-08-11 16:23:22,993 - INFO - Playlist has been created.
+2024-08-11 16:23:22,993 - INFO - Playlist has been created.
+2024-08-11 16:23:23,008 - INFO - Player has been created.
+2024-08-11 16:23:23,008 - INFO - Entering player process loop.
+2024-08-11 16:23:23,008 - INFO - cmd: chanel_list
+2024-08-11 16:23:23,199 - DEBUG - Using selector: EpollSelector
+2024-08-11 16:23:23,200 - INFO - cmd: stop
+2024-08-11 16:23:23,200 - INFO - cmd: chanel
+2024-08-11 16:23:23,200 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f146fff5940>
+2024-08-11 16:23:23,200 - INFO - Playlist has been created.
+2024-08-11 16:23:23,200 - INFO - msg: Chanel>LofiHipHop
+2024-08-11 16:23:23,200 - INFO - cmd: play
+2024-08-11 16:23:23,201 - INFO - playlist: Next track
+2024-08-11 16:23:23,201 - INFO - cmd: shuffle
+2024-08-11 16:23:23,201 - INFO - playlist: Current track: 27
+2024-08-11 16:23:23,201 - INFO - cmd: shuffle
+2024-08-11 16:23:23,201 - INFO - message_queue: Playlist>10min-atmos-10334
+2024-08-11 16:23:23,201 - INFO - cmd: mute
+2024-08-11 16:23:23,202 - INFO - cmd: mute
+2024-08-11 16:23:24,676 - INFO - cmd: exit
+2024-08-11 16:23:24,880 - INFO - Shutting down MP3 Player.
+2024-08-11 16:23:24,880 - INFO - MP3 Player has been shut down.
+2024-08-11 16:24:08,056 - INFO - Command and message queues have been created.
+2024-08-11 16:24:08,058 - INFO - Player process has been created.
+2024-08-11 16:24:08,058 - INFO - Starting TUI.
+2024-08-11 16:24:08,059 - INFO - Tracks have been loaded.
+2024-08-11 16:24:08,059 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fdb31b4b530>
+2024-08-11 16:24:08,059 - INFO - Playlist has been created.
+2024-08-11 16:24:08,059 - INFO - Playlist has been created.
+2024-08-11 16:24:08,074 - INFO - Player has been created.
+2024-08-11 16:24:08,074 - INFO - Entering player process loop.
+2024-08-11 16:24:08,074 - INFO - cmd: chanel_list
+2024-08-11 16:24:08,265 - DEBUG - Using selector: EpollSelector
+2024-08-11 16:24:08,266 - INFO - cmd: stop
+2024-08-11 16:24:08,266 - INFO - cmd: chanel
+2024-08-11 16:24:08,266 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fdb31b4b530>
+2024-08-11 16:24:08,266 - INFO - Playlist has been created.
+2024-08-11 16:24:08,266 - INFO - msg: Chanel>LofiHipHop
+2024-08-11 16:24:08,266 - INFO - cmd: play
+2024-08-11 16:24:08,267 - INFO - playlist: Next track
+2024-08-11 16:24:08,267 - INFO - cmd: shuffle
+2024-08-11 16:24:08,267 - INFO - playlist: Current track: 24
+2024-08-11 16:24:08,267 - INFO - cmd: shuffle
+2024-08-11 16:24:08,267 - INFO - message_queue: Playlist>lofi-relax-travel-by-lofium-123560
+2024-08-11 16:24:08,267 - INFO - cmd: mute
+2024-08-11 16:24:08,267 - INFO - cmd: mute
+2024-08-11 16:24:10,083 - INFO - cmd: exit
+2024-08-11 16:24:10,208 - INFO - Shutting down MP3 Player.
+2024-08-11 16:24:10,208 - INFO - MP3 Player has been shut down.
+2024-08-11 16:25:05,821 - INFO - Command and message queues have been created.
+2024-08-11 16:25:05,823 - INFO - Player process has been created.
+2024-08-11 16:25:05,824 - INFO - Starting TUI.
+2024-08-11 16:25:05,824 - INFO - Tracks have been loaded.
+2024-08-11 16:25:05,825 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fac9e8fd850>
+2024-08-11 16:25:05,825 - INFO - Playlist has been created.
+2024-08-11 16:25:05,825 - INFO - Playlist has been created.
+2024-08-11 16:25:05,841 - INFO - Player has been created.
+2024-08-11 16:25:05,841 - INFO - Entering player process loop.
+2024-08-11 16:25:05,841 - INFO - cmd: chanel_list
+2024-08-11 16:25:06,031 - DEBUG - Using selector: EpollSelector
+2024-08-11 16:25:06,031 - INFO - cmd: stop
+2024-08-11 16:25:06,031 - INFO - cmd: chanel
+2024-08-11 16:25:06,032 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fac9e8fd850>
+2024-08-11 16:25:06,032 - INFO - Playlist has been created.
+2024-08-11 16:25:06,032 - INFO - msg: Chanel>LofiHipHop
+2024-08-11 16:25:06,032 - INFO - cmd: play
+2024-08-11 16:25:06,032 - INFO - playlist: Next track
+2024-08-11 16:25:06,032 - INFO - playlist: Current track: 9
+2024-08-11 16:25:06,033 - INFO - message_queue: Playlist>freedom-lofi-beats-160088
+2024-08-11 16:25:06,033 - INFO - cmd: shuffle
+2024-08-11 16:25:06,033 - INFO - cmd: shuffle
+2024-08-11 16:25:06,033 - INFO - cmd: mute
+2024-08-11 16:25:06,033 - INFO - cmd: mute
+2024-08-11 16:25:07,603 - INFO - cmd: exit
+2024-08-11 16:25:07,807 - INFO - Shutting down MP3 Player.
+2024-08-11 16:25:07,807 - INFO - MP3 Player has been shut down.
+2024-08-11 16:26:36,994 - INFO - Command and message queues have been created.
+2024-08-11 16:26:36,996 - INFO - Player process has been created.
+2024-08-11 16:26:36,997 - INFO - Starting TUI.
+2024-08-11 16:26:36,997 - INFO - Tracks have been loaded.
+2024-08-11 16:26:36,997 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f8335301790>
+2024-08-11 16:26:36,998 - INFO - Playlist has been created.
+2024-08-11 16:26:36,998 - INFO - Playlist has been created.
+2024-08-11 16:26:37,013 - INFO - Player has been created.
+2024-08-11 16:26:37,013 - INFO - Entering player process loop.
+2024-08-11 16:26:37,013 - INFO - cmd: chanel_list
+2024-08-11 16:26:37,204 - DEBUG - Using selector: EpollSelector
+2024-08-11 16:26:37,205 - INFO - cmd: stop
+2024-08-11 16:26:37,205 - INFO - cmd: chanel
+2024-08-11 16:26:37,205 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f8335301790>
+2024-08-11 16:26:37,205 - INFO - Playlist has been created.
+2024-08-11 16:26:37,205 - INFO - msg: Chanel>LofiHipHop
+2024-08-11 16:26:37,205 - INFO - cmd: play
+2024-08-11 16:26:37,206 - INFO - playlist: Next track
+2024-08-11 16:26:37,206 - INFO - cmd: shuffle
+2024-08-11 16:26:37,206 - INFO - playlist: Current track: 19
+2024-08-11 16:26:37,206 - INFO - cmd: shuffle
+2024-08-11 16:26:37,206 - INFO - message_queue: Playlist>spirit-blossom-15285
+2024-08-11 16:26:37,206 - INFO - cmd: mute
+2024-08-11 16:26:37,207 - INFO - cmd: mute
+2024-08-11 16:26:43,217 - INFO - cmd: exit
+2024-08-11 16:26:43,420 - INFO - Shutting down MP3 Player.
+2024-08-11 16:26:43,421 - INFO - MP3 Player has been shut down.

@@ -1,35 +1,46 @@
+
+
+/* Optional: Configure these values to change the colour of the UI */
+/* ================================================================ */
+$background-color: #181825;
+$text-color: #f2cdcd;
+$boarder-color: #f5c2e7;
+$footer-background-color: #1e1e2e;
+$footer-text-color: #f38ba8;
+/* ================================================================ */
+
 Screen {
     align: center middle;
-    color: #f2cdcd; /* Optional: Specific text color for #player container */
-    background: #181825
+    color: $text-color;
+    background: $background-color
 }
 
 #player {
     width: 60;
     height: 10;
-    border: #f5c2e7;
+    border: $text-color;
     padding: 1 2;
 }
 
 
-    Footer {
-        height: 1;
-        dock: bottom;
-        background: #1e1e2e;
-    }
-    FooterKey {
-        color: #f2cdcd; /* Optional: Specific text color for the footer */
-        background: #1e1e2e
-    }
+Footer {
+    height: 1;
+    dock: bottom;
+    background: $footer-background-color;
+}
+FooterKey {
+    color: $text-color;
+    background: $footer-background-color
+}
 
-    FooterKey {
-        width: auto;
-        height: 1;
-        background: #1e1e2e;
-        color: #f2cdcd;
-        .footer-key--key {
-            color: #f38ba8;
-            background: #1e1e2e;
-            text-style: bold;
-            padding: 0 1;
-        }}
+FooterKey {
+    width: auto;
+    height: 1;
+    background: $footer-background-color;
+    color: $text-color;
+    .footer-key--key {
+        color: $footer-text-color;
+        background: $footer-background-color;
+        text-style: bold;
+        padding: 0 1;
+    }}
