@@ -1,4 +1,4 @@
-
+![[icon.svg]](icon.svg)
 # LoFi Radio
 A minimalist terminal-based music player written in python for a
 distraction-free listening experience.

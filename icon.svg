@@ -39,33 +39,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect1"
-       width="18.925859"
-       height="10.443387"
-       x="2.978755"
-       y="7.3997793" />
-    <circle
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="path2"
-       cx="6.6480198"
-       cy="10.952308"
-       r="1.5361261" />
-    <circle
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="path2-5"
-       cx="18.53054"
-       cy="10.952308"
-       r="1.5361261" />
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect2"
-       width="5.7719579"
-       height="1.5100046"
-       x="9.4720278"
-       y="13.718307" />
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       style="fill:#dc8a78;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke;fill-opacity:1"
        id="rect3"
        width="22.996315"
        height="22.996315"
@@ -73,5 +47,38 @@
        y="1.1199831"
        rx="2"
        ry="2" />
+    <rect
+       style="fill:#df8e1d;fill-opacity:1;stroke:#000000;stroke-width:1.05831;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1"
+       width="18.86755"
+       height="11.732948"
+       x="3.00791"
+       y="7.4289341" />
+    <circle
+       style="fill:#e64553;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path2"
+       cx="6.6480198"
+       cy="12.034189"
+       r="1.5361261" />
+    <circle
+       style="fill:#e64553;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path2-5"
+       cx="18.53054"
+       cy="12.034189"
+       r="1.5361261" />
+    <rect
+       style="fill:#e64553;fill-opacity:1;stroke:#000000;stroke-width:0.877909;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect2"
+       width="5.4538693"
+       height="2.9651172"
+       x="9.9798384"
+       y="10.551631" />
+    <rect
+       style="fill:#04a5e5;fill-opacity:1;stroke:#000000;stroke-width:0.607017;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect2-5"
+       width="18.533648"
+       height="2.3975663"
+       x="3.197634"
+       y="16.469439" />
   </g>
 </svg>
