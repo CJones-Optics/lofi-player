@@ -1,9 +1,9 @@
-![[icon.svg]](icon.svg)
+![[assets/icon.svg]](assets/icon.svg)
 # LoFi Radio
 A minimalist terminal-based music player written in python for a
 distraction-free listening experience.
 
-![[ProgramInAction.png]](ProgramInAction.png)
+![[assets/ProgramInAction.png]](assets/ProgramInAction.png)
 
 # Features
 - *NO* Individual track selection
