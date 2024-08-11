@@ -3,6 +3,8 @@
 A minimalist terminal-based music player written in python for a
 distraction-free listening experience.
 
+![[ProgramInAction.png]](ProgramInAction.png)
+
 # Features
 - *NO* Individual track selection
 - *NO* Next Button

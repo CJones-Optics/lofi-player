@@ -4447,3 +4447,27 @@
 2024-08-11 16:26:43,217 - INFO - cmd: exit
 2024-08-11 16:26:43,420 - INFO - Shutting down MP3 Player.
 2024-08-11 16:26:43,421 - INFO - MP3 Player has been shut down.
+2024-08-11 16:39:57,217 - INFO - Command and message queues have been created.
+2024-08-11 16:39:57,219 - INFO - Player process has been created.
+2024-08-11 16:39:57,219 - INFO - Starting TUI.
+2024-08-11 16:39:57,220 - INFO - Tracks have been loaded.
+2024-08-11 16:39:57,220 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f5d79fcb530>
+2024-08-11 16:39:57,220 - INFO - Playlist has been created.
+2024-08-11 16:39:57,220 - INFO - Playlist has been created.
+2024-08-11 16:39:57,235 - INFO - Player has been created.
+2024-08-11 16:39:57,235 - INFO - Entering player process loop.
+2024-08-11 16:39:57,235 - INFO - cmd: chanel_list
+2024-08-11 16:39:57,426 - DEBUG - Using selector: EpollSelector
+2024-08-11 16:39:57,426 - INFO - cmd: stop
+2024-08-11 16:39:57,426 - INFO - cmd: chanel
+2024-08-11 16:39:57,427 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f5d79fcb530>
+2024-08-11 16:39:57,427 - INFO - Playlist has been created.
+2024-08-11 16:39:57,427 - INFO - msg: Chanel>LofiHipHop
+2024-08-11 16:39:57,427 - INFO - cmd: play
+2024-08-11 16:39:57,427 - INFO - playlist: Next track
+2024-08-11 16:39:57,427 - INFO - cmd: shuffle
+2024-08-11 16:39:57,427 - INFO - playlist: Current track: 16
+2024-08-11 16:39:57,427 - INFO - cmd: shuffle
+2024-08-11 16:39:57,428 - INFO - message_queue: Playlist>royalty-free-use-lofi-chill-background-music-dreamscape-201679
+2024-08-11 16:39:57,428 - INFO - cmd: mute
+2024-08-11 16:39:57,428 - INFO - cmd: mute
