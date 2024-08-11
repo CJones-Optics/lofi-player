@@ -4471,3 +4471,104 @@
 2024-08-11 16:39:57,428 - INFO - message_queue: Playlist>royalty-free-use-lofi-chill-background-music-dreamscape-201679
 2024-08-11 16:39:57,428 - INFO - cmd: mute
 2024-08-11 16:39:57,428 - INFO - cmd: mute
+2024-08-11 16:41:40,044 - INFO - playlist: Next track
+2024-08-11 16:41:40,044 - INFO - playlist: Current track: 24
+2024-08-11 16:41:40,044 - INFO - message_queue: Playlist>lofi-relax-travel-by-lofium-123560
+2024-08-11 16:44:55,400 - INFO - cmd: exit
+2024-08-11 16:44:55,604 - INFO - Shutting down MP3 Player.
+2024-08-11 16:44:55,604 - INFO - MP3 Player has been shut down.
+2024-08-11 16:44:58,496 - INFO - Command and message queues have been created.
+2024-08-11 16:44:58,498 - INFO - Player process has been created.
+2024-08-11 16:44:58,498 - INFO - Starting TUI.
+2024-08-11 16:44:58,499 - INFO - Tracks have been loaded.
+2024-08-11 16:44:58,499 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f6e99df5910>
+2024-08-11 16:44:58,499 - INFO - Playlist has been created.
+2024-08-11 16:44:58,499 - INFO - Playlist has been created.
+2024-08-11 16:44:58,515 - INFO - Player has been created.
+2024-08-11 16:44:58,515 - INFO - Entering player process loop.
+2024-08-11 16:44:58,516 - INFO - cmd: chanel_list
+2024-08-11 16:44:58,705 - DEBUG - Using selector: EpollSelector
+2024-08-11 16:44:58,706 - INFO - cmd: stop
+2024-08-11 16:44:58,706 - INFO - cmd: chanel
+2024-08-11 16:44:58,706 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f6e99df5910>
+2024-08-11 16:44:58,706 - INFO - Playlist has been created.
+2024-08-11 16:44:58,706 - INFO - msg: Chanel>LofiHipHop
+2024-08-11 16:44:58,706 - INFO - cmd: play
+2024-08-11 16:44:58,707 - INFO - playlist: Next track
+2024-08-11 16:44:58,707 - INFO - playlist: Current track: 11
+2024-08-11 16:44:58,707 - INFO - message_queue: Playlist>zombies-lofi-154347
+2024-08-11 16:44:58,707 - INFO - cmd: shuffle
+2024-08-11 16:44:58,707 - INFO - cmd: shuffle
+2024-08-11 16:44:58,707 - INFO - cmd: mute
+2024-08-11 16:44:58,707 - INFO - cmd: mute
+2024-08-11 16:45:00,204 - INFO - cmd: volume, args: ['0.9']
+2024-08-11 16:45:00,376 - INFO - cmd: volume, args: ['0.8']
+2024-08-11 16:45:00,542 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-11 16:45:00,693 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-11 16:45:04,702 - INFO - cmd: exit
+2024-08-11 16:45:04,906 - INFO - Shutting down MP3 Player.
+2024-08-11 16:45:04,906 - INFO - MP3 Player has been shut down.
+2024-08-11 16:45:25,983 - INFO - Command and message queues have been created.
+2024-08-11 16:45:25,985 - INFO - Player process has been created.
+2024-08-11 16:45:25,985 - INFO - Starting TUI.
+2024-08-11 16:45:25,986 - INFO - Tracks have been loaded.
+2024-08-11 16:45:25,986 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f3146047560>
+2024-08-11 16:45:25,986 - INFO - Playlist has been created.
+2024-08-11 16:45:25,986 - INFO - Playlist has been created.
+2024-08-11 16:45:26,000 - INFO - Player has been created.
+2024-08-11 16:45:26,000 - INFO - Entering player process loop.
+2024-08-11 16:45:26,000 - INFO - cmd: chanel_list
+2024-08-11 16:45:26,192 - DEBUG - Using selector: EpollSelector
+2024-08-11 16:45:26,192 - INFO - cmd: stop
+2024-08-11 16:45:26,192 - INFO - cmd: chanel
+2024-08-11 16:45:26,192 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7f3146047560>
+2024-08-11 16:45:26,193 - INFO - Playlist has been created.
+2024-08-11 16:45:26,193 - INFO - msg: Chanel>LofiHipHop
+2024-08-11 16:45:26,193 - INFO - cmd: play
+2024-08-11 16:45:26,193 - INFO - playlist: Next track
+2024-08-11 16:45:26,193 - INFO - cmd: shuffle
+2024-08-11 16:45:26,193 - INFO - playlist: Current track: 26
+2024-08-11 16:45:26,193 - INFO - cmd: shuffle
+2024-08-11 16:45:26,193 - INFO - message_queue: Playlist>lo-fi-podcast-cozy-relaxing-chillout-lounge-music-214440
+2024-08-11 16:45:26,193 - INFO - cmd: mute
+2024-08-11 16:45:26,194 - INFO - cmd: mute
+2024-08-11 16:45:32,148 - INFO - cmd: volume, args: ['0.9']
+2024-08-11 16:45:32,432 - INFO - cmd: volume, args: ['0.8']
+2024-08-11 16:45:32,689 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-11 16:45:33,039 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-11 16:45:34,852 - INFO - cmd: exit
+2024-08-11 16:45:35,055 - INFO - Shutting down MP3 Player.
+2024-08-11 16:45:35,055 - INFO - MP3 Player has been shut down.
+2024-08-11 16:45:43,149 - INFO - Command and message queues have been created.
+2024-08-11 16:45:43,151 - INFO - Player process has been created.
+2024-08-11 16:45:43,151 - INFO - Starting TUI.
+2024-08-11 16:45:43,152 - INFO - Tracks have been loaded.
+2024-08-11 16:45:43,152 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fb40cdfd730>
+2024-08-11 16:45:43,152 - INFO - Playlist has been created.
+2024-08-11 16:45:43,152 - INFO - Playlist has been created.
+2024-08-11 16:45:43,166 - INFO - Player has been created.
+2024-08-11 16:45:43,167 - INFO - Entering player process loop.
+2024-08-11 16:45:43,167 - INFO - cmd: chanel_list
+2024-08-11 16:45:43,358 - DEBUG - Using selector: EpollSelector
+2024-08-11 16:45:43,358 - INFO - cmd: stop
+2024-08-11 16:45:43,359 - INFO - cmd: chanel
+2024-08-11 16:45:43,359 - DEBUG - playlist: <multiprocessing.queues.Queue object at 0x7fb40cdfd730>
+2024-08-11 16:45:43,359 - INFO - Playlist has been created.
+2024-08-11 16:45:43,359 - INFO - msg: Chanel>LofiHipHop
+2024-08-11 16:45:43,359 - INFO - cmd: play
+2024-08-11 16:45:43,359 - INFO - playlist: Next track
+2024-08-11 16:45:43,359 - INFO - cmd: shuffle
+2024-08-11 16:45:43,360 - INFO - playlist: Current track: 21
+2024-08-11 16:45:43,360 - INFO - cmd: shuffle
+2024-08-11 16:45:43,360 - INFO - message_queue: Playlist>analog-dreams-lofi-vibes-216040
+2024-08-11 16:45:43,360 - INFO - cmd: mute
+2024-08-11 16:45:43,360 - INFO - cmd: mute
+2024-08-11 16:45:44,516 - INFO - cmd: volume, args: ['0.9']
+2024-08-11 16:45:44,696 - INFO - cmd: volume, args: ['0.8']
+2024-08-11 16:45:44,836 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-11 16:45:44,976 - INFO - cmd: volume, args: ['0.6000000000000001']
+2024-08-11 16:45:45,295 - INFO - cmd: volume, args: ['0.7000000000000001']
+2024-08-11 16:45:45,452 - INFO - cmd: volume, args: ['0.8']
+2024-08-11 16:45:46,177 - INFO - cmd: exit
+2024-08-11 16:45:46,381 - INFO - Shutting down MP3 Player.
+2024-08-11 16:45:46,381 - INFO - MP3 Player has been shut down.

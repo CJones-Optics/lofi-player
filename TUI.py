@@ -7,6 +7,7 @@ from textual.widgets import Label, ListItem, ListView
 from textual.widgets import  Footer, Header
 from textual.widgets import Log
 from textual.reactive import reactive
+from keyBindings import keybindings
 from queue import Queue
 import threading
 import time
@@ -45,15 +46,8 @@ class VolumeBar(Static):
 class MP3PlayerApp(App):
     CSS_PATH = "style.tcss"
     # Keybindings
-    BINDINGS = [("q", "do_exit",        "quit"),
-                ("p", "do_play",        "play"),
-                ("s", "do_shuffle",     "shuffle"),
-                ("m", "do_mute",        "mute"),
-                ("h", "do_volume_down", "v ↓"),
-                ("j", "do_chanel_up",   "c ↑" ),
-                ("k", "do_chanel_down", "c ↓"),
-                ("l", "do_volume_up",   "v ↑"),
-    ]
+    BINDINGS = keybindings
+
     def action_do_exit(self) -> None:
         self.do_exit()
     def action_do_mute(self) -> None:

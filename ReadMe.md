@@ -15,6 +15,7 @@ distraction-free listening experience.
 # Customisability
 - User interface is customisable by adjusting the .tcss files. (Just fancy css).
 For convenience the colurs may be adjusted using the variables at the beginning of the file.
+- Key bindings can be adjusted by modifying keybindings.py
 - Features can be added by modifying the python code.
 
 # How to run and install
